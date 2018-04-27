@@ -1,0 +1,1083 @@
+2018-04-27 10:44:06,836 INFO run.Application:33 - springboot	....................................................................................................................................
+2018-04-27 10:44:07,694 INFO run.Application:47 - Starting Application on LZGS with PID 10792 (D:\web\project_learn\test\target\classes started by dfjk in D:\web\project_learn\test)
+2018-04-27 10:44:07,742 INFO org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext:510 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5e403b4a: startup date [Fri Apr 27 10:44:07 CST 2018]; root of context hierarchy
+2018-04-27 10:44:08,739 INFO org.springframework.beans.factory.support.DefaultListableBeanFactory:822 - Overriding bean definition for bean 'beanNameViewResolver': replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2018-04-27 10:44:09,117 INFO org.hibernate.validator.internal.util.Version:27 - HV000001: Hibernate Validator 5.1.3.Final
+2018-04-27 10:44:09,246 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [class org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$8f3336fd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-27 10:44:09,347 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$85cba68f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-27 10:44:09,364 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'transactionAttributeSource' of type [class org.springframework.transaction.annotation.AnnotationTransactionAttributeSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-27 10:44:09,375 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'transactionInterceptor' of type [class org.springframework.transaction.interceptor.TransactionInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-27 10:44:09,381 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'org.springframework.transaction.config.internalTransactionAdvisor' of type [class org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-27 10:44:09,395 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'redisConfig' of type [class config.RedisConfig$$EnhancerBySpringCGLIB$$7d1e0c25] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-27 10:44:09,401 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'org.springframework.cache.annotation.ProxyCachingConfiguration' of type [class org.springframework.cache.annotation.ProxyCachingConfiguration$$EnhancerBySpringCGLIB$$ed2970ed] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-27 10:44:09,413 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'cacheOperationSource' of type [class org.springframework.cache.annotation.AnnotationCacheOperationSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-27 10:44:09,423 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'cacheInterceptor' of type [class org.springframework.cache.interceptor.CacheInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-27 10:44:09,430 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'org.springframework.cache.config.internalCacheAdvisor' of type [class org.springframework.cache.interceptor.BeanFactoryCacheOperationSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-27 10:44:09,440 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'shiroConfig' of type [class config.ShiroConfig$$EnhancerBySpringCGLIB$$39c6a61b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-27 10:44:09,445 WARN org.springframework.beans.factory.support.DefaultListableBeanFactory:1427 - Bean creation exception on FactoryBean type check: org.springframework.beans.factory.BeanCurrentlyInCreationException: Error creating bean with name 'shirFilter': Requested bean is currently in creation: Is there an unresolvable circular reference?
+2018-04-27 10:44:10,129 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'securityManager' of type [class org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-27 10:44:10,663 INFO org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:79 - Tomcat initialized with port(s): 8093 (http)
+2018-04-27 10:44:10,925 INFO org.apache.catalina.core.StandardService:180 - Starting service Tomcat
+2018-04-27 10:44:10,927 INFO org.apache.catalina.core.StandardEngine:180 - Starting Servlet Engine: Apache Tomcat/8.0.20
+2018-04-27 10:44:11,216 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:180 - Initializing Spring embedded WebApplicationContext
+2018-04-27 10:44:11,216 INFO org.springframework.web.context.ContextLoader:268 - Root WebApplicationContext: initialization completed in 3474 ms
+2018-04-27 10:44:12,122 INFO org.springframework.boot.context.embedded.ServletRegistrationBean:188 - Mapping servlet: 'dispatcherServlet' to [/]
+2018-04-27 10:44:12,128 INFO org.springframework.boot.context.embedded.FilterRegistrationBean:286 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-04-27 10:44:12,129 INFO org.springframework.boot.context.embedded.FilterRegistrationBean:286 - Mapping filter: 'shirFilter' to: [/*]
+2018-04-27 10:44:12,130 INFO org.springframework.boot.context.embedded.FilterRegistrationBean:286 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-04-27 10:44:12,503 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:339 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-04-27 10:44:12,516 INFO org.hibernate.jpa.internal.util.LogHelper:46 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-04-27 10:44:12,718 INFO org.hibernate.Version:54 - HHH000412: Hibernate Core {4.3.8.Final}
+2018-04-27 10:44:12,721 INFO org.hibernate.cfg.Environment:239 - HHH000206: hibernate.properties not found
+2018-04-27 10:44:12,724 INFO org.hibernate.cfg.Environment:346 - HHH000021: Bytecode provider name : javassist
+2018-04-27 10:44:13,053 INFO org.hibernate.annotations.common.Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2018-04-27 10:44:13,874 INFO org.hibernate.dialect.Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-04-27 10:44:13,997 INFO org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2018-04-27 10:44:14,323 INFO org.hibernate.tool.hbm2ddl.SchemaUpdate:207 - HHH000228: Running hbm2ddl schema update
+2018-04-27 10:44:14,323 INFO org.hibernate.tool.hbm2ddl.SchemaUpdate:218 - HHH000102: Fetching database metadata
+2018-04-27 10:44:14,325 INFO org.hibernate.tool.hbm2ddl.SchemaUpdate:230 - HHH000396: Updating schema
+2018-04-27 10:44:14,378 INFO org.hibernate.tool.hbm2ddl.TableMetadata:66 - HHH000261: Table found: springboot.s_user
+2018-04-27 10:44:14,378 INFO org.hibernate.tool.hbm2ddl.TableMetadata:67 - HHH000037: Columns: [name, id, age]
+2018-04-27 10:44:14,379 INFO org.hibernate.tool.hbm2ddl.TableMetadata:69 - HHH000108: Foreign keys: []
+2018-04-27 10:44:14,379 INFO org.hibernate.tool.hbm2ddl.TableMetadata:70 - HHH000126: Indexes: [primary]
+2018-04-27 10:44:14,380 INFO org.hibernate.tool.hbm2ddl.SchemaUpdate:267 - HHH000232: Schema update complete
+2018-04-27 10:44:15,731 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter:517 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5e403b4a: startup date [Fri Apr 27 10:44:07 CST 2018]; root of context hierarchy
+2018-04-27 10:44:15,805 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/findOneById],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public pojo.User controller.CacheController.findOne(pojo.User)
+2018-04-27 10:44:15,807 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/test],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public pojo.User controller.LoginController.test(pojo.User)
+2018-04-27 10:44:15,807 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto java.lang.String controller.LoginController.home(org.springframework.ui.ModelMap)
+2018-04-27 10:44:15,808 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/addUser],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto java.lang.String controller.LoginController.addUser()
+2018-04-27 10:44:15,808 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/getDynamicColumns],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto java.util.Map<java.lang.String, java.lang.Object> controller.LoginController.getDynamicColumns()
+2018-04-27 10:44:15,808 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/getDynamicData],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto java.util.Map<java.lang.String, java.lang.Object> controller.LoginController.getDynamicData(java.lang.Integer,java.lang.Integer)
+2018-04-27 10:44:15,809 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/logout],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void controller.LoginController.logOut(javax.servlet.http.HttpSession)
+2018-04-27 10:44:15,809 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/login],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto java.lang.String controller.LoginController.login()
+2018-04-27 10:44:15,809 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/doLogin],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String controller.LoginController.login(pojo.User,javax.servlet.http.HttpSession)
+2018-04-27 10:44:15,809 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/findOne],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public pojo.User controller.LoginController.findOne(pojo.User)
+2018-04-27 10:44:15,810 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/cancel],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto java.lang.String controller.LoginController.cancel()
+2018-04-27 10:44:15,810 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/getUserByAge],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.util.List<java.util.Map<java.lang.String, java.lang.Object>> controller.LoginController.getUserByAge(java.lang.Integer)
+2018-04-27 10:44:15,810 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/index],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String controller.LoginController.indexPage(org.springframework.ui.ModelMap)
+2018-04-27 10:44:15,810 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/ifLog],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String controller.LoginController.ifLog(javax.servlet.http.HttpSession)
+2018-04-27 10:44:15,811 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/getUsers],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto java.util.Map<java.lang.String, java.lang.Object> controller.LoginController.getUsers(java.lang.Integer,java.lang.Integer)
+2018-04-27 10:44:15,811 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/updateOne],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public pojo.User controller.LoginController.updateOne(pojo.User)
+2018-04-27 10:44:15,811 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/deleteById],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public pojo.User controller.LoginController.DeleteById(pojo.User)
+2018-04-27 10:44:15,811 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/findAge],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.Object controller.LoginController.findAge(java.lang.String)
+2018-04-27 10:44:15,812 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/manage],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String controller.ManageController.manage()
+2018-04-27 10:44:15,812 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/manage/testForm],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public util.R controller.ManageController.manage(java.lang.String)
+2018-04-27 10:44:15,813 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/error],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-27 10:44:15,814 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/error],methods=[],params=[],headers=[],consumes=[],produces=[text/html],custom=[]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest)
+2018-04-27 10:44:15,870 INFO org.springframework.web.servlet.handler.SimpleUrlHandlerMapping:314 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-27 10:44:15,870 INFO org.springframework.web.servlet.handler.SimpleUrlHandlerMapping:314 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-27 10:44:15,899 INFO org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver:267 - Detected @ExceptionHandler methods in globalDefaultExceptionHandler
+2018-04-27 10:44:15,928 INFO org.springframework.web.servlet.handler.SimpleUrlHandlerMapping:314 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-27 10:44:16,484 INFO org.springframework.jmx.export.annotation.AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+2018-04-27 10:44:16,492 INFO org.springframework.context.support.DefaultLifecycleProcessor:341 - Starting beans in phase 2147483647
+2018-04-27 10:44:16,961 INFO org.apache.coyote.http11.Http11NioProtocol:180 - Initializing ProtocolHandler ["http-nio-8093"]
+2018-04-27 10:44:16,983 INFO org.apache.coyote.http11.Http11NioProtocol:180 - Starting ProtocolHandler ["http-nio-8093"]
+2018-04-27 10:44:17,059 INFO org.apache.tomcat.util.net.NioSelectorPool:180 - Using a shared selector for servlet write/read
+2018-04-27 10:44:17,096 INFO org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:159 - Tomcat started on port(s): 8093 (http)
+2018-04-27 10:44:17,098 INFO run.Application:56 - Started Application in 9.995 seconds (JVM running for 11.51)
+2018-04-27 10:44:31,818 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:180 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-04-27 10:44:31,819 INFO org.springframework.web.servlet.DispatcherServlet:484 - FrameworkServlet 'dispatcherServlet': initialization started
+2018-04-27 10:44:31,853 INFO org.springframework.web.servlet.DispatcherServlet:503 - FrameworkServlet 'dispatcherServlet': initialization completed in 34 ms
+2018-04-27 10:44:32,074 INFO org.thymeleaf.TemplateEngine:825 - [THYMELEAF] INITIALIZING TEMPLATE ENGINE
+2018-04-27 10:44:32,381 INFO org.thymeleaf.templateresolver.AbstractTemplateResolver:99 - [THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.templateresolver.TemplateResolver
+2018-04-27 10:44:32,381 INFO org.thymeleaf.templateresolver.AbstractTemplateResolver:110 - [THYMELEAF] TEMPLATE RESOLVER INITIALIZED OK
+2018-04-27 10:44:32,381 INFO org.thymeleaf.messageresolver.AbstractMessageResolver:72 - [THYMELEAF] INITIALIZING MESSAGE RESOLVER: org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+2018-04-27 10:44:32,381 INFO org.thymeleaf.messageresolver.AbstractMessageResolver:78 - [THYMELEAF] MESSAGE RESOLVER INITIALIZED OK
+2018-04-27 10:44:32,386 INFO org.thymeleaf.TemplateEngine.CONFIG:123 - [THYMELEAF] TEMPLATE ENGINE CONFIGURATION:
+[THYMELEAF] * Cache Factory implementation: org.thymeleaf.cache.StandardCacheManager
+[THYMELEAF] * Template modes:
+[THYMELEAF]     * XML
+[THYMELEAF]     * LEGACYHTML5
+[THYMELEAF]     * VALIDXHTML
+[THYMELEAF]     * XHTML
+[THYMELEAF]     * HTML5
+[THYMELEAF]     * VALIDXML
+[THYMELEAF] * Template resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.templateresolver.TemplateResolver
+[THYMELEAF] * Message resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+[THYMELEAF] * Dialect [1 of 2]: org.thymeleaf.spring4.dialect.SpringStandardDialect
+[THYMELEAF]     * Prefix: "th"
+[THYMELEAF] * Dialect [2 of 2]: nz.net.ultraq.thymeleaf.LayoutDialect
+[THYMELEAF]     * Prefix: "layout"
+[THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
+2018-04-27 10:44:32,386 INFO org.thymeleaf.TemplateEngine:838 - [THYMELEAF] TEMPLATE ENGINE INITIALIZED
+2018-04-27 10:44:38,323 INFO controller.LoginController:64 - admin	请求登录.
+2018-04-27 10:44:38,360 INFO controller.LoginController:42 - 请求登陆的首页.
+2018-04-27 10:44:38,576 INFO controller.LoginController:103 - 登陆的用户名:	admin
+2018-04-27 10:44:40,370 ERROR org.thymeleaf.templateparser.ErrorHandler:57 - [THYMELEAF][http-nio-8093-exec-3] Fatal error during parsing
+org.xml.sax.SAXParseException: 元素类型 "input" 必须由匹配的结束标记 "</input>" 终止。
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203) ~[na:1.8.0_152]
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177) ~[na:1.8.0_152]
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400) [na:1.8.0_152]
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327) [na:1.8.0_152]
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1472) [na:1.8.0_152]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1749) [na:1.8.0_152]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2967) [na:1.8.0_152]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602) [na:1.8.0_152]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505) [na:1.8.0_152]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:841) [na:1.8.0_152]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:770) [na:1.8.0_152]
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141) [na:1.8.0_152]
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213) [na:1.8.0_152]
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643) [na:1.8.0_152]
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(SAXParserImpl.java:327) [na:1.8.0_152]
+	at org.thymeleaf.templateparser.xmlsax.AbstractNonValidatingSAXTemplateParser.doParse(AbstractNonValidatingSAXTemplateParser.java:209) [thymeleaf-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.thymeleaf.templateparser.xmlsax.AbstractNonValidatingSAXTemplateParser.parseTemplateUsingPool(AbstractNonValidatingSAXTemplateParser.java:134) [thymeleaf-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.thymeleaf.templateparser.xmlsax.AbstractNonValidatingSAXTemplateParser.parseTemplate(AbstractNonValidatingSAXTemplateParser.java:116) [thymeleaf-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.thymeleaf.TemplateRepository.getTemplate(TemplateRepository.java:278) [thymeleaf-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1104) [thymeleaf-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1060) [thymeleaf-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1011) [thymeleaf-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.thymeleaf.spring4.view.ThymeleafView.renderFragment(ThymeleafView.java:335) [thymeleaf-spring4-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.thymeleaf.spring4.view.ThymeleafView.render(ThymeleafView.java:190) [thymeleaf-spring4-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1244) [spring-webmvc-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1027) [spring-webmvc-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:971) [spring-webmvc-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893) [spring-webmvc-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:966) [spring-webmvc-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:857) [spring-webmvc-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:618) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842) [spring-webmvc-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) [tomcat-embed-websocket-8.0.20.jar:8.0.20]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77) [spring-web-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:61) [shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108) [shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137) [shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125) [shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66) [shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:449) [shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365) [shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90) [shiro-core-1.3.2.jar:1.3.2]
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83) [shiro-core-1.3.2.jar:1.3.2]
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:383) [shiro-core-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362) [shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125) [shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:85) [spring-web-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:516) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1086) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:659) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:223) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1558) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1515) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_152]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_152]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_152]
+2018-04-27 10:44:40,379 ERROR org.thymeleaf.TemplateEngine:1085 - [THYMELEAF][http-nio-8093-exec-3] Exception processing template "manage/manage": Exception parsing document: template="manage/manage", line 17 - column 4
+2018-04-27 10:44:40,381 ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet]:182 - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: Exception parsing document: template="manage/manage", line 17 - column 4] with root cause
+org.xml.sax.SAXParseException: 元素类型 "input" 必须由匹配的结束标记 "</input>" 终止。
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203) ~[na:1.8.0_152]
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177) ~[na:1.8.0_152]
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400) ~[na:1.8.0_152]
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327) ~[na:1.8.0_152]
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1472) ~[na:1.8.0_152]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1749) ~[na:1.8.0_152]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2967) ~[na:1.8.0_152]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602) ~[na:1.8.0_152]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505) ~[na:1.8.0_152]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:841) ~[na:1.8.0_152]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:770) ~[na:1.8.0_152]
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141) ~[na:1.8.0_152]
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213) ~[na:1.8.0_152]
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643) ~[na:1.8.0_152]
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(SAXParserImpl.java:327) ~[na:1.8.0_152]
+	at org.thymeleaf.templateparser.xmlsax.AbstractNonValidatingSAXTemplateParser.doParse(AbstractNonValidatingSAXTemplateParser.java:209) ~[thymeleaf-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.thymeleaf.templateparser.xmlsax.AbstractNonValidatingSAXTemplateParser.parseTemplateUsingPool(AbstractNonValidatingSAXTemplateParser.java:134) ~[thymeleaf-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.thymeleaf.templateparser.xmlsax.AbstractNonValidatingSAXTemplateParser.parseTemplate(AbstractNonValidatingSAXTemplateParser.java:116) ~[thymeleaf-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.thymeleaf.TemplateRepository.getTemplate(TemplateRepository.java:278) ~[thymeleaf-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1104) ~[thymeleaf-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1060) ~[thymeleaf-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1011) ~[thymeleaf-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.thymeleaf.spring4.view.ThymeleafView.renderFragment(ThymeleafView.java:335) ~[thymeleaf-spring4-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.thymeleaf.spring4.view.ThymeleafView.render(ThymeleafView.java:190) ~[thymeleaf-spring4-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1244) ~[spring-webmvc-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1027) ~[spring-webmvc-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:971) ~[spring-webmvc-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893) ~[spring-webmvc-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:966) ~[spring-webmvc-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:857) ~[spring-webmvc-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:618) ~[tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842) ~[spring-webmvc-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725) ~[tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291) ~[tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206) ~[tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) ~[tomcat-embed-websocket-8.0.20.jar:8.0.20]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239) ~[tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206) ~[tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77) ~[spring-web-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239) ~[tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206) ~[tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:61) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:449) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90) ~[shiro-core-1.3.2.jar:1.3.2]
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83) ~[shiro-core-1.3.2.jar:1.3.2]
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:383) ~[shiro-core-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239) ~[tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206) ~[tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:85) ~[spring-web-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239) ~[tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206) ~[tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219) ~[tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:516) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1086) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:659) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:223) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1558) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1515) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_152]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_152]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_152]
+2018-04-27 10:45:13,125 ERROR org.thymeleaf.templateparser.ErrorHandler:57 - [THYMELEAF][http-nio-8093-exec-7] Fatal error during parsing
+org.xml.sax.SAXParseException: 元素类型 "input" 必须由匹配的结束标记 "</input>" 终止。
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203) ~[na:1.8.0_152]
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177) ~[na:1.8.0_152]
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400) [na:1.8.0_152]
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327) [na:1.8.0_152]
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1472) [na:1.8.0_152]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1749) [na:1.8.0_152]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2967) [na:1.8.0_152]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602) [na:1.8.0_152]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505) [na:1.8.0_152]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:841) [na:1.8.0_152]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:770) [na:1.8.0_152]
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141) [na:1.8.0_152]
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213) [na:1.8.0_152]
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643) [na:1.8.0_152]
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(SAXParserImpl.java:327) [na:1.8.0_152]
+	at org.thymeleaf.templateparser.xmlsax.AbstractNonValidatingSAXTemplateParser.doParse(AbstractNonValidatingSAXTemplateParser.java:209) [thymeleaf-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.thymeleaf.templateparser.xmlsax.AbstractNonValidatingSAXTemplateParser.parseTemplateUsingPool(AbstractNonValidatingSAXTemplateParser.java:134) [thymeleaf-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.thymeleaf.templateparser.xmlsax.AbstractNonValidatingSAXTemplateParser.parseTemplate(AbstractNonValidatingSAXTemplateParser.java:116) [thymeleaf-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.thymeleaf.TemplateRepository.getTemplate(TemplateRepository.java:278) [thymeleaf-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1104) [thymeleaf-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1060) [thymeleaf-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1011) [thymeleaf-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.thymeleaf.spring4.view.ThymeleafView.renderFragment(ThymeleafView.java:335) [thymeleaf-spring4-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.thymeleaf.spring4.view.ThymeleafView.render(ThymeleafView.java:190) [thymeleaf-spring4-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1244) [spring-webmvc-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1027) [spring-webmvc-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:971) [spring-webmvc-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893) [spring-webmvc-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:966) [spring-webmvc-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:857) [spring-webmvc-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:618) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842) [spring-webmvc-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) [tomcat-embed-websocket-8.0.20.jar:8.0.20]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77) [spring-web-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:61) [shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108) [shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137) [shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125) [shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66) [shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:449) [shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365) [shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90) [shiro-core-1.3.2.jar:1.3.2]
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83) [shiro-core-1.3.2.jar:1.3.2]
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:383) [shiro-core-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362) [shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125) [shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:85) [spring-web-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:516) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1086) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:659) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:223) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1558) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1515) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_152]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_152]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_152]
+2018-04-27 10:45:13,127 ERROR org.thymeleaf.TemplateEngine:1085 - [THYMELEAF][http-nio-8093-exec-7] Exception processing template "manage/manage": Exception parsing document: template="manage/manage", line 36 - column 4
+2018-04-27 10:45:13,129 ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet]:182 - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: Exception parsing document: template="manage/manage", line 36 - column 4] with root cause
+org.xml.sax.SAXParseException: 元素类型 "input" 必须由匹配的结束标记 "</input>" 终止。
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203) ~[na:1.8.0_152]
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177) ~[na:1.8.0_152]
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400) ~[na:1.8.0_152]
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327) ~[na:1.8.0_152]
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1472) ~[na:1.8.0_152]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1749) ~[na:1.8.0_152]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2967) ~[na:1.8.0_152]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602) ~[na:1.8.0_152]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505) ~[na:1.8.0_152]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:841) ~[na:1.8.0_152]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:770) ~[na:1.8.0_152]
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141) ~[na:1.8.0_152]
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213) ~[na:1.8.0_152]
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643) ~[na:1.8.0_152]
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(SAXParserImpl.java:327) ~[na:1.8.0_152]
+	at org.thymeleaf.templateparser.xmlsax.AbstractNonValidatingSAXTemplateParser.doParse(AbstractNonValidatingSAXTemplateParser.java:209) ~[thymeleaf-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.thymeleaf.templateparser.xmlsax.AbstractNonValidatingSAXTemplateParser.parseTemplateUsingPool(AbstractNonValidatingSAXTemplateParser.java:134) ~[thymeleaf-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.thymeleaf.templateparser.xmlsax.AbstractNonValidatingSAXTemplateParser.parseTemplate(AbstractNonValidatingSAXTemplateParser.java:116) ~[thymeleaf-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.thymeleaf.TemplateRepository.getTemplate(TemplateRepository.java:278) ~[thymeleaf-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1104) ~[thymeleaf-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1060) ~[thymeleaf-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1011) ~[thymeleaf-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.thymeleaf.spring4.view.ThymeleafView.renderFragment(ThymeleafView.java:335) ~[thymeleaf-spring4-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.thymeleaf.spring4.view.ThymeleafView.render(ThymeleafView.java:190) ~[thymeleaf-spring4-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1244) ~[spring-webmvc-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1027) ~[spring-webmvc-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:971) ~[spring-webmvc-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893) ~[spring-webmvc-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:966) ~[spring-webmvc-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:857) ~[spring-webmvc-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:618) ~[tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842) ~[spring-webmvc-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725) ~[tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291) ~[tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206) ~[tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) ~[tomcat-embed-websocket-8.0.20.jar:8.0.20]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239) ~[tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206) ~[tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77) ~[spring-web-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239) ~[tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206) ~[tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:61) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:449) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90) ~[shiro-core-1.3.2.jar:1.3.2]
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83) ~[shiro-core-1.3.2.jar:1.3.2]
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:383) ~[shiro-core-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239) ~[tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206) ~[tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:85) ~[spring-web-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239) ~[tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206) ~[tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219) ~[tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:516) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1086) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:659) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:223) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1558) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1515) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_152]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_152]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_152]
+2018-04-27 10:45:16,508 ERROR org.thymeleaf.templateparser.ErrorHandler:57 - [THYMELEAF][http-nio-8093-exec-4] Fatal error during parsing
+org.xml.sax.SAXParseException: 元素类型 "input" 必须由匹配的结束标记 "</input>" 终止。
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203) ~[na:1.8.0_152]
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177) ~[na:1.8.0_152]
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400) [na:1.8.0_152]
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327) [na:1.8.0_152]
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1472) [na:1.8.0_152]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1749) [na:1.8.0_152]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2967) [na:1.8.0_152]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602) [na:1.8.0_152]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505) [na:1.8.0_152]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:841) [na:1.8.0_152]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:770) [na:1.8.0_152]
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141) [na:1.8.0_152]
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213) [na:1.8.0_152]
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643) [na:1.8.0_152]
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(SAXParserImpl.java:327) [na:1.8.0_152]
+	at org.thymeleaf.templateparser.xmlsax.AbstractNonValidatingSAXTemplateParser.doParse(AbstractNonValidatingSAXTemplateParser.java:209) [thymeleaf-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.thymeleaf.templateparser.xmlsax.AbstractNonValidatingSAXTemplateParser.parseTemplateUsingPool(AbstractNonValidatingSAXTemplateParser.java:134) [thymeleaf-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.thymeleaf.templateparser.xmlsax.AbstractNonValidatingSAXTemplateParser.parseTemplate(AbstractNonValidatingSAXTemplateParser.java:116) [thymeleaf-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.thymeleaf.TemplateRepository.getTemplate(TemplateRepository.java:278) [thymeleaf-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1104) [thymeleaf-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1060) [thymeleaf-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1011) [thymeleaf-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.thymeleaf.spring4.view.ThymeleafView.renderFragment(ThymeleafView.java:335) [thymeleaf-spring4-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.thymeleaf.spring4.view.ThymeleafView.render(ThymeleafView.java:190) [thymeleaf-spring4-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1244) [spring-webmvc-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1027) [spring-webmvc-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:971) [spring-webmvc-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893) [spring-webmvc-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:966) [spring-webmvc-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:857) [spring-webmvc-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:618) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842) [spring-webmvc-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) [tomcat-embed-websocket-8.0.20.jar:8.0.20]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77) [spring-web-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:61) [shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108) [shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137) [shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125) [shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66) [shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:449) [shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365) [shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90) [shiro-core-1.3.2.jar:1.3.2]
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83) [shiro-core-1.3.2.jar:1.3.2]
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:383) [shiro-core-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362) [shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125) [shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:85) [spring-web-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:516) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1086) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:659) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:223) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1558) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1515) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_152]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_152]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_152]
+2018-04-27 10:45:16,509 ERROR org.thymeleaf.TemplateEngine:1085 - [THYMELEAF][http-nio-8093-exec-4] Exception processing template "manage/manage": Exception parsing document: template="manage/manage", line 36 - column 4
+2018-04-27 10:45:16,511 ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet]:182 - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: Exception parsing document: template="manage/manage", line 36 - column 4] with root cause
+org.xml.sax.SAXParseException: 元素类型 "input" 必须由匹配的结束标记 "</input>" 终止。
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203) ~[na:1.8.0_152]
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177) ~[na:1.8.0_152]
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400) ~[na:1.8.0_152]
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327) ~[na:1.8.0_152]
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1472) ~[na:1.8.0_152]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1749) ~[na:1.8.0_152]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2967) ~[na:1.8.0_152]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602) ~[na:1.8.0_152]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505) ~[na:1.8.0_152]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:841) ~[na:1.8.0_152]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:770) ~[na:1.8.0_152]
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141) ~[na:1.8.0_152]
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213) ~[na:1.8.0_152]
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643) ~[na:1.8.0_152]
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(SAXParserImpl.java:327) ~[na:1.8.0_152]
+	at org.thymeleaf.templateparser.xmlsax.AbstractNonValidatingSAXTemplateParser.doParse(AbstractNonValidatingSAXTemplateParser.java:209) ~[thymeleaf-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.thymeleaf.templateparser.xmlsax.AbstractNonValidatingSAXTemplateParser.parseTemplateUsingPool(AbstractNonValidatingSAXTemplateParser.java:134) ~[thymeleaf-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.thymeleaf.templateparser.xmlsax.AbstractNonValidatingSAXTemplateParser.parseTemplate(AbstractNonValidatingSAXTemplateParser.java:116) ~[thymeleaf-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.thymeleaf.TemplateRepository.getTemplate(TemplateRepository.java:278) ~[thymeleaf-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1104) ~[thymeleaf-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1060) ~[thymeleaf-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1011) ~[thymeleaf-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.thymeleaf.spring4.view.ThymeleafView.renderFragment(ThymeleafView.java:335) ~[thymeleaf-spring4-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.thymeleaf.spring4.view.ThymeleafView.render(ThymeleafView.java:190) ~[thymeleaf-spring4-2.1.4.RELEASE.jar:2.1.4.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1244) ~[spring-webmvc-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1027) ~[spring-webmvc-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:971) ~[spring-webmvc-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893) ~[spring-webmvc-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:966) ~[spring-webmvc-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:857) ~[spring-webmvc-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:618) ~[tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842) ~[spring-webmvc-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725) ~[tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291) ~[tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206) ~[tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) ~[tomcat-embed-websocket-8.0.20.jar:8.0.20]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239) ~[tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206) ~[tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77) ~[spring-web-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239) ~[tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206) ~[tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:61) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:449) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90) ~[shiro-core-1.3.2.jar:1.3.2]
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83) ~[shiro-core-1.3.2.jar:1.3.2]
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:383) ~[shiro-core-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125) ~[shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239) ~[tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206) ~[tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:85) ~[spring-web-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239) ~[tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206) ~[tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219) ~[tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:516) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1086) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:659) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:223) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1558) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1515) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_152]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_152]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_152]
+2018-04-27 10:48:39,522 INFO controller.LoginController:64 - admin	请求登录.
+2018-04-27 10:48:39,533 INFO controller.LoginController:42 - 请求登陆的首页.
+2018-04-27 10:48:39,731 INFO controller.LoginController:103 - 登陆的用户名:	admin
+2018-04-27 10:54:09,241 INFO controller.LoginController:64 - admin	请求登录.
+2018-04-27 10:54:09,254 INFO controller.LoginController:42 - 请求登陆的首页.
+2018-04-27 10:54:09,470 INFO controller.LoginController:103 - 登陆的用户名:	admin
+2018-04-27 10:55:23,768 INFO controller.LoginController:64 - admin	请求登录.
+2018-04-27 10:55:23,781 INFO controller.LoginController:42 - 请求登陆的首页.
+2018-04-27 10:55:23,985 INFO controller.LoginController:103 - 登陆的用户名:	admin
+2018-04-27 10:56:34,365 INFO run.Application:33 - springboot	....................................................................................................................................
+2018-04-27 10:56:34,908 INFO run.Application:47 - Starting Application on LZGS with PID 13992 (D:\web\project_learn\test\target\classes started by dfjk in D:\web\project_learn\test)
+2018-04-27 10:56:34,960 INFO org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext:510 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5e403b4a: startup date [Fri Apr 27 10:56:34 CST 2018]; root of context hierarchy
+2018-04-27 10:56:35,942 INFO org.springframework.beans.factory.support.DefaultListableBeanFactory:822 - Overriding bean definition for bean 'beanNameViewResolver': replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2018-04-27 10:56:36,415 INFO org.hibernate.validator.internal.util.Version:27 - HV000001: Hibernate Validator 5.1.3.Final
+2018-04-27 10:56:36,557 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [class org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$1d5a02a8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-27 10:56:36,658 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$13f2723a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-27 10:56:36,676 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'transactionAttributeSource' of type [class org.springframework.transaction.annotation.AnnotationTransactionAttributeSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-27 10:56:36,687 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'transactionInterceptor' of type [class org.springframework.transaction.interceptor.TransactionInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-27 10:56:36,695 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'org.springframework.transaction.config.internalTransactionAdvisor' of type [class org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-27 10:56:36,722 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'redisConfig' of type [class config.RedisConfig$$EnhancerBySpringCGLIB$$b44d7d0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-27 10:56:36,729 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'org.springframework.cache.annotation.ProxyCachingConfiguration' of type [class org.springframework.cache.annotation.ProxyCachingConfiguration$$EnhancerBySpringCGLIB$$7b503c98] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-27 10:56:36,744 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'cacheOperationSource' of type [class org.springframework.cache.annotation.AnnotationCacheOperationSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-27 10:56:36,755 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'cacheInterceptor' of type [class org.springframework.cache.interceptor.CacheInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-27 10:56:36,759 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'org.springframework.cache.config.internalCacheAdvisor' of type [class org.springframework.cache.interceptor.BeanFactoryCacheOperationSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-27 10:56:36,762 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'shiroConfig' of type [class config.ShiroConfig$$EnhancerBySpringCGLIB$$c7ed71c6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-27 10:56:36,768 WARN org.springframework.beans.factory.support.DefaultListableBeanFactory:1427 - Bean creation exception on FactoryBean type check: org.springframework.beans.factory.BeanCurrentlyInCreationException: Error creating bean with name 'shirFilter': Requested bean is currently in creation: Is there an unresolvable circular reference?
+2018-04-27 10:56:37,222 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'securityManager' of type [class org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-27 10:56:37,602 INFO org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:79 - Tomcat initialized with port(s): 8093 (http)
+2018-04-27 10:56:37,788 INFO org.apache.catalina.core.StandardService:180 - Starting service Tomcat
+2018-04-27 10:56:37,790 INFO org.apache.catalina.core.StandardEngine:180 - Starting Servlet Engine: Apache Tomcat/8.0.20
+2018-04-27 10:56:37,981 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:180 - Initializing Spring embedded WebApplicationContext
+2018-04-27 10:56:37,981 INFO org.springframework.web.context.ContextLoader:268 - Root WebApplicationContext: initialization completed in 3022 ms
+2018-04-27 10:56:38,693 INFO org.springframework.boot.context.embedded.ServletRegistrationBean:188 - Mapping servlet: 'dispatcherServlet' to [/]
+2018-04-27 10:56:38,699 INFO org.springframework.boot.context.embedded.FilterRegistrationBean:286 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-04-27 10:56:38,700 INFO org.springframework.boot.context.embedded.FilterRegistrationBean:286 - Mapping filter: 'shirFilter' to: [/*]
+2018-04-27 10:56:38,700 INFO org.springframework.boot.context.embedded.FilterRegistrationBean:286 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-04-27 10:56:38,979 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:339 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-04-27 10:56:38,991 INFO org.hibernate.jpa.internal.util.LogHelper:46 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-04-27 10:56:39,089 INFO org.hibernate.Version:54 - HHH000412: Hibernate Core {4.3.8.Final}
+2018-04-27 10:56:39,091 INFO org.hibernate.cfg.Environment:239 - HHH000206: hibernate.properties not found
+2018-04-27 10:56:39,093 INFO org.hibernate.cfg.Environment:346 - HHH000021: Bytecode provider name : javassist
+2018-04-27 10:56:39,285 INFO org.hibernate.annotations.common.Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2018-04-27 10:56:39,740 INFO org.hibernate.dialect.Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-04-27 10:56:39,853 INFO org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2018-04-27 10:56:40,089 INFO org.hibernate.tool.hbm2ddl.SchemaUpdate:207 - HHH000228: Running hbm2ddl schema update
+2018-04-27 10:56:40,089 INFO org.hibernate.tool.hbm2ddl.SchemaUpdate:218 - HHH000102: Fetching database metadata
+2018-04-27 10:56:40,091 INFO org.hibernate.tool.hbm2ddl.SchemaUpdate:230 - HHH000396: Updating schema
+2018-04-27 10:56:40,115 INFO org.hibernate.tool.hbm2ddl.TableMetadata:66 - HHH000261: Table found: springboot.s_user
+2018-04-27 10:56:40,116 INFO org.hibernate.tool.hbm2ddl.TableMetadata:67 - HHH000037: Columns: [name, id, age]
+2018-04-27 10:56:40,116 INFO org.hibernate.tool.hbm2ddl.TableMetadata:69 - HHH000108: Foreign keys: []
+2018-04-27 10:56:40,116 INFO org.hibernate.tool.hbm2ddl.TableMetadata:70 - HHH000126: Indexes: [primary]
+2018-04-27 10:56:40,117 INFO org.hibernate.tool.hbm2ddl.SchemaUpdate:267 - HHH000232: Schema update complete
+2018-04-27 10:56:41,124 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter:517 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5e403b4a: startup date [Fri Apr 27 10:56:34 CST 2018]; root of context hierarchy
+2018-04-27 10:56:41,214 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/findOneById],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public pojo.User controller.CacheController.findOne(pojo.User)
+2018-04-27 10:56:41,216 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/test],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public pojo.User controller.LoginController.test(pojo.User)
+2018-04-27 10:56:41,216 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto java.lang.String controller.LoginController.home(org.springframework.ui.ModelMap)
+2018-04-27 10:56:41,217 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/addUser],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto java.lang.String controller.LoginController.addUser()
+2018-04-27 10:56:41,217 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/login],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto java.lang.String controller.LoginController.login()
+2018-04-27 10:56:41,217 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/doLogin],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String controller.LoginController.login(pojo.User,javax.servlet.http.HttpSession)
+2018-04-27 10:56:41,217 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/ifLog],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String controller.LoginController.ifLog(javax.servlet.http.HttpSession)
+2018-04-27 10:56:41,217 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/logout],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void controller.LoginController.logOut(javax.servlet.http.HttpSession)
+2018-04-27 10:56:41,218 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/getUsers],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto java.util.Map<java.lang.String, java.lang.Object> controller.LoginController.getUsers(java.lang.Integer,java.lang.Integer)
+2018-04-27 10:56:41,218 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/index],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String controller.LoginController.indexPage(org.springframework.ui.ModelMap)
+2018-04-27 10:56:41,218 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/findOne],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public pojo.User controller.LoginController.findOne(pojo.User)
+2018-04-27 10:56:41,218 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/findAge],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.Object controller.LoginController.findAge(java.lang.String)
+2018-04-27 10:56:41,218 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/getDynamicData],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto java.util.Map<java.lang.String, java.lang.Object> controller.LoginController.getDynamicData(java.lang.Integer,java.lang.Integer)
+2018-04-27 10:56:41,218 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/deleteById],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public pojo.User controller.LoginController.DeleteById(pojo.User)
+2018-04-27 10:56:41,219 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/updateOne],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public pojo.User controller.LoginController.updateOne(pojo.User)
+2018-04-27 10:56:41,219 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/cancel],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto java.lang.String controller.LoginController.cancel()
+2018-04-27 10:56:41,219 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/getUserByAge],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.util.List<java.util.Map<java.lang.String, java.lang.Object>> controller.LoginController.getUserByAge(java.lang.Integer)
+2018-04-27 10:56:41,219 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/getDynamicColumns],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto java.util.Map<java.lang.String, java.lang.Object> controller.LoginController.getDynamicColumns()
+2018-04-27 10:56:41,220 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/manage],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String controller.ManageController.manage()
+2018-04-27 10:56:41,221 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/manage/testForm],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public util.R controller.ManageController.manage(java.lang.String)
+2018-04-27 10:56:41,225 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/error],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-27 10:56:41,225 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/error],methods=[],params=[],headers=[],consumes=[],produces=[text/html],custom=[]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest)
+2018-04-27 10:56:41,262 INFO org.springframework.web.servlet.handler.SimpleUrlHandlerMapping:314 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-27 10:56:41,262 INFO org.springframework.web.servlet.handler.SimpleUrlHandlerMapping:314 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-27 10:56:41,307 INFO org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver:267 - Detected @ExceptionHandler methods in globalDefaultExceptionHandler
+2018-04-27 10:56:41,350 INFO org.springframework.web.servlet.handler.SimpleUrlHandlerMapping:314 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-27 10:56:41,724 INFO org.springframework.jmx.export.annotation.AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+2018-04-27 10:56:41,735 INFO org.springframework.context.support.DefaultLifecycleProcessor:341 - Starting beans in phase 2147483647
+2018-04-27 10:56:41,977 INFO org.apache.coyote.http11.Http11NioProtocol:180 - Initializing ProtocolHandler ["http-nio-8093"]
+2018-04-27 10:56:41,984 INFO org.apache.coyote.http11.Http11NioProtocol:180 - Starting ProtocolHandler ["http-nio-8093"]
+2018-04-27 10:56:41,998 INFO org.apache.tomcat.util.net.NioSelectorPool:180 - Using a shared selector for servlet write/read
+2018-04-27 10:56:42,019 INFO org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:159 - Tomcat started on port(s): 8093 (http)
+2018-04-27 10:56:42,021 INFO run.Application:56 - Started Application in 7.526 seconds (JVM running for 8.317)
+2018-04-27 10:56:53,361 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:180 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-04-27 10:56:53,361 INFO org.springframework.web.servlet.DispatcherServlet:484 - FrameworkServlet 'dispatcherServlet': initialization started
+2018-04-27 10:56:53,388 INFO org.springframework.web.servlet.DispatcherServlet:503 - FrameworkServlet 'dispatcherServlet': initialization completed in 27 ms
+2018-04-27 10:56:53,469 INFO org.thymeleaf.TemplateEngine:825 - [THYMELEAF] INITIALIZING TEMPLATE ENGINE
+2018-04-27 10:56:53,522 INFO org.thymeleaf.templateresolver.AbstractTemplateResolver:99 - [THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.templateresolver.TemplateResolver
+2018-04-27 10:56:53,522 INFO org.thymeleaf.templateresolver.AbstractTemplateResolver:110 - [THYMELEAF] TEMPLATE RESOLVER INITIALIZED OK
+2018-04-27 10:56:53,522 INFO org.thymeleaf.messageresolver.AbstractMessageResolver:72 - [THYMELEAF] INITIALIZING MESSAGE RESOLVER: org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+2018-04-27 10:56:53,522 INFO org.thymeleaf.messageresolver.AbstractMessageResolver:78 - [THYMELEAF] MESSAGE RESOLVER INITIALIZED OK
+2018-04-27 10:56:53,526 INFO org.thymeleaf.TemplateEngine.CONFIG:123 - [THYMELEAF] TEMPLATE ENGINE CONFIGURATION:
+[THYMELEAF] * Cache Factory implementation: org.thymeleaf.cache.StandardCacheManager
+[THYMELEAF] * Template modes:
+[THYMELEAF]     * XHTML
+[THYMELEAF]     * LEGACYHTML5
+[THYMELEAF]     * XML
+[THYMELEAF]     * HTML5
+[THYMELEAF]     * VALIDXML
+[THYMELEAF]     * VALIDXHTML
+[THYMELEAF] * Template resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.templateresolver.TemplateResolver
+[THYMELEAF] * Message resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+[THYMELEAF] * Dialect [1 of 2]: org.thymeleaf.spring4.dialect.SpringStandardDialect
+[THYMELEAF]     * Prefix: "th"
+[THYMELEAF] * Dialect [2 of 2]: nz.net.ultraq.thymeleaf.LayoutDialect
+[THYMELEAF]     * Prefix: "layout"
+[THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
+2018-04-27 10:56:53,527 INFO org.thymeleaf.TemplateEngine:838 - [THYMELEAF] TEMPLATE ENGINE INITIALIZED
+2018-04-27 10:56:58,901 INFO controller.LoginController:64 - admin	请求登录.
+2018-04-27 10:56:58,929 INFO controller.LoginController:42 - 请求登陆的首页.
+2018-04-27 10:56:59,157 INFO controller.LoginController:103 - 登陆的用户名:	admin
+2018-04-27 10:58:32,934 INFO controller.LoginController:64 - admin	请求登录.
+2018-04-27 10:58:33,005 INFO controller.LoginController:42 - 请求登陆的首页.
+2018-04-27 10:58:33,227 INFO controller.LoginController:103 - 登陆的用户名:	admin
+2018-04-27 11:00:42,123 INFO run.Application:33 - springboot	....................................................................................................................................
+2018-04-27 11:00:42,542 INFO run.Application:47 - Starting Application on LZGS with PID 16156 (D:\web\project_learn\test\target\classes started by dfjk in D:\web\project_learn\test)
+2018-04-27 11:00:42,587 INFO org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext:510 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5e403b4a: startup date [Fri Apr 27 11:00:42 CST 2018]; root of context hierarchy
+2018-04-27 11:00:43,510 INFO org.springframework.beans.factory.support.DefaultListableBeanFactory:822 - Overriding bean definition for bean 'beanNameViewResolver': replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2018-04-27 11:00:43,859 INFO org.hibernate.validator.internal.util.Version:27 - HV000001: Hibernate Validator 5.1.3.Final
+2018-04-27 11:00:43,966 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [class org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$8f3336fd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-27 11:00:44,044 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$85cba68f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-27 11:00:44,061 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'transactionAttributeSource' of type [class org.springframework.transaction.annotation.AnnotationTransactionAttributeSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-27 11:00:44,076 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'transactionInterceptor' of type [class org.springframework.transaction.interceptor.TransactionInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-27 11:00:44,082 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'org.springframework.transaction.config.internalTransactionAdvisor' of type [class org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-27 11:00:44,096 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'redisConfig' of type [class config.RedisConfig$$EnhancerBySpringCGLIB$$7d1e0c25] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-27 11:00:44,101 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'org.springframework.cache.annotation.ProxyCachingConfiguration' of type [class org.springframework.cache.annotation.ProxyCachingConfiguration$$EnhancerBySpringCGLIB$$ed2970ed] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-27 11:00:44,113 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'cacheOperationSource' of type [class org.springframework.cache.annotation.AnnotationCacheOperationSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-27 11:00:44,123 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'cacheInterceptor' of type [class org.springframework.cache.interceptor.CacheInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-27 11:00:44,127 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'org.springframework.cache.config.internalCacheAdvisor' of type [class org.springframework.cache.interceptor.BeanFactoryCacheOperationSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-27 11:00:44,131 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'shiroConfig' of type [class config.ShiroConfig$$EnhancerBySpringCGLIB$$39c6a61b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-27 11:00:44,136 WARN org.springframework.beans.factory.support.DefaultListableBeanFactory:1427 - Bean creation exception on FactoryBean type check: org.springframework.beans.factory.BeanCurrentlyInCreationException: Error creating bean with name 'shirFilter': Requested bean is currently in creation: Is there an unresolvable circular reference?
+2018-04-27 11:00:44,586 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'securityManager' of type [class org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-27 11:00:44,940 INFO org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:79 - Tomcat initialized with port(s): 8093 (http)
+2018-04-27 11:00:45,136 INFO org.apache.catalina.core.StandardService:180 - Starting service Tomcat
+2018-04-27 11:00:45,137 INFO org.apache.catalina.core.StandardEngine:180 - Starting Servlet Engine: Apache Tomcat/8.0.20
+2018-04-27 11:00:45,309 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:180 - Initializing Spring embedded WebApplicationContext
+2018-04-27 11:00:45,310 INFO org.springframework.web.context.ContextLoader:268 - Root WebApplicationContext: initialization completed in 2723 ms
+2018-04-27 11:00:45,978 INFO org.springframework.boot.context.embedded.ServletRegistrationBean:188 - Mapping servlet: 'dispatcherServlet' to [/]
+2018-04-27 11:00:45,984 INFO org.springframework.boot.context.embedded.FilterRegistrationBean:286 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-04-27 11:00:45,984 INFO org.springframework.boot.context.embedded.FilterRegistrationBean:286 - Mapping filter: 'shirFilter' to: [/*]
+2018-04-27 11:00:45,985 INFO org.springframework.boot.context.embedded.FilterRegistrationBean:286 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-04-27 11:00:46,237 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:339 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-04-27 11:00:46,248 INFO org.hibernate.jpa.internal.util.LogHelper:46 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-04-27 11:00:46,317 INFO org.hibernate.Version:54 - HHH000412: Hibernate Core {4.3.8.Final}
+2018-04-27 11:00:46,319 INFO org.hibernate.cfg.Environment:239 - HHH000206: hibernate.properties not found
+2018-04-27 11:00:46,320 INFO org.hibernate.cfg.Environment:346 - HHH000021: Bytecode provider name : javassist
+2018-04-27 11:00:46,513 INFO org.hibernate.annotations.common.Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2018-04-27 11:00:47,001 INFO org.hibernate.dialect.Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-04-27 11:00:47,116 INFO org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2018-04-27 11:00:47,367 INFO org.hibernate.tool.hbm2ddl.SchemaUpdate:207 - HHH000228: Running hbm2ddl schema update
+2018-04-27 11:00:47,367 INFO org.hibernate.tool.hbm2ddl.SchemaUpdate:218 - HHH000102: Fetching database metadata
+2018-04-27 11:00:47,369 INFO org.hibernate.tool.hbm2ddl.SchemaUpdate:230 - HHH000396: Updating schema
+2018-04-27 11:00:47,388 INFO org.hibernate.tool.hbm2ddl.TableMetadata:66 - HHH000261: Table found: springboot.s_user
+2018-04-27 11:00:47,389 INFO org.hibernate.tool.hbm2ddl.TableMetadata:67 - HHH000037: Columns: [name, id, age]
+2018-04-27 11:00:47,389 INFO org.hibernate.tool.hbm2ddl.TableMetadata:69 - HHH000108: Foreign keys: []
+2018-04-27 11:00:47,389 INFO org.hibernate.tool.hbm2ddl.TableMetadata:70 - HHH000126: Indexes: [primary]
+2018-04-27 11:00:47,390 INFO org.hibernate.tool.hbm2ddl.SchemaUpdate:267 - HHH000232: Schema update complete
+2018-04-27 11:00:48,398 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter:517 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5e403b4a: startup date [Fri Apr 27 11:00:42 CST 2018]; root of context hierarchy
+2018-04-27 11:00:48,523 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/findOneById],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public pojo.User controller.CacheController.findOne(pojo.User)
+2018-04-27 11:00:48,525 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/test],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public pojo.User controller.LoginController.test(pojo.User)
+2018-04-27 11:00:48,525 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto java.lang.String controller.LoginController.home(org.springframework.ui.ModelMap)
+2018-04-27 11:00:48,526 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/addUser],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto java.lang.String controller.LoginController.addUser()
+2018-04-27 11:00:48,526 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/findOne],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public pojo.User controller.LoginController.findOne(pojo.User)
+2018-04-27 11:00:48,526 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/ifLog],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String controller.LoginController.ifLog(javax.servlet.http.HttpSession)
+2018-04-27 11:00:48,526 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/login],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto java.lang.String controller.LoginController.login()
+2018-04-27 11:00:48,526 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/doLogin],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String controller.LoginController.login(pojo.User,javax.servlet.http.HttpSession)
+2018-04-27 11:00:48,527 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/cancel],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto java.lang.String controller.LoginController.cancel()
+2018-04-27 11:00:48,527 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/getUsers],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto java.util.Map<java.lang.String, java.lang.Object> controller.LoginController.getUsers(java.lang.Integer,java.lang.Integer)
+2018-04-27 11:00:48,527 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/deleteById],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public pojo.User controller.LoginController.DeleteById(pojo.User)
+2018-04-27 11:00:48,528 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/findAge],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.Object controller.LoginController.findAge(java.lang.String)
+2018-04-27 11:00:48,528 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/index],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String controller.LoginController.indexPage(org.springframework.ui.ModelMap)
+2018-04-27 11:00:48,528 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/updateOne],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public pojo.User controller.LoginController.updateOne(pojo.User)
+2018-04-27 11:00:48,528 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/getDynamicData],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto java.util.Map<java.lang.String, java.lang.Object> controller.LoginController.getDynamicData(java.lang.Integer,java.lang.Integer)
+2018-04-27 11:00:48,529 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/getUserByAge],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.util.List<java.util.Map<java.lang.String, java.lang.Object>> controller.LoginController.getUserByAge(java.lang.Integer)
+2018-04-27 11:00:48,529 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/logout],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void controller.LoginController.logOut(javax.servlet.http.HttpSession)
+2018-04-27 11:00:48,529 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/getDynamicColumns],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto java.util.Map<java.lang.String, java.lang.Object> controller.LoginController.getDynamicColumns()
+2018-04-27 11:00:48,530 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/manage],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String controller.ManageController.manage()
+2018-04-27 11:00:48,531 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/manage/testForm],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public util.R controller.ManageController.manage(java.lang.String)
+2018-04-27 11:00:48,535 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/error],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-27 11:00:48,535 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/error],methods=[],params=[],headers=[],consumes=[],produces=[text/html],custom=[]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest)
+2018-04-27 11:00:48,627 INFO org.springframework.web.servlet.handler.SimpleUrlHandlerMapping:314 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-27 11:00:48,630 INFO org.springframework.web.servlet.handler.SimpleUrlHandlerMapping:314 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-27 11:00:48,662 INFO org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver:267 - Detected @ExceptionHandler methods in globalDefaultExceptionHandler
+2018-04-27 11:00:48,727 INFO org.springframework.web.servlet.handler.SimpleUrlHandlerMapping:314 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-27 11:00:49,175 INFO org.springframework.jmx.export.annotation.AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+2018-04-27 11:00:49,183 INFO org.springframework.context.support.DefaultLifecycleProcessor:341 - Starting beans in phase 2147483647
+2018-04-27 11:00:49,473 INFO org.apache.coyote.http11.Http11NioProtocol:180 - Initializing ProtocolHandler ["http-nio-8093"]
+2018-04-27 11:00:49,481 INFO org.apache.coyote.http11.Http11NioProtocol:180 - Starting ProtocolHandler ["http-nio-8093"]
+2018-04-27 11:00:49,496 INFO org.apache.tomcat.util.net.NioSelectorPool:180 - Using a shared selector for servlet write/read
+2018-04-27 11:00:49,519 INFO org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:159 - Tomcat started on port(s): 8093 (http)
+2018-04-27 11:00:49,521 INFO run.Application:56 - Started Application in 7.287 seconds (JVM running for 8.014)
+2018-04-27 11:00:58,848 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:180 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-04-27 11:00:58,848 INFO org.springframework.web.servlet.DispatcherServlet:484 - FrameworkServlet 'dispatcherServlet': initialization started
+2018-04-27 11:00:58,871 INFO org.springframework.web.servlet.DispatcherServlet:503 - FrameworkServlet 'dispatcherServlet': initialization completed in 22 ms
+2018-04-27 11:00:58,934 INFO org.thymeleaf.TemplateEngine:825 - [THYMELEAF] INITIALIZING TEMPLATE ENGINE
+2018-04-27 11:00:58,984 INFO org.thymeleaf.templateresolver.AbstractTemplateResolver:99 - [THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.templateresolver.TemplateResolver
+2018-04-27 11:00:58,985 INFO org.thymeleaf.templateresolver.AbstractTemplateResolver:110 - [THYMELEAF] TEMPLATE RESOLVER INITIALIZED OK
+2018-04-27 11:00:58,985 INFO org.thymeleaf.messageresolver.AbstractMessageResolver:72 - [THYMELEAF] INITIALIZING MESSAGE RESOLVER: org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+2018-04-27 11:00:58,985 INFO org.thymeleaf.messageresolver.AbstractMessageResolver:78 - [THYMELEAF] MESSAGE RESOLVER INITIALIZED OK
+2018-04-27 11:00:58,990 INFO org.thymeleaf.TemplateEngine.CONFIG:123 - [THYMELEAF] TEMPLATE ENGINE CONFIGURATION:
+[THYMELEAF] * Cache Factory implementation: org.thymeleaf.cache.StandardCacheManager
+[THYMELEAF] * Template modes:
+[THYMELEAF]     * XML
+[THYMELEAF]     * LEGACYHTML5
+[THYMELEAF]     * VALIDXHTML
+[THYMELEAF]     * XHTML
+[THYMELEAF]     * HTML5
+[THYMELEAF]     * VALIDXML
+[THYMELEAF] * Template resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.templateresolver.TemplateResolver
+[THYMELEAF] * Message resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+[THYMELEAF] * Dialect [1 of 2]: org.thymeleaf.spring4.dialect.SpringStandardDialect
+[THYMELEAF]     * Prefix: "th"
+[THYMELEAF] * Dialect [2 of 2]: nz.net.ultraq.thymeleaf.LayoutDialect
+[THYMELEAF]     * Prefix: "layout"
+[THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
+2018-04-27 11:00:58,990 INFO org.thymeleaf.TemplateEngine:838 - [THYMELEAF] TEMPLATE ENGINE INITIALIZED
+2018-04-27 11:01:02,969 INFO controller.LoginController:64 - admin	请求登录.
+2018-04-27 11:01:02,998 INFO controller.LoginController:42 - 请求登陆的首页.
+2018-04-27 11:01:03,213 INFO controller.LoginController:103 - 登陆的用户名:	admin
+2018-04-27 11:03:55,492 INFO controller.LoginController:64 - admin	请求登录.
+2018-04-27 11:03:55,505 INFO controller.LoginController:42 - 请求登陆的首页.
+2018-04-27 11:03:55,720 INFO controller.LoginController:103 - 登陆的用户名:	admin
+2018-04-27 11:05:12,243 INFO run.Application:33 - springboot	....................................................................................................................................
+2018-04-27 11:05:12,682 INFO run.Application:47 - Starting Application on LZGS with PID 164 (D:\web\project_learn\test\target\classes started by dfjk in D:\web\project_learn\test)
+2018-04-27 11:05:12,732 INFO org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext:510 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5e403b4a: startup date [Fri Apr 27 11:05:12 CST 2018]; root of context hierarchy
+2018-04-27 11:05:13,744 INFO org.springframework.beans.factory.support.DefaultListableBeanFactory:822 - Overriding bean definition for bean 'beanNameViewResolver': replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2018-04-27 11:05:14,115 INFO org.hibernate.validator.internal.util.Version:27 - HV000001: Hibernate Validator 5.1.3.Final
+2018-04-27 11:05:14,219 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [class org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$333eb6ea] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-27 11:05:14,325 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$29d7267c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-27 11:05:14,348 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'transactionAttributeSource' of type [class org.springframework.transaction.annotation.AnnotationTransactionAttributeSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-27 11:05:14,363 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'transactionInterceptor' of type [class org.springframework.transaction.interceptor.TransactionInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-27 11:05:14,374 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'org.springframework.transaction.config.internalTransactionAdvisor' of type [class org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-27 11:05:14,389 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'redisConfig' of type [class config.RedisConfig$$EnhancerBySpringCGLIB$$21298c12] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-27 11:05:14,398 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'org.springframework.cache.annotation.ProxyCachingConfiguration' of type [class org.springframework.cache.annotation.ProxyCachingConfiguration$$EnhancerBySpringCGLIB$$9134f0da] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-27 11:05:14,411 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'cacheOperationSource' of type [class org.springframework.cache.annotation.AnnotationCacheOperationSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-27 11:05:14,422 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'cacheInterceptor' of type [class org.springframework.cache.interceptor.CacheInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-27 11:05:14,426 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'org.springframework.cache.config.internalCacheAdvisor' of type [class org.springframework.cache.interceptor.BeanFactoryCacheOperationSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-27 11:05:14,431 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'shiroConfig' of type [class config.ShiroConfig$$EnhancerBySpringCGLIB$$ddd22608] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-27 11:05:14,435 WARN org.springframework.beans.factory.support.DefaultListableBeanFactory:1427 - Bean creation exception on FactoryBean type check: org.springframework.beans.factory.BeanCurrentlyInCreationException: Error creating bean with name 'shirFilter': Requested bean is currently in creation: Is there an unresolvable circular reference?
+2018-04-27 11:05:14,917 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'securityManager' of type [class org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-27 11:05:15,285 INFO org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:79 - Tomcat initialized with port(s): 8093 (http)
+2018-04-27 11:05:15,497 INFO org.apache.catalina.core.StandardService:180 - Starting service Tomcat
+2018-04-27 11:05:15,499 INFO org.apache.catalina.core.StandardEngine:180 - Starting Servlet Engine: Apache Tomcat/8.0.20
+2018-04-27 11:05:15,673 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:180 - Initializing Spring embedded WebApplicationContext
+2018-04-27 11:05:15,674 INFO org.springframework.web.context.ContextLoader:268 - Root WebApplicationContext: initialization completed in 2942 ms
+2018-04-27 11:05:16,484 INFO org.springframework.boot.context.embedded.ServletRegistrationBean:188 - Mapping servlet: 'dispatcherServlet' to [/]
+2018-04-27 11:05:16,490 INFO org.springframework.boot.context.embedded.FilterRegistrationBean:286 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-04-27 11:05:16,491 INFO org.springframework.boot.context.embedded.FilterRegistrationBean:286 - Mapping filter: 'shirFilter' to: [/*]
+2018-04-27 11:05:16,491 INFO org.springframework.boot.context.embedded.FilterRegistrationBean:286 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-04-27 11:05:16,771 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:339 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-04-27 11:05:16,783 INFO org.hibernate.jpa.internal.util.LogHelper:46 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-04-27 11:05:16,864 INFO org.hibernate.Version:54 - HHH000412: Hibernate Core {4.3.8.Final}
+2018-04-27 11:05:16,866 INFO org.hibernate.cfg.Environment:239 - HHH000206: hibernate.properties not found
+2018-04-27 11:05:16,867 INFO org.hibernate.cfg.Environment:346 - HHH000021: Bytecode provider name : javassist
+2018-04-27 11:05:17,078 INFO org.hibernate.annotations.common.Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2018-04-27 11:05:17,550 INFO org.hibernate.dialect.Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-04-27 11:05:17,667 INFO org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2018-04-27 11:05:17,903 INFO org.hibernate.tool.hbm2ddl.SchemaUpdate:207 - HHH000228: Running hbm2ddl schema update
+2018-04-27 11:05:17,903 INFO org.hibernate.tool.hbm2ddl.SchemaUpdate:218 - HHH000102: Fetching database metadata
+2018-04-27 11:05:17,905 INFO org.hibernate.tool.hbm2ddl.SchemaUpdate:230 - HHH000396: Updating schema
+2018-04-27 11:05:17,956 INFO org.hibernate.tool.hbm2ddl.TableMetadata:66 - HHH000261: Table found: springboot.s_user
+2018-04-27 11:05:17,956 INFO org.hibernate.tool.hbm2ddl.TableMetadata:67 - HHH000037: Columns: [name, id, age]
+2018-04-27 11:05:17,957 INFO org.hibernate.tool.hbm2ddl.TableMetadata:69 - HHH000108: Foreign keys: []
+2018-04-27 11:05:17,957 INFO org.hibernate.tool.hbm2ddl.TableMetadata:70 - HHH000126: Indexes: [primary]
+2018-04-27 11:05:17,958 INFO org.hibernate.tool.hbm2ddl.SchemaUpdate:267 - HHH000232: Schema update complete
+2018-04-27 11:05:18,831 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter:517 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5e403b4a: startup date [Fri Apr 27 11:05:12 CST 2018]; root of context hierarchy
+2018-04-27 11:05:18,904 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/findOneById],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public pojo.User controller.CacheController.findOne(pojo.User)
+2018-04-27 11:05:18,906 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/test],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public pojo.User controller.LoginController.test(pojo.User)
+2018-04-27 11:05:18,906 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto java.lang.String controller.LoginController.home(org.springframework.ui.ModelMap)
+2018-04-27 11:05:18,906 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/getDynamicColumns],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto java.util.Map<java.lang.String, java.lang.Object> controller.LoginController.getDynamicColumns()
+2018-04-27 11:05:18,907 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/addUser],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto java.lang.String controller.LoginController.addUser()
+2018-04-27 11:05:18,907 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/updateOne],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public pojo.User controller.LoginController.updateOne(pojo.User)
+2018-04-27 11:05:18,907 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/index],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String controller.LoginController.indexPage(org.springframework.ui.ModelMap)
+2018-04-27 11:05:18,907 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/ifLog],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String controller.LoginController.ifLog(javax.servlet.http.HttpSession)
+2018-04-27 11:05:18,907 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/deleteById],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public pojo.User controller.LoginController.DeleteById(pojo.User)
+2018-04-27 11:05:18,908 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/getUsers],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto java.util.Map<java.lang.String, java.lang.Object> controller.LoginController.getUsers(java.lang.Integer,java.lang.Integer)
+2018-04-27 11:05:18,908 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/getUserByAge],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.util.List<java.util.Map<java.lang.String, java.lang.Object>> controller.LoginController.getUserByAge(java.lang.Integer)
+2018-04-27 11:05:18,908 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/logout],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void controller.LoginController.logOut(javax.servlet.http.HttpSession)
+2018-04-27 11:05:18,908 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/cancel],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto java.lang.String controller.LoginController.cancel()
+2018-04-27 11:05:18,908 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/getDynamicData],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto java.util.Map<java.lang.String, java.lang.Object> controller.LoginController.getDynamicData(java.lang.Integer,java.lang.Integer)
+2018-04-27 11:05:18,909 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/findAge],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.Object controller.LoginController.findAge(java.lang.String)
+2018-04-27 11:05:18,909 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/findOne],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public pojo.User controller.LoginController.findOne(pojo.User)
+2018-04-27 11:05:18,909 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/doLogin],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String controller.LoginController.login(pojo.User,javax.servlet.http.HttpSession)
+2018-04-27 11:05:18,909 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/login],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto java.lang.String controller.LoginController.login()
+2018-04-27 11:05:18,910 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/manage],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String controller.ManageController.manage()
+2018-04-27 11:05:18,910 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/testForm],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public util.R controller.ManageController.manage(java.lang.String)
+2018-04-27 11:05:18,912 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/error],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-27 11:05:18,913 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/error],methods=[],params=[],headers=[],consumes=[],produces=[text/html],custom=[]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest)
+2018-04-27 11:05:18,951 INFO org.springframework.web.servlet.handler.SimpleUrlHandlerMapping:314 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-27 11:05:18,951 INFO org.springframework.web.servlet.handler.SimpleUrlHandlerMapping:314 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-27 11:05:18,974 INFO org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver:267 - Detected @ExceptionHandler methods in globalDefaultExceptionHandler
+2018-04-27 11:05:19,015 INFO org.springframework.web.servlet.handler.SimpleUrlHandlerMapping:314 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-27 11:05:19,469 INFO org.springframework.jmx.export.annotation.AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+2018-04-27 11:05:19,477 INFO org.springframework.context.support.DefaultLifecycleProcessor:341 - Starting beans in phase 2147483647
+2018-04-27 11:05:19,701 INFO org.apache.coyote.http11.Http11NioProtocol:180 - Initializing ProtocolHandler ["http-nio-8093"]
+2018-04-27 11:05:19,708 INFO org.apache.coyote.http11.Http11NioProtocol:180 - Starting ProtocolHandler ["http-nio-8093"]
+2018-04-27 11:05:19,722 INFO org.apache.tomcat.util.net.NioSelectorPool:180 - Using a shared selector for servlet write/read
+2018-04-27 11:05:19,741 INFO org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:159 - Tomcat started on port(s): 8093 (http)
+2018-04-27 11:05:19,743 INFO run.Application:56 - Started Application in 7.38 seconds (JVM running for 8.086)
+2018-04-27 11:05:22,135 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:180 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-04-27 11:05:22,136 INFO org.springframework.web.servlet.DispatcherServlet:484 - FrameworkServlet 'dispatcherServlet': initialization started
+2018-04-27 11:05:22,165 INFO org.springframework.web.servlet.DispatcherServlet:503 - FrameworkServlet 'dispatcherServlet': initialization completed in 29 ms
+2018-04-27 11:05:22,248 INFO org.thymeleaf.TemplateEngine:825 - [THYMELEAF] INITIALIZING TEMPLATE ENGINE
+2018-04-27 11:05:22,301 INFO org.thymeleaf.templateresolver.AbstractTemplateResolver:99 - [THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.templateresolver.TemplateResolver
+2018-04-27 11:05:22,301 INFO org.thymeleaf.templateresolver.AbstractTemplateResolver:110 - [THYMELEAF] TEMPLATE RESOLVER INITIALIZED OK
+2018-04-27 11:05:22,302 INFO org.thymeleaf.messageresolver.AbstractMessageResolver:72 - [THYMELEAF] INITIALIZING MESSAGE RESOLVER: org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+2018-04-27 11:05:22,302 INFO org.thymeleaf.messageresolver.AbstractMessageResolver:78 - [THYMELEAF] MESSAGE RESOLVER INITIALIZED OK
+2018-04-27 11:05:22,306 INFO org.thymeleaf.TemplateEngine.CONFIG:123 - [THYMELEAF] TEMPLATE ENGINE CONFIGURATION:
+[THYMELEAF] * Cache Factory implementation: org.thymeleaf.cache.StandardCacheManager
+[THYMELEAF] * Template modes:
+[THYMELEAF]     * XHTML
+[THYMELEAF]     * VALIDXML
+[THYMELEAF]     * XML
+[THYMELEAF]     * LEGACYHTML5
+[THYMELEAF]     * HTML5
+[THYMELEAF]     * VALIDXHTML
+[THYMELEAF] * Template resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.templateresolver.TemplateResolver
+[THYMELEAF] * Message resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+[THYMELEAF] * Dialect [1 of 2]: org.thymeleaf.spring4.dialect.SpringStandardDialect
+[THYMELEAF]     * Prefix: "th"
+[THYMELEAF] * Dialect [2 of 2]: nz.net.ultraq.thymeleaf.LayoutDialect
+[THYMELEAF]     * Prefix: "layout"
+[THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
+2018-04-27 11:05:22,307 INFO org.thymeleaf.TemplateEngine:838 - [THYMELEAF] TEMPLATE ENGINE INITIALIZED
+2018-04-27 11:05:27,827 INFO controller.LoginController:64 - admin	请求登录.
+2018-04-27 11:05:27,865 INFO controller.LoginController:42 - 请求登陆的首页.
+2018-04-27 11:05:28,083 INFO controller.LoginController:103 - 登陆的用户名:	admin
+2018-04-27 11:06:27,530 INFO run.Application:33 - springboot	....................................................................................................................................
+2018-04-27 11:06:27,990 INFO run.Application:47 - Starting Application on LZGS with PID 13832 (D:\web\project_learn\test\target\classes started by dfjk in D:\web\project_learn\test)
+2018-04-27 11:06:28,041 INFO org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext:510 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5e403b4a: startup date [Fri Apr 27 11:06:28 CST 2018]; root of context hierarchy
+2018-04-27 11:06:29,067 INFO org.springframework.beans.factory.support.DefaultListableBeanFactory:822 - Overriding bean definition for bean 'beanNameViewResolver': replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2018-04-27 11:06:29,439 INFO org.hibernate.validator.internal.util.Version:27 - HV000001: Hibernate Validator 5.1.3.Final
+2018-04-27 11:06:29,546 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [class org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$333eb6ea] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-27 11:06:29,638 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$29d7267c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-27 11:06:29,669 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'transactionAttributeSource' of type [class org.springframework.transaction.annotation.AnnotationTransactionAttributeSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-27 11:06:29,682 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'transactionInterceptor' of type [class org.springframework.transaction.interceptor.TransactionInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-27 11:06:29,689 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'org.springframework.transaction.config.internalTransactionAdvisor' of type [class org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-27 11:06:29,702 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'redisConfig' of type [class config.RedisConfig$$EnhancerBySpringCGLIB$$21298c12] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-27 11:06:29,708 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'org.springframework.cache.annotation.ProxyCachingConfiguration' of type [class org.springframework.cache.annotation.ProxyCachingConfiguration$$EnhancerBySpringCGLIB$$9134f0da] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-27 11:06:29,720 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'cacheOperationSource' of type [class org.springframework.cache.annotation.AnnotationCacheOperationSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-27 11:06:29,732 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'cacheInterceptor' of type [class org.springframework.cache.interceptor.CacheInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-27 11:06:29,735 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'org.springframework.cache.config.internalCacheAdvisor' of type [class org.springframework.cache.interceptor.BeanFactoryCacheOperationSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-27 11:06:29,740 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'shiroConfig' of type [class config.ShiroConfig$$EnhancerBySpringCGLIB$$ddd22608] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-27 11:06:29,744 WARN org.springframework.beans.factory.support.DefaultListableBeanFactory:1427 - Bean creation exception on FactoryBean type check: org.springframework.beans.factory.BeanCurrentlyInCreationException: Error creating bean with name 'shirFilter': Requested bean is currently in creation: Is there an unresolvable circular reference?
+2018-04-27 11:06:30,229 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'securityManager' of type [class org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-27 11:06:30,616 INFO org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:79 - Tomcat initialized with port(s): 8093 (http)
+2018-04-27 11:06:30,794 INFO org.apache.catalina.core.StandardService:180 - Starting service Tomcat
+2018-04-27 11:06:30,796 INFO org.apache.catalina.core.StandardEngine:180 - Starting Servlet Engine: Apache Tomcat/8.0.20
+2018-04-27 11:06:30,991 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:180 - Initializing Spring embedded WebApplicationContext
+2018-04-27 11:06:30,991 INFO org.springframework.web.context.ContextLoader:268 - Root WebApplicationContext: initialization completed in 2951 ms
+2018-04-27 11:06:31,670 INFO org.springframework.boot.context.embedded.ServletRegistrationBean:188 - Mapping servlet: 'dispatcherServlet' to [/]
+2018-04-27 11:06:31,675 INFO org.springframework.boot.context.embedded.FilterRegistrationBean:286 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-04-27 11:06:31,676 INFO org.springframework.boot.context.embedded.FilterRegistrationBean:286 - Mapping filter: 'shirFilter' to: [/*]
+2018-04-27 11:06:31,676 INFO org.springframework.boot.context.embedded.FilterRegistrationBean:286 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-04-27 11:06:31,937 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:339 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-04-27 11:06:31,947 INFO org.hibernate.jpa.internal.util.LogHelper:46 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-04-27 11:06:32,024 INFO org.hibernate.Version:54 - HHH000412: Hibernate Core {4.3.8.Final}
+2018-04-27 11:06:32,026 INFO org.hibernate.cfg.Environment:239 - HHH000206: hibernate.properties not found
+2018-04-27 11:06:32,028 INFO org.hibernate.cfg.Environment:346 - HHH000021: Bytecode provider name : javassist
+2018-04-27 11:06:32,242 INFO org.hibernate.annotations.common.Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2018-04-27 11:06:32,729 INFO org.hibernate.dialect.Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-04-27 11:06:32,834 INFO org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2018-04-27 11:06:33,071 INFO org.hibernate.tool.hbm2ddl.SchemaUpdate:207 - HHH000228: Running hbm2ddl schema update
+2018-04-27 11:06:33,071 INFO org.hibernate.tool.hbm2ddl.SchemaUpdate:218 - HHH000102: Fetching database metadata
+2018-04-27 11:06:33,073 INFO org.hibernate.tool.hbm2ddl.SchemaUpdate:230 - HHH000396: Updating schema
+2018-04-27 11:06:33,094 INFO org.hibernate.tool.hbm2ddl.TableMetadata:66 - HHH000261: Table found: springboot.s_user
+2018-04-27 11:06:33,094 INFO org.hibernate.tool.hbm2ddl.TableMetadata:67 - HHH000037: Columns: [name, id, age]
+2018-04-27 11:06:33,094 INFO org.hibernate.tool.hbm2ddl.TableMetadata:69 - HHH000108: Foreign keys: []
+2018-04-27 11:06:33,094 INFO org.hibernate.tool.hbm2ddl.TableMetadata:70 - HHH000126: Indexes: [primary]
+2018-04-27 11:06:33,096 INFO org.hibernate.tool.hbm2ddl.SchemaUpdate:267 - HHH000232: Schema update complete
+2018-04-27 11:06:33,945 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter:517 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5e403b4a: startup date [Fri Apr 27 11:06:28 CST 2018]; root of context hierarchy
+2018-04-27 11:06:34,014 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/findOneById],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public pojo.User controller.CacheController.findOne(pojo.User)
+2018-04-27 11:06:34,019 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/test],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public pojo.User controller.LoginController.test(pojo.User)
+2018-04-27 11:06:34,020 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto java.lang.String controller.LoginController.home(org.springframework.ui.ModelMap)
+2018-04-27 11:06:34,020 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/addUser],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto java.lang.String controller.LoginController.addUser()
+2018-04-27 11:06:34,021 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/getDynamicColumns],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto java.util.Map<java.lang.String, java.lang.Object> controller.LoginController.getDynamicColumns()
+2018-04-27 11:06:34,021 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/findOne],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public pojo.User controller.LoginController.findOne(pojo.User)
+2018-04-27 11:06:34,021 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/login],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto java.lang.String controller.LoginController.login()
+2018-04-27 11:06:34,021 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/doLogin],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String controller.LoginController.login(pojo.User,javax.servlet.http.HttpSession)
+2018-04-27 11:06:34,021 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/index],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String controller.LoginController.indexPage(org.springframework.ui.ModelMap)
+2018-04-27 11:06:34,022 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/getUserByAge],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.util.List<java.util.Map<java.lang.String, java.lang.Object>> controller.LoginController.getUserByAge(java.lang.Integer)
+2018-04-27 11:06:34,022 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/getDynamicData],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto java.util.Map<java.lang.String, java.lang.Object> controller.LoginController.getDynamicData(java.lang.Integer,java.lang.Integer)
+2018-04-27 11:06:34,022 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/getUsers],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto java.util.Map<java.lang.String, java.lang.Object> controller.LoginController.getUsers(java.lang.Integer,java.lang.Integer)
+2018-04-27 11:06:34,023 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/deleteById],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public pojo.User controller.LoginController.DeleteById(pojo.User)
+2018-04-27 11:06:34,023 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/cancel],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto java.lang.String controller.LoginController.cancel()
+2018-04-27 11:06:34,023 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/logout],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void controller.LoginController.logOut(javax.servlet.http.HttpSession)
+2018-04-27 11:06:34,023 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/updateOne],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public pojo.User controller.LoginController.updateOne(pojo.User)
+2018-04-27 11:06:34,023 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/findAge],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.Object controller.LoginController.findAge(java.lang.String)
+2018-04-27 11:06:34,024 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/ifLog],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String controller.LoginController.ifLog(javax.servlet.http.HttpSession)
+2018-04-27 11:06:34,024 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/manage],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String controller.ManageController.manage()
+2018-04-27 11:06:34,025 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/testForm],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public util.R controller.ManageController.testForm(java.lang.String)
+2018-04-27 11:06:34,028 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/error],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-27 11:06:34,029 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:217 - Mapped "{[/error],methods=[],params=[],headers=[],consumes=[],produces=[text/html],custom=[]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest)
+2018-04-27 11:06:34,069 INFO org.springframework.web.servlet.handler.SimpleUrlHandlerMapping:314 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-27 11:06:34,069 INFO org.springframework.web.servlet.handler.SimpleUrlHandlerMapping:314 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-27 11:06:34,097 INFO org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver:267 - Detected @ExceptionHandler methods in globalDefaultExceptionHandler
+2018-04-27 11:06:34,140 INFO org.springframework.web.servlet.handler.SimpleUrlHandlerMapping:314 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-27 11:06:34,529 INFO org.springframework.jmx.export.annotation.AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+2018-04-27 11:06:34,536 INFO org.springframework.context.support.DefaultLifecycleProcessor:341 - Starting beans in phase 2147483647
+2018-04-27 11:06:34,751 INFO org.apache.coyote.http11.Http11NioProtocol:180 - Initializing ProtocolHandler ["http-nio-8093"]
+2018-04-27 11:06:34,760 INFO org.apache.coyote.http11.Http11NioProtocol:180 - Starting ProtocolHandler ["http-nio-8093"]
+2018-04-27 11:06:34,774 INFO org.apache.tomcat.util.net.NioSelectorPool:180 - Using a shared selector for servlet write/read
+2018-04-27 11:06:34,796 INFO org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:159 - Tomcat started on port(s): 8093 (http)
+2018-04-27 11:06:34,797 INFO run.Application:56 - Started Application in 7.143 seconds (JVM running for 7.956)
+2018-04-27 11:06:38,531 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:180 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-04-27 11:06:38,531 INFO org.springframework.web.servlet.DispatcherServlet:484 - FrameworkServlet 'dispatcherServlet': initialization started
+2018-04-27 11:06:38,556 INFO org.springframework.web.servlet.DispatcherServlet:503 - FrameworkServlet 'dispatcherServlet': initialization completed in 25 ms
+2018-04-27 11:06:38,640 INFO org.thymeleaf.TemplateEngine:825 - [THYMELEAF] INITIALIZING TEMPLATE ENGINE
+2018-04-27 11:06:38,696 INFO org.thymeleaf.templateresolver.AbstractTemplateResolver:99 - [THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.templateresolver.TemplateResolver
+2018-04-27 11:06:38,697 INFO org.thymeleaf.templateresolver.AbstractTemplateResolver:110 - [THYMELEAF] TEMPLATE RESOLVER INITIALIZED OK
+2018-04-27 11:06:38,698 INFO org.thymeleaf.messageresolver.AbstractMessageResolver:72 - [THYMELEAF] INITIALIZING MESSAGE RESOLVER: org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+2018-04-27 11:06:38,698 INFO org.thymeleaf.messageresolver.AbstractMessageResolver:78 - [THYMELEAF] MESSAGE RESOLVER INITIALIZED OK
+2018-04-27 11:06:38,702 INFO org.thymeleaf.TemplateEngine.CONFIG:123 - [THYMELEAF] TEMPLATE ENGINE CONFIGURATION:
+[THYMELEAF] * Cache Factory implementation: org.thymeleaf.cache.StandardCacheManager
+[THYMELEAF] * Template modes:
+[THYMELEAF]     * LEGACYHTML5
+[THYMELEAF]     * VALIDXHTML
+[THYMELEAF]     * XHTML
+[THYMELEAF]     * HTML5
+[THYMELEAF]     * VALIDXML
+[THYMELEAF]     * XML
+[THYMELEAF] * Template resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.templateresolver.TemplateResolver
+[THYMELEAF] * Message resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+[THYMELEAF] * Dialect [1 of 2]: org.thymeleaf.spring4.dialect.SpringStandardDialect
+[THYMELEAF]     * Prefix: "th"
+[THYMELEAF] * Dialect [2 of 2]: nz.net.ultraq.thymeleaf.LayoutDialect
+[THYMELEAF]     * Prefix: "layout"
+[THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
+2018-04-27 11:06:38,704 INFO org.thymeleaf.TemplateEngine:838 - [THYMELEAF] TEMPLATE ENGINE INITIALIZED
+2018-04-27 11:06:44,921 INFO controller.LoginController:64 - admin	请求登录.
+2018-04-27 11:06:44,954 INFO controller.LoginController:42 - 请求登陆的首页.
+2018-04-27 11:06:45,178 INFO controller.LoginController:103 - 登陆的用户名:	admin
+2018-04-27 11:09:15,928 INFO controller.LoginController:64 - admin	请求登录.
+2018-04-27 11:09:15,940 INFO controller.LoginController:42 - 请求登陆的首页.
+2018-04-27 11:09:16,174 INFO controller.LoginController:103 - 登陆的用户名:	admin
+2018-04-27 11:11:01,808 INFO controller.LoginController:64 - admin	请求登录.
+2018-04-27 11:11:01,820 INFO controller.LoginController:42 - 请求登陆的首页.
+2018-04-27 11:11:02,034 INFO controller.LoginController:103 - 登陆的用户名:	admin
+2018-04-27 11:14:03,759 INFO controller.LoginController:64 - admin	请求登录.
+2018-04-27 11:14:03,770 INFO controller.LoginController:42 - 请求登陆的首页.
+2018-04-27 11:14:03,979 INFO controller.LoginController:103 - 登陆的用户名:	admin
+2018-04-27 11:15:45,253 INFO controller.LoginController:64 - admin	请求登录.
+2018-04-27 11:15:45,264 INFO controller.LoginController:42 - 请求登陆的首页.
+2018-04-27 11:15:45,473 INFO controller.LoginController:103 - 登陆的用户名:	admin
+2018-04-27 11:17:53,261 INFO controller.LoginController:64 - admin	请求登录.
+2018-04-27 11:17:53,272 INFO controller.LoginController:42 - 请求登陆的首页.
+2018-04-27 11:17:53,485 INFO controller.LoginController:103 - 登陆的用户名:	admin
+2018-04-27 11:24:19,936 INFO controller.LoginController:64 - admin	请求登录.
+2018-04-27 11:24:19,950 INFO controller.LoginController:42 - 请求登陆的首页.
+2018-04-27 11:24:20,154 INFO controller.LoginController:103 - 登陆的用户名:	admin
+2018-04-27 11:30:07,071 INFO controller.LoginController:64 - admin	请求登录.
+2018-04-27 11:30:07,071 INFO shiro.MyRealm:76 - 身份认证,密码错误!
+2018-04-27 11:30:07,072 INFO controller.LoginController:72 - 登陆失败: Realm [shiro.MyRealm@1f25a4bc] was unable to find account data for the submitted AuthenticationToken [org.apache.shiro.authc.UsernamePasswordToken - admin, rememberMe=false].
+2018-04-27 11:30:11,344 INFO controller.LoginController:64 - admin	请求登录.
+2018-04-27 11:30:11,353 INFO controller.LoginController:42 - 请求登陆的首页.
+2018-04-27 11:30:11,485 INFO controller.LoginController:103 - 登陆的用户名:	admin
+2018-04-27 11:31:24,835 INFO controller.LoginController:42 - 请求登陆的首页.
+2018-04-27 11:31:25,321 INFO controller.LoginController:103 - 登陆的用户名:	admin
+2018-04-27 12:30:34,345 INFO controller.LoginController:64 - 123	请求登录.
+2018-04-27 12:30:34,347 INFO shiro.MyRealm:66 - 身份认证,用户名错误!
+2018-04-27 12:30:34,348 INFO controller.LoginController:72 - 登陆失败: Realm [shiro.MyRealm@1f25a4bc] was unable to find account data for the submitted AuthenticationToken [org.apache.shiro.authc.UsernamePasswordToken - 123, rememberMe=false].
+2018-04-27 12:30:41,603 INFO controller.LoginController:64 - admin	请求登录.
+2018-04-27 12:30:41,604 INFO shiro.MyRealm:76 - 身份认证,密码错误!
+2018-04-27 12:30:41,604 INFO controller.LoginController:72 - 登陆失败: Realm [shiro.MyRealm@1f25a4bc] was unable to find account data for the submitted AuthenticationToken [org.apache.shiro.authc.UsernamePasswordToken - admin, rememberMe=false].
+2018-04-27 12:30:45,740 INFO controller.LoginController:64 - admin	请求登录.
+2018-04-27 12:30:45,752 INFO controller.LoginController:42 - 请求登陆的首页.
+2018-04-27 12:30:45,940 INFO controller.LoginController:103 - 登陆的用户名:	admin
+2018-04-27 12:30:47,619 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper:144 - SQL Error: 1364, SQLState: HY000
+2018-04-27 12:30:47,620 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper:146 - Field 'id' doesn't have a default value
+2018-04-27 12:30:47,629 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper:232 - SQL Warning Code: 1364, SQLState: HY000
+2018-04-27 12:30:47,631 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper:233 - Field 'id' doesn't have a default value
+2018-04-27 12:30:47,665 ERROR config.GlobalDefaultExceptionHandler:29 - 异常的类型:  org.springframework.orm.jpa.JpaSystemException: could not execute statement; nested exception is org.hibernate.exception.GenericJDBCException: could not execute statement.异常出现类的名字:  org.springframework.orm.jpa.vendor.HibernateJpaDialect.异常方法的名字:  convertHibernateAccessException.异常出现的行数:  310
+2018-04-27 12:30:47,725 INFO controller.LoginController:103 - 登陆的用户名:	admin
+2018-04-27 12:58:38,819 INFO controller.LoginController:64 - admin	请求登录.
+2018-04-27 12:58:38,831 INFO controller.LoginController:42 - 请求登陆的首页.
+2018-04-27 12:58:38,943 INFO controller.LoginController:103 - 登陆的用户名:	admin
+2018-04-27 12:58:42,871 INFO controller.LoginController:103 - 登陆的用户名:	admin
+2018-04-27 13:17:56,803 INFO controller.LoginController:64 - admin	请求登录.
+2018-04-27 13:17:56,816 INFO controller.LoginController:42 - 请求登陆的首页.
+2018-04-27 13:17:56,945 INFO controller.LoginController:103 - 登陆的用户名:	admin
+2018-04-27 13:17:59,902 INFO controller.LoginController:42 - 请求登陆的首页.
+2018-04-27 13:18:00,040 INFO controller.LoginController:103 - 登陆的用户名:	admin
+2018-04-27 13:18:09,114 INFO controller.LoginController:42 - 请求登陆的首页.
+2018-04-27 13:18:09,609 INFO controller.LoginController:103 - 登陆的用户名:	admin
