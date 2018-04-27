@@ -82,4 +82,5 @@ public class MyRealm extends AuthorizingRealm {
 		user.setName("admin");
 		return new SimpleAuthenticationInfo(user, "123", getName());
 	}
+	
 }

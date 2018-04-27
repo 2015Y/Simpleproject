@@ -3,8 +3,11 @@ package pojo;
 public class Columns {
 
 	private String field;
+	
 	private String title;
+	
 	private int width;
+	
 	private String align;
 
 	public String getField() {

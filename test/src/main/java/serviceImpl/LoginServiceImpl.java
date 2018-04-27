@@ -143,8 +143,8 @@ public class LoginServiceImpl implements LoginService {
 
 	@Override
 	public List<User> findAge(String age) {
-		
-//		List<User> collect = userList.stream().filter(u -> u.getName().equals("name1")).collect(Collectors.toList()) ;
+		// List<User> collect = userList.stream().filter(u ->
+		// u.getName().equals("name1")).collect(Collectors.toList()) ;
 		return userDao.findByAge(age);
 	};
 

@@ -32,4 +32,5 @@ public interface LoginService {
 	void test(User user);
 
 	List<User> findAge(String age);
+	
 }

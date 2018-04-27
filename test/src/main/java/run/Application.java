@@ -11,9 +11,6 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
-import lombok.extern.slf4j.Slf4j;
-
-@Slf4j
 @EnableCaching
 @SpringBootApplication
 @EnableAutoConfiguration
@@ -30,8 +27,6 @@ public class Application extends SpringBootServletInitializer {
 	}
 
 	public static void main(String[] args) throws Exception {
-		log.info(
-				"springboot	....................................................................................................................................");
 		SpringApplication.run(Application.class, args);
 	}
 
