@@ -1,0 +1,1 @@
+整合springboot+jpa+redis+RabbitMQ+shiro+easyUI datagrid +jquery
