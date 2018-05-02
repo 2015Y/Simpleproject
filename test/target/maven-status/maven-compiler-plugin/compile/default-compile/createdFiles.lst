@@ -18,6 +18,7 @@ run\Application.class
 service\CacheTestService.class
 rabbitMQ\HelloSender.class
 dao\UserDao.class
+util\R.class
 shiro\MyRealm.class
 controller\CacheController.class
 test\ThreadPoolTest.class

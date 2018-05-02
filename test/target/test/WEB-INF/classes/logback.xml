@@ -38,14 +38,16 @@
 	</appender>  
 
 	<logger name="test" level="trace" />
-	<logger name="jdbc.sqltiming" level="ON" />
-	<logger name="jdbc.sqlonly" level="ON" />
-	<logger name="jdbc.resultset" level="ON" />
-	<logger name="jdbc.audit" level="ON" />
-	<logger name="jdbc.resultsettable" level="ON" />
+	<logger name="jdbc.sqltiming" level="info" />
+	<logger name="jdbc.sqlonly" level="info" />
+	<logger name="jdbc.resultset" level="info" />
+	<logger name="jdbc.audit" level="info" />
+	<logger name="jdbc.resultsettable" level="info" />
+	
 	<root level="info">
 		<appender-ref ref="console" />
 		<appender-ref ref="rollingFile" />
 		<appender-ref ref="errorAppender" />  
 	</root>
+	
 </configuration>

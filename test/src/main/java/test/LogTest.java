@@ -49,7 +49,6 @@ public class LogTest {
 	@Test
 	public void redisTest() {
 		stringRedisTemplate.opsForValue().set("url", "www.lrshuai.top");
-		stringRedisTemplate.opsForValue().get("url");
 		stringRedisTemplate.expire("url", 30, TimeUnit.SECONDS);
 		stringRedisTemplate.opsForValue().set("test", "100",60*10,TimeUnit.SECONDS);//向redis里存入数据和设置缓存时间  
 		stringRedisTemplate.boundValueOps("test").increment(-1);//val做-1操作  

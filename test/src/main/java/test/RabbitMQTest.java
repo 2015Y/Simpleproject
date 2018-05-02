@@ -23,10 +23,11 @@ public class RabbitMQTest {
 	@Test
 	public void RabbitTest() {
 		log.info("测试消息发送.");
-		for (int i = 1; i < 10000; i++) {
-			helloSender.send("A:	" + new Date());
-			helloSender.sendTo("B:	" + new Date());
-			helloSender.testSend("C:	" + new Date());
+		Date d = new Date();
+		for (int i = 1; i < 2; i++) {
+			helloSender.send("A:	" + d.getTime());
+			helloSender.sendTo("B:	" + d.getTime());
+			helloSender.testSend("C:	" + d.getTime());
 		}
 	}
 
