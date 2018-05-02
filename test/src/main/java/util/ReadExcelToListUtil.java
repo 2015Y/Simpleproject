@@ -25,6 +25,9 @@ public class ReadExcelToListUtil {
 		List<Map<String, Object>> resultList = new ArrayList<>();
 		Workbook workbook = WorkbookFactory.create(input);
 		Sheet sheet = workbook.getSheetAt(0);
+		System.out.println(sheet.getSheetName());
+		int numberOfSheets = workbook.getNumberOfSheets();
+		System.out.println("sheet 的个数:"+numberOfSheets);
 		Map<String, Object> map = null;
 		for (int j = 0; j <= sheet.getLastRowNum(); j++) {
 			Row row = sheet.getRow(j);

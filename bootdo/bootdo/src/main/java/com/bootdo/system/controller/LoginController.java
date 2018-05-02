@@ -40,6 +40,7 @@ public class LoginController extends BaseController {
         model.addAttribute("name", getUser().getName());
         model.addAttribute("id", getUser().getUserId());
         logger.info(getUser().getName());
+        System.out.println("请求访问首页");
         return "index";
     }
 
