@@ -20,13 +20,15 @@ public class GlobalDefaultExceptionHandler {
 	@ResponseBody
 	public String defaultExceptionHandler(HttpServletRequest req, Exception e) {
 		// 是返回的String.
-
 		// 异常产生的位置 最底层
 		StackTraceElement stackTranceElement = e.getStackTrace()[0];
 		String className = stackTranceElement.getClassName();
 		int lineNumber = stackTranceElement.getLineNumber();
 		String methodName = stackTranceElement.getMethodName();
-		log.error("异常的类型:  {}.异常出现类的名字:  {}.异常方法的名字:  {}.异常出现的行数:  {}",e.toString(),className,methodName,lineNumber);
+		log.error("异常的类型:  {}.", e.toString());
+		log.error("异常出现类的名字:  {}.", className);
+		log.error("异常方法的名字:  {}.", methodName);
+		log.error("异常出现的行数:  {}", lineNumber);
 		return "程序出BUG了,杀个程序员祭天吧!";
 	}
 

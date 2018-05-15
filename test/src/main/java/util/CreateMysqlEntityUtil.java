@@ -12,12 +12,14 @@ import java.sql.ResultSet;
 import java.sql.ResultSetMetaData;
 import java.sql.SQLException;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.SpringApplicationConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
+
 import lombok.extern.slf4j.Slf4j;
 import run.Application;
 
@@ -28,11 +30,11 @@ public class CreateMysqlEntityUtil {
 
 	private final String driverName = "com.mysql.jdbc.Driver";
 
-	private final String user = "root";// 用户
+	private final String user = "coqamc_dev";// 用户
 
-	private final String password = "gsgogo123";// 密码
+	private final String password = "coqamc_dev";// 密码
 
-	private final String url = "jdbc:mysql://localhost:3306/springboot?characterEncoding=utf8";// 数据库地址
+	private final String url = "jdbc:mysql://172.16.49.37:5629/coqamc_dev?characterEncoding=utf8";// 数据库地址
 
 	// Mapper文件生成地址
 	private final String mapper_path = "d:/temp/mapper";
@@ -960,4 +962,48 @@ public class CreateMysqlEntityUtil {
 		}
 		log.info("生成成功!");
 	}
+	@Test
+	public void createDeleteTablesSql() throws Exception {
+		init();
+		// 根据数据表的名字生成删除表的sql
+		List<String> list = Arrays.asList("t_user_role", "t_user_account", "t_tab", "t_role_tab_relation",
+				"t_nation_area", "t_menu_source", "t_law_court", "t_dictionary_detail", "t_dictionary",
+				"t_department_role", "t_department_menu_relation", "t_department");
+		List<String> tables = getTables();
+		File folder = new File("d:/temp/sql");
+		if (!folder.exists()) {
+			folder.mkdirs();
+		}
+		File mapTxtFile = new File("d:/temp/sql", "delete.sql");
+		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(mapTxtFile)));
+		boolean flag = true;
+		bw.newLine();
+		bw.write("\t" + "SET FOREIGN_KEY_CHECKS=0; ;");
+		bw.newLine();
+		for (int j = 0; j < tables.size(); j++) {
+			bw.newLine();
+			for (int i = 0; i < list.size(); i++) {
+				if (tables.get(j).equals(list.get(i))) {
+					flag = false;
+				}
+			}
+			if (flag) {
+				bw.write("\t" + "Delete from " + tables.get(j) + " where 1=1 ;");
+			}
+			flag = true;
+		}
+		// t_creditor_investor
+		// t_limited_partner
+		bw.newLine();
+		bw.write("\t"
+				+ "INSERT INTO `t_creditor_investor` (`id`, `name`, `contact`, `address`, `property`, `location`, `wish_invest`, `guarantee_fav`, `law_location`, `pawn_location`, `pawn_type`, `pawn_purpose`, `invest_scale`, `borrower_type`, `property_scale`, `interest_people`, `preference_introduce`) VALUES ('123456789', '债权关联人', '13700001112', '北京', '3', '北京', '0.00', '0', '0', '0', '0', '0', '0', '0', '0', '0', '默认值请不要修改');\r\n" 
+				+ ";");
+		bw.newLine();
+		bw.write("\t"
+				+ "INSERT INTO `t_limited_partner` (`id`, `investor_no`, `investor_name`, `invest_orientation`, `country`, `location`, `property1`, `deadline_option`, `product_option`, `risk_option`, `property2`) VALUES ('eb75c856-fe35-4d88-99c1-12ba98ce58e9', '0', '东方', '1', '1', '北京', '1', '2', '1', '3', '1');\r\n" 
+				+ " ;");
+		bw.flush();
+		bw.close();
+	}	
+
 }

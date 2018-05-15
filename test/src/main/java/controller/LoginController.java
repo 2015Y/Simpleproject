@@ -3,12 +3,13 @@ package controller;
 import java.util.List;
 import java.util.Map;
 import java.util.regex.Pattern;
+
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
+
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.AuthenticationException;
 import org.apache.shiro.authc.UsernamePasswordToken;
-import org.apache.shiro.authz.annotation.RequiresPermissions;
 import org.apache.shiro.subject.Subject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -17,6 +18,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.context.request.RequestContextHolder;
 import org.springframework.web.context.request.ServletRequestAttributes;
+
 import base.BaseController;
 import lombok.extern.slf4j.Slf4j;
 import pojo.User;
@@ -27,7 +29,6 @@ import util.ShiroUtil;
 @Controller
 public class LoginController<ShiroToken> extends BaseController {
 
-	
 	@Autowired
 	LoginService loginService;
 
@@ -61,7 +62,7 @@ public class LoginController<ShiroToken> extends BaseController {
 	@ResponseBody
 	@RequestMapping(value = "/doLogin")
 	public String login(User user, HttpSession session) {
-		log.info("{}	请求登录.",user.getName());
+		log.info("{}	请求登录.", user.getName());
 		session.setAttribute("user", user);
 		// 获取主体
 		Subject subject = SecurityUtils.getSubject();
@@ -105,7 +106,6 @@ public class LoginController<ShiroToken> extends BaseController {
 	}
 
 	@ResponseBody
-	@RequiresPermissions("admin")
 	@RequestMapping("/addUser")
 	String addUser() {
 		int i = loginService.addUser();
@@ -161,11 +161,13 @@ public class LoginController<ShiroToken> extends BaseController {
 		loginService.deleteById(user);
 		return user;
 	}
+
 	@ResponseBody
 	@RequestMapping("/findAge")
 	public Object findAge(String age) {
-		return 	loginService.findAge(age);
+		return loginService.findAge(age);
 	}
+
 	@ResponseBody
 	@RequestMapping("/test")
 	public User test(User user) {

@@ -39,8 +39,7 @@ public class ManageController {
 		String filename = "test";
 		HSSFWorkbook wb = downloadExcelService.createWorkBook();
 		response.setContentType("application/vnd.ms-excel");
-		response.setHeader("Content-Disposition",
-				"attachment; filename=" + new String(filename.getBytes("gb2312"), "ISO-8859-1") + ".xls");
+		response.setHeader("Content-Disposition","attachment; filename=" + new String(filename.getBytes("gb2312"), "ISO-8859-1") + ".xls");
 		OutputStream ouputStream = response.getOutputStream();
 		wb.write(ouputStream);
 		ouputStream.flush();

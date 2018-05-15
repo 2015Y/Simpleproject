@@ -58,10 +58,11 @@ public class LoginServiceImpl implements LoginService {
 		User u = null;
 		long startTime = System.currentTimeMillis();
 		for (int i = 1; i < 11; i++) {
+			int x= count + i  ;
 			u = new User();
-			u.setId(count + i + "");
-			u.setName("name" + i);
-			u.setAge(i + "");
+			u.setId(String.valueOf(x));
+			u.setName(String.valueOf(x));
+			u.setAge(String.valueOf(x));
 			userList.add(u);
 		}
 		userDao.save(userList);

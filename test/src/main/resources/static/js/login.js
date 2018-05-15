@@ -8,6 +8,8 @@ document.onkeydown = function(event) {
 	}
 	if (e && e.keyCode == 13) { // enter 键
 		// 要做的事情
+		$("#logname").val("admin");
+		$("#logpass").val("123");
 		var name = $("#logname").val();
 		var id = $("#logpass").val();
 		if (name.trim().length == 0) {
