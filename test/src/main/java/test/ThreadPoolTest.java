@@ -1,6 +1,5 @@
 package test;
 
-import java.util.HashMap;
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
@@ -10,6 +9,7 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.SpringApplicationConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
+
 import lombok.extern.slf4j.Slf4j;
 import run.Application;
 
@@ -20,14 +20,18 @@ public class ThreadPoolTest {
 
 	@Test
 	public void ThreadTest() {
-		ThreadPoolExecutor executor = new ThreadPoolExecutor(4, 5, 2000, TimeUnit.MILLISECONDS,
+		ThreadPoolExecutor executor = new ThreadPoolExecutor(4, 10, 2000, TimeUnit.MILLISECONDS,
 				new ArrayBlockingQueue<Runnable>(12));
+		executor.setRejectedExecutionHandler(new ThreadPoolExecutor.DiscardPolicy());
 
 		for (int i = 0; i < 19; i++) {
 			MyTask myTask = new MyTask(i);
 			executor.execute(myTask);
-			log.info("线程池中线程数目：" + executor.getPoolSize() + "，队列中等待执行的任务数目：" + executor.getQueue().size() + "，已执行完任务数目："
-					+ executor.getCompletedTaskCount());
+			try {
+			} catch (Exception e) {
+				System.out.println(e.getMessage());
+			}
+			log.info("线程池中线程数目：" + executor.getPoolSize() + "，队列中等待执行的任务数目：" + executor.getQueue().size());
 		}
 		executor.shutdown();
 	}
@@ -39,7 +43,7 @@ public class ThreadPoolTest {
 			@Override
 			public void run() {
 				int i = 0;
-				while (i<10) {
+				while (i < 10) {
 					i++;
 					log.info("this is 线程" + i);
 				}
@@ -66,5 +70,5 @@ class MyTask implements Runnable {
 		}
 		log.info("task " + taskNum + "执行完毕");
 	}
-	
+
 }

@@ -1,0 +1,774 @@
+2018-05-21 09:24:34,754 INFO org.springframework.test.context.support.DefaultTestContextBootstrapper:256 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-05-21 09:24:34,783 INFO org.springframework.test.context.support.DefaultTestContextBootstrapper:182 - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@3c947bc5, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@609db43b, org.springframework.test.context.support.DirtiesContextTestExecutionListener@55f616cf, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1356d4d4, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@c03cf28]
+2018-05-21 09:24:35,300 INFO org.eclipse.jdt.internal.junit.runner.RemoteTestRunner:47 - Starting RemoteTestRunner on LZGS with PID 9484 (D:\web\sts-bundle\sts-3.9.1.RELEASE\configuration\org.eclipse.osgi\308\0\.cp started by dfjk in D:\learn\Git\Simpleproject\test)
+2018-05-21 09:24:35,347 INFO org.springframework.context.annotation.AnnotationConfigApplicationContext:510 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@2e2ff723: startup date [Mon May 21 09:24:35 CST 2018]; root of context hierarchy
+2018-05-21 09:24:36,691 INFO org.hibernate.validator.internal.util.Version:27 - HV000001: Hibernate Validator 5.1.3.Final
+2018-05-21 09:24:36,861 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [class org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$7d2580e1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 09:24:37,017 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$73bdf073] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 09:24:37,036 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'transactionAttributeSource' of type [class org.springframework.transaction.annotation.AnnotationTransactionAttributeSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 09:24:37,036 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'transactionInterceptor' of type [class org.springframework.transaction.interceptor.TransactionInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 09:24:37,051 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'org.springframework.transaction.config.internalTransactionAdvisor' of type [class org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 09:24:37,067 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'redisConfig' of type [class config.RedisConfig$$EnhancerBySpringCGLIB$$6b105609] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 09:24:37,082 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'org.springframework.cache.annotation.ProxyCachingConfiguration' of type [class org.springframework.cache.annotation.ProxyCachingConfiguration$$EnhancerBySpringCGLIB$$db1bbad1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 09:24:37,082 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'cacheOperationSource' of type [class org.springframework.cache.annotation.AnnotationCacheOperationSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 09:24:37,098 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'cacheInterceptor' of type [class org.springframework.cache.interceptor.CacheInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 09:24:37,098 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'org.springframework.cache.config.internalCacheAdvisor' of type [class org.springframework.cache.interceptor.BeanFactoryCacheOperationSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 09:24:37,114 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'shiroConfig' of type [class config.ShiroConfig$$EnhancerBySpringCGLIB$$27b8efff] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 09:24:37,114 WARN org.springframework.beans.factory.support.DefaultListableBeanFactory:1427 - Bean creation exception on FactoryBean type check: org.springframework.beans.factory.BeanCurrentlyInCreationException: Error creating bean with name 'shirFilter': Requested bean is currently in creation: Is there an unresolvable circular reference?
+2018-05-21 09:24:37,754 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'securityManager' of type [class org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 09:24:38,215 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:339 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-05-21 09:24:38,246 INFO org.hibernate.jpa.internal.util.LogHelper:46 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-05-21 09:24:38,387 INFO org.hibernate.Version:54 - HHH000412: Hibernate Core {4.3.8.Final}
+2018-05-21 09:24:38,387 INFO org.hibernate.cfg.Environment:239 - HHH000206: hibernate.properties not found
+2018-05-21 09:24:38,403 INFO org.hibernate.cfg.Environment:346 - HHH000021: Bytecode provider name : javassist
+2018-05-21 09:24:38,621 INFO org.hibernate.annotations.common.Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2018-05-21 09:24:39,215 INFO org.hibernate.dialect.Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-05-21 09:24:39,356 INFO org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2018-05-21 09:24:39,746 INFO org.hibernate.tool.hbm2ddl.SchemaUpdate:207 - HHH000228: Running hbm2ddl schema update
+2018-05-21 09:24:39,746 INFO org.hibernate.tool.hbm2ddl.SchemaUpdate:218 - HHH000102: Fetching database metadata
+2018-05-21 09:24:39,746 INFO org.hibernate.tool.hbm2ddl.SchemaUpdate:230 - HHH000396: Updating schema
+2018-05-21 09:24:39,809 INFO org.hibernate.tool.hbm2ddl.TableMetadata:66 - HHH000261: Table found: springboot.s_user
+2018-05-21 09:24:39,809 INFO org.hibernate.tool.hbm2ddl.TableMetadata:67 - HHH000037: Columns: [name, id, age]
+2018-05-21 09:24:39,809 INFO org.hibernate.tool.hbm2ddl.TableMetadata:69 - HHH000108: Foreign keys: []
+2018-05-21 09:24:39,809 INFO org.hibernate.tool.hbm2ddl.TableMetadata:70 - HHH000126: Indexes: [age_index, primary]
+2018-05-21 09:24:39,809 INFO org.hibernate.tool.hbm2ddl.SchemaUpdate:267 - HHH000232: Schema update complete
+2018-05-21 09:24:42,028 INFO org.springframework.context.support.DefaultLifecycleProcessor:341 - Starting beans in phase 2147483647
+2018-05-21 09:24:42,247 INFO org.eclipse.jdt.internal.junit.runner.RemoteTestRunner:56 - Started RemoteTestRunner in 7.29 seconds (JVM running for 8.509)
+2018-05-21 09:24:42,278 INFO test.ThreadPoolTest:37 - 测试线程.
+2018-05-21 09:24:42,278 INFO test.ThreadPoolTest:44 - this is 线程1
+2018-05-21 09:24:42,278 INFO test.ThreadPoolTest:44 - this is 线程2
+2018-05-21 09:24:42,278 INFO test.ThreadPoolTest:44 - this is 线程3
+2018-05-21 09:24:42,278 INFO test.ThreadPoolTest:44 - this is 线程4
+2018-05-21 09:24:42,278 INFO test.ThreadPoolTest:44 - this is 线程5
+2018-05-21 09:24:42,278 INFO test.ThreadPoolTest:44 - this is 线程6
+2018-05-21 09:24:42,278 INFO test.ThreadPoolTest:44 - this is 线程7
+2018-05-21 09:24:42,278 INFO test.ThreadPoolTest:44 - this is 线程8
+2018-05-21 09:24:42,278 INFO test.ThreadPoolTest:44 - this is 线程9
+2018-05-21 09:24:42,278 INFO test.ThreadPoolTest:44 - this is 线程10
+2018-05-21 09:24:42,278 INFO org.springframework.context.annotation.AnnotationConfigApplicationContext:862 - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@2e2ff723: startup date [Mon May 21 09:24:35 CST 2018]; root of context hierarchy
+2018-05-21 09:24:42,278 INFO org.springframework.context.support.DefaultLifecycleProcessor:356 - Stopping beans in phase 2147483647
+2018-05-21 09:24:42,294 INFO org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer:733 - Waiting for workers to finish.
+2018-05-21 09:24:43,231 INFO org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer:736 - Successfully waited for workers to finish.
+2018-05-21 09:24:43,239 INFO org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer:733 - Waiting for workers to finish.
+2018-05-21 09:24:44,242 INFO org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer:736 - Successfully waited for workers to finish.
+2018-05-21 09:24:44,245 INFO org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer:733 - Waiting for workers to finish.
+2018-05-21 09:24:44,246 INFO org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer:736 - Successfully waited for workers to finish.
+2018-05-21 09:24:44,246 INFO org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer:733 - Waiting for workers to finish.
+2018-05-21 09:24:44,262 INFO org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer:736 - Successfully waited for workers to finish.
+2018-05-21 09:24:44,278 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:462 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-05-21 10:01:55,881 INFO org.springframework.test.context.support.DefaultTestContextBootstrapper:256 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-05-21 10:01:55,925 INFO org.springframework.test.context.support.DefaultTestContextBootstrapper:182 - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@3c947bc5, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@609db43b, org.springframework.test.context.support.DirtiesContextTestExecutionListener@55f616cf, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1356d4d4, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@c03cf28]
+2018-05-21 10:01:56,341 INFO org.eclipse.jdt.internal.junit.runner.RemoteTestRunner:47 - Starting RemoteTestRunner on LZGS with PID 7580 (D:\web\sts-bundle\sts-3.9.1.RELEASE\configuration\org.eclipse.osgi\308\0\.cp started by dfjk in D:\learn\Git\Simpleproject\test)
+2018-05-21 10:01:56,404 INFO org.springframework.context.annotation.AnnotationConfigApplicationContext:510 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@324a0017: startup date [Mon May 21 10:01:56 CST 2018]; root of context hierarchy
+2018-05-21 10:01:58,086 INFO org.hibernate.validator.internal.util.Version:27 - HV000001: Hibernate Validator 5.1.3.Final
+2018-05-21 10:01:58,235 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [class org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$adb8e5b1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:01:58,345 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a4515543] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:01:58,361 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'transactionAttributeSource' of type [class org.springframework.transaction.annotation.AnnotationTransactionAttributeSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:01:58,376 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'transactionInterceptor' of type [class org.springframework.transaction.interceptor.TransactionInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:01:58,376 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'org.springframework.transaction.config.internalTransactionAdvisor' of type [class org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:01:58,407 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'redisConfig' of type [class config.RedisConfig$$EnhancerBySpringCGLIB$$9ba3bad9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:01:58,423 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'org.springframework.cache.annotation.ProxyCachingConfiguration' of type [class org.springframework.cache.annotation.ProxyCachingConfiguration$$EnhancerBySpringCGLIB$$baf1fa1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:01:58,439 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'cacheOperationSource' of type [class org.springframework.cache.annotation.AnnotationCacheOperationSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:01:58,454 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'cacheInterceptor' of type [class org.springframework.cache.interceptor.CacheInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:01:58,454 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'org.springframework.cache.config.internalCacheAdvisor' of type [class org.springframework.cache.interceptor.BeanFactoryCacheOperationSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:01:58,476 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'shiroConfig' of type [class config.ShiroConfig$$EnhancerBySpringCGLIB$$584c54cf] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:01:58,500 WARN org.springframework.beans.factory.support.DefaultListableBeanFactory:1427 - Bean creation exception on FactoryBean type check: org.springframework.beans.factory.BeanCurrentlyInCreationException: Error creating bean with name 'shirFilter': Requested bean is currently in creation: Is there an unresolvable circular reference?
+2018-05-21 10:01:58,966 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'securityManager' of type [class org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:01:59,386 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:339 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-05-21 10:01:59,415 INFO org.hibernate.jpa.internal.util.LogHelper:46 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-05-21 10:01:59,526 INFO org.hibernate.Version:54 - HHH000412: Hibernate Core {4.3.8.Final}
+2018-05-21 10:01:59,530 INFO org.hibernate.cfg.Environment:239 - HHH000206: hibernate.properties not found
+2018-05-21 10:01:59,530 INFO org.hibernate.cfg.Environment:346 - HHH000021: Bytecode provider name : javassist
+2018-05-21 10:01:59,733 INFO org.hibernate.annotations.common.Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2018-05-21 10:02:00,271 INFO org.hibernate.dialect.Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-05-21 10:02:00,394 INFO org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2018-05-21 10:02:00,673 INFO org.hibernate.tool.hbm2ddl.SchemaUpdate:207 - HHH000228: Running hbm2ddl schema update
+2018-05-21 10:02:00,673 INFO org.hibernate.tool.hbm2ddl.SchemaUpdate:218 - HHH000102: Fetching database metadata
+2018-05-21 10:02:00,673 INFO org.hibernate.tool.hbm2ddl.SchemaUpdate:230 - HHH000396: Updating schema
+2018-05-21 10:02:00,704 INFO org.hibernate.tool.hbm2ddl.TableMetadata:66 - HHH000261: Table found: springboot.s_user
+2018-05-21 10:02:00,704 INFO org.hibernate.tool.hbm2ddl.TableMetadata:67 - HHH000037: Columns: [name, id, age]
+2018-05-21 10:02:00,704 INFO org.hibernate.tool.hbm2ddl.TableMetadata:69 - HHH000108: Foreign keys: []
+2018-05-21 10:02:00,704 INFO org.hibernate.tool.hbm2ddl.TableMetadata:70 - HHH000126: Indexes: [age_index, primary]
+2018-05-21 10:02:00,704 INFO org.hibernate.tool.hbm2ddl.SchemaUpdate:267 - HHH000232: Schema update complete
+2018-05-21 10:02:02,505 INFO org.springframework.context.support.DefaultLifecycleProcessor:341 - Starting beans in phase 2147483647
+2018-05-21 10:02:02,858 INFO org.eclipse.jdt.internal.junit.runner.RemoteTestRunner:56 - Started RemoteTestRunner in 6.824 seconds (JVM running for 7.921)
+2018-05-21 10:02:02,858 INFO test.ThreadPoolTest:30 - 线程池中线程数目：1，队列中等待执行的任务数目：0，已执行完任务数目：0
+2018-05-21 10:02:02,869 INFO test.ThreadPoolTest:30 - 线程池中线程数目：2，队列中等待执行的任务数目：0，已执行完任务数目：0
+2018-05-21 10:02:02,869 INFO test.ThreadPoolTest:30 - 线程池中线程数目：3，队列中等待执行的任务数目：0，已执行完任务数目：0
+2018-05-21 10:02:02,870 INFO test.ThreadPoolTest:30 - 线程池中线程数目：4，队列中等待执行的任务数目：0，已执行完任务数目：0
+2018-05-21 10:02:02,870 INFO test.ThreadPoolTest:30 - 线程池中线程数目：4，队列中等待执行的任务数目：1，已执行完任务数目：0
+2018-05-21 10:02:02,873 INFO test.ThreadPoolTest:30 - 线程池中线程数目：4，队列中等待执行的任务数目：2，已执行完任务数目：0
+2018-05-21 10:02:02,873 INFO test.ThreadPoolTest:30 - 线程池中线程数目：4，队列中等待执行的任务数目：3，已执行完任务数目：0
+2018-05-21 10:02:02,873 INFO test.ThreadPoolTest:30 - 线程池中线程数目：4，队列中等待执行的任务数目：4，已执行完任务数目：0
+2018-05-21 10:02:02,874 INFO test.ThreadPoolTest:30 - 线程池中线程数目：4，队列中等待执行的任务数目：5，已执行完任务数目：0
+2018-05-21 10:02:02,874 INFO test.ThreadPoolTest:30 - 线程池中线程数目：4，队列中等待执行的任务数目：6，已执行完任务数目：0
+2018-05-21 10:02:02,874 INFO ThreadTest:68 - task 0执行完毕
+2018-05-21 10:02:02,875 INFO test.ThreadPoolTest:30 - 线程池中线程数目：4，队列中等待执行的任务数目：7，已执行完任务数目：0
+2018-05-21 10:02:02,875 INFO test.ThreadPoolTest:30 - 线程池中线程数目：4，队列中等待执行的任务数目：7，已执行完任务数目：1
+2018-05-21 10:02:02,876 INFO test.ThreadPoolTest:30 - 线程池中线程数目：4，队列中等待执行的任务数目：8，已执行完任务数目：1
+2018-05-21 10:02:02,876 INFO test.ThreadPoolTest:30 - 线程池中线程数目：4，队列中等待执行的任务数目：9，已执行完任务数目：1
+2018-05-21 10:02:02,876 INFO test.ThreadPoolTest:30 - 线程池中线程数目：4，队列中等待执行的任务数目：10，已执行完任务数目：1
+2018-05-21 10:02:02,876 INFO test.ThreadPoolTest:30 - 线程池中线程数目：4，队列中等待执行的任务数目：11，已执行完任务数目：1
+2018-05-21 10:02:02,877 INFO test.ThreadPoolTest:30 - 线程池中线程数目：4，队列中等待执行的任务数目：12，已执行完任务数目：1
+2018-05-21 10:02:02,877 INFO test.ThreadPoolTest:30 - 线程池中线程数目：5，队列中等待执行的任务数目：12，已执行完任务数目：1
+2018-05-21 10:02:02,877 INFO test.ThreadPoolTest:30 - 线程池中线程数目：6，队列中等待执行的任务数目：12，已执行完任务数目：1
+2018-05-21 10:02:02,879 INFO ThreadTest:68 - task 4执行完毕
+2018-05-21 10:02:02,879 INFO ThreadTest:68 - task 1执行完毕
+2018-05-21 10:02:02,879 INFO ThreadTest:68 - task 2执行完毕
+2018-05-21 10:02:02,880 INFO ThreadTest:68 - task 5执行完毕
+2018-05-21 10:02:02,880 INFO ThreadTest:68 - task 3执行完毕
+2018-05-21 10:02:02,881 INFO ThreadTest:68 - task 8执行完毕
+2018-05-21 10:02:02,881 INFO ThreadTest:68 - task 6执行完毕
+2018-05-21 10:02:02,884 INFO ThreadTest:68 - task 10执行完毕
+2018-05-21 10:02:02,884 INFO ThreadTest:68 - task 7执行完毕
+2018-05-21 10:02:02,884 INFO ThreadTest:68 - task 9执行完毕
+2018-05-21 10:02:02,885 INFO ThreadTest:68 - task 12执行完毕
+2018-05-21 10:02:02,885 INFO ThreadTest:68 - task 17执行完毕
+2018-05-21 10:02:02,885 INFO ThreadTest:68 - task 18执行完毕
+2018-05-21 10:02:02,886 INFO ThreadTest:68 - task 16执行完毕
+2018-05-21 10:02:02,886 INFO ThreadTest:68 - task 15执行完毕
+2018-05-21 10:02:02,886 INFO ThreadTest:68 - task 13执行完毕
+2018-05-21 10:02:02,886 INFO org.springframework.context.annotation.AnnotationConfigApplicationContext:862 - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@324a0017: startup date [Mon May 21 10:01:56 CST 2018]; root of context hierarchy
+2018-05-21 10:02:02,886 INFO ThreadTest:68 - task 11执行完毕
+2018-05-21 10:02:02,889 INFO org.springframework.context.support.DefaultLifecycleProcessor:356 - Stopping beans in phase 2147483647
+2018-05-21 10:02:02,893 INFO ThreadTest:68 - task 14执行完毕
+2018-05-21 10:02:02,893 INFO org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer:733 - Waiting for workers to finish.
+2018-05-21 10:02:03,726 INFO org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer:736 - Successfully waited for workers to finish.
+2018-05-21 10:02:03,743 INFO org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer:733 - Waiting for workers to finish.
+2018-05-21 10:02:03,743 INFO org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer:736 - Successfully waited for workers to finish.
+2018-05-21 10:02:03,743 INFO org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer:733 - Waiting for workers to finish.
+2018-05-21 10:02:03,774 INFO org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer:736 - Successfully waited for workers to finish.
+2018-05-21 10:02:03,774 INFO org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer:733 - Waiting for workers to finish.
+2018-05-21 10:02:03,868 INFO org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer:736 - Successfully waited for workers to finish.
+2018-05-21 10:02:03,905 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:462 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-05-21 10:03:17,509 INFO org.springframework.test.context.support.DefaultTestContextBootstrapper:256 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-05-21 10:03:17,541 INFO org.springframework.test.context.support.DefaultTestContextBootstrapper:182 - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@3c947bc5, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@609db43b, org.springframework.test.context.support.DirtiesContextTestExecutionListener@55f616cf, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1356d4d4, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@c03cf28]
+2018-05-21 10:03:17,973 INFO org.eclipse.jdt.internal.junit.runner.RemoteTestRunner:47 - Starting RemoteTestRunner on LZGS with PID 16876 (D:\web\sts-bundle\sts-3.9.1.RELEASE\configuration\org.eclipse.osgi\308\0\.cp started by dfjk in D:\learn\Git\Simpleproject\test)
+2018-05-21 10:03:18,030 INFO org.springframework.context.annotation.AnnotationConfigApplicationContext:510 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@324a0017: startup date [Mon May 21 10:03:18 CST 2018]; root of context hierarchy
+2018-05-21 10:03:19,375 INFO org.hibernate.validator.internal.util.Version:27 - HV000001: Hibernate Validator 5.1.3.Final
+2018-05-21 10:03:19,509 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [class org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$adb8e5b1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:03:19,587 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a4515543] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:03:19,603 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'transactionAttributeSource' of type [class org.springframework.transaction.annotation.AnnotationTransactionAttributeSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:03:19,618 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'transactionInterceptor' of type [class org.springframework.transaction.interceptor.TransactionInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:03:19,634 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'org.springframework.transaction.config.internalTransactionAdvisor' of type [class org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:03:19,665 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'redisConfig' of type [class config.RedisConfig$$EnhancerBySpringCGLIB$$9ba3bad9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:03:19,665 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'org.springframework.cache.annotation.ProxyCachingConfiguration' of type [class org.springframework.cache.annotation.ProxyCachingConfiguration$$EnhancerBySpringCGLIB$$baf1fa1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:03:19,697 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'cacheOperationSource' of type [class org.springframework.cache.annotation.AnnotationCacheOperationSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:03:19,697 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'cacheInterceptor' of type [class org.springframework.cache.interceptor.CacheInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:03:19,712 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'org.springframework.cache.config.internalCacheAdvisor' of type [class org.springframework.cache.interceptor.BeanFactoryCacheOperationSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:03:19,712 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'shiroConfig' of type [class config.ShiroConfig$$EnhancerBySpringCGLIB$$584c54cf] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:03:19,712 WARN org.springframework.beans.factory.support.DefaultListableBeanFactory:1427 - Bean creation exception on FactoryBean type check: org.springframework.beans.factory.BeanCurrentlyInCreationException: Error creating bean with name 'shirFilter': Requested bean is currently in creation: Is there an unresolvable circular reference?
+2018-05-21 10:03:20,272 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'securityManager' of type [class org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:03:20,694 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:339 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-05-21 10:03:20,728 INFO org.hibernate.jpa.internal.util.LogHelper:46 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-05-21 10:03:20,885 INFO org.hibernate.Version:54 - HHH000412: Hibernate Core {4.3.8.Final}
+2018-05-21 10:03:20,885 INFO org.hibernate.cfg.Environment:239 - HHH000206: hibernate.properties not found
+2018-05-21 10:03:20,885 INFO org.hibernate.cfg.Environment:346 - HHH000021: Bytecode provider name : javassist
+2018-05-21 10:03:21,117 INFO org.hibernate.annotations.common.Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2018-05-21 10:03:21,659 INFO org.hibernate.dialect.Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-05-21 10:03:21,769 INFO org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2018-05-21 10:03:22,078 INFO org.hibernate.tool.hbm2ddl.SchemaUpdate:207 - HHH000228: Running hbm2ddl schema update
+2018-05-21 10:03:22,078 INFO org.hibernate.tool.hbm2ddl.SchemaUpdate:218 - HHH000102: Fetching database metadata
+2018-05-21 10:03:22,080 INFO org.hibernate.tool.hbm2ddl.SchemaUpdate:230 - HHH000396: Updating schema
+2018-05-21 10:03:22,103 INFO org.hibernate.tool.hbm2ddl.TableMetadata:66 - HHH000261: Table found: springboot.s_user
+2018-05-21 10:03:22,103 INFO org.hibernate.tool.hbm2ddl.TableMetadata:67 - HHH000037: Columns: [name, id, age]
+2018-05-21 10:03:22,103 INFO org.hibernate.tool.hbm2ddl.TableMetadata:69 - HHH000108: Foreign keys: []
+2018-05-21 10:03:22,103 INFO org.hibernate.tool.hbm2ddl.TableMetadata:70 - HHH000126: Indexes: [age_index, primary]
+2018-05-21 10:03:22,105 INFO org.hibernate.tool.hbm2ddl.SchemaUpdate:267 - HHH000232: Schema update complete
+2018-05-21 10:03:23,843 INFO org.springframework.context.support.DefaultLifecycleProcessor:341 - Starting beans in phase 2147483647
+2018-05-21 10:03:24,053 INFO org.eclipse.jdt.internal.junit.runner.RemoteTestRunner:56 - Started RemoteTestRunner in 6.392 seconds (JVM running for 7.474)
+2018-05-21 10:03:24,053 INFO test.ThreadPoolTest:30 - 线程池中线程数目：1，队列中等待执行的任务数目：0，已执行完任务数目：0
+2018-05-21 10:03:24,053 INFO test.ThreadPoolTest:30 - 线程池中线程数目：2，队列中等待执行的任务数目：0，已执行完任务数目：0
+2018-05-21 10:03:24,053 INFO test.ThreadPoolTest:30 - 线程池中线程数目：3，队列中等待执行的任务数目：0，已执行完任务数目：0
+2018-05-21 10:03:24,053 INFO test.ThreadPoolTest:30 - 线程池中线程数目：4，队列中等待执行的任务数目：0，已执行完任务数目：0
+2018-05-21 10:03:24,053 INFO test.ThreadPoolTest:30 - 线程池中线程数目：4，队列中等待执行的任务数目：1，已执行完任务数目：0
+2018-05-21 10:03:24,053 INFO test.ThreadPoolTest:30 - 线程池中线程数目：4，队列中等待执行的任务数目：2，已执行完任务数目：0
+2018-05-21 10:03:24,053 INFO test.ThreadPoolTest:30 - 线程池中线程数目：4，队列中等待执行的任务数目：3，已执行完任务数目：0
+2018-05-21 10:03:24,053 INFO test.ThreadPoolTest:30 - 线程池中线程数目：4，队列中等待执行的任务数目：4，已执行完任务数目：0
+2018-05-21 10:03:24,069 INFO test.ThreadPoolTest:30 - 线程池中线程数目：4，队列中等待执行的任务数目：5，已执行完任务数目：0
+2018-05-21 10:03:24,069 INFO test.ThreadPoolTest:30 - 线程池中线程数目：4，队列中等待执行的任务数目：6，已执行完任务数目：0
+2018-05-21 10:03:24,069 INFO test.ThreadPoolTest:30 - 线程池中线程数目：4，队列中等待执行的任务数目：7，已执行完任务数目：0
+2018-05-21 10:03:24,069 INFO test.ThreadPoolTest:30 - 线程池中线程数目：4，队列中等待执行的任务数目：8，已执行完任务数目：0
+2018-05-21 10:03:24,069 INFO test.ThreadPoolTest:30 - 线程池中线程数目：4，队列中等待执行的任务数目：9，已执行完任务数目：0
+2018-05-21 10:03:24,069 INFO test.ThreadPoolTest:30 - 线程池中线程数目：4，队列中等待执行的任务数目：10，已执行完任务数目：0
+2018-05-21 10:03:24,069 INFO test.ThreadPoolTest:30 - 线程池中线程数目：4，队列中等待执行的任务数目：11，已执行完任务数目：0
+2018-05-21 10:03:24,069 INFO test.ThreadPoolTest:30 - 线程池中线程数目：4，队列中等待执行的任务数目：12，已执行完任务数目：0
+2018-05-21 10:03:24,069 INFO test.ThreadPoolTest:30 - 线程池中线程数目：5，队列中等待执行的任务数目：12，已执行完任务数目：0
+2018-05-21 10:03:24,069 INFO test.ThreadPoolTest:30 - 线程池中线程数目：6，队列中等待执行的任务数目：12，已执行完任务数目：0
+2018-05-21 10:03:24,069 INFO test.ThreadPoolTest:30 - 线程池中线程数目：7，队列中等待执行的任务数目：12，已执行完任务数目：0
+2018-05-21 10:03:24,092 INFO ThreadTest:68 - task 2执行完毕
+2018-05-21 10:03:24,092 INFO ThreadTest:68 - task 0执行完毕
+2018-05-21 10:03:24,094 INFO org.springframework.context.annotation.AnnotationConfigApplicationContext:862 - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@324a0017: startup date [Mon May 21 10:03:18 CST 2018]; root of context hierarchy
+2018-05-21 10:03:24,096 INFO org.springframework.context.support.DefaultLifecycleProcessor:356 - Stopping beans in phase 2147483647
+2018-05-21 10:03:24,101 INFO ThreadTest:68 - task 5执行完毕
+2018-05-21 10:03:24,101 INFO ThreadTest:68 - task 4执行完毕
+2018-05-21 10:03:24,101 INFO ThreadTest:68 - task 18执行完毕
+2018-05-21 10:03:24,101 INFO ThreadTest:68 - task 17执行完毕
+2018-05-21 10:03:24,101 INFO ThreadTest:68 - task 16执行完毕
+2018-05-21 10:03:24,101 INFO ThreadTest:68 - task 1执行完毕
+2018-05-21 10:03:24,117 INFO ThreadTest:68 - task 3执行完毕
+2018-05-21 10:03:24,117 INFO ThreadTest:68 - task 6执行完毕
+2018-05-21 10:03:24,119 INFO org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer:733 - Waiting for workers to finish.
+2018-05-21 10:03:24,120 INFO ThreadTest:68 - task 7执行完毕
+2018-05-21 10:03:24,121 INFO ThreadTest:68 - task 8执行完毕
+2018-05-21 10:03:24,121 INFO ThreadTest:68 - task 9执行完毕
+2018-05-21 10:03:24,122 INFO ThreadTest:68 - task 10执行完毕
+2018-05-21 10:03:24,122 INFO ThreadTest:68 - task 11执行完毕
+2018-05-21 10:03:24,123 INFO ThreadTest:68 - task 12执行完毕
+2018-05-21 10:03:24,123 INFO ThreadTest:68 - task 13执行完毕
+2018-05-21 10:03:24,124 INFO ThreadTest:68 - task 15执行完毕
+2018-05-21 10:03:24,125 INFO ThreadTest:68 - task 14执行完毕
+2018-05-21 10:03:25,021 INFO org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer:736 - Successfully waited for workers to finish.
+2018-05-21 10:03:25,023 INFO org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer:733 - Waiting for workers to finish.
+2018-05-21 10:03:25,034 INFO org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer:736 - Successfully waited for workers to finish.
+2018-05-21 10:03:25,036 INFO org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer:733 - Waiting for workers to finish.
+2018-05-21 10:03:25,045 INFO org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer:736 - Successfully waited for workers to finish.
+2018-05-21 10:03:25,046 INFO org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer:733 - Waiting for workers to finish.
+2018-05-21 10:03:25,059 INFO org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer:736 - Successfully waited for workers to finish.
+2018-05-21 10:03:25,071 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:462 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-05-21 10:06:14,908 INFO org.springframework.test.context.support.DefaultTestContextBootstrapper:256 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-05-21 10:06:14,924 INFO org.springframework.test.context.support.DefaultTestContextBootstrapper:182 - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@3c947bc5, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@609db43b, org.springframework.test.context.support.DirtiesContextTestExecutionListener@55f616cf, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1356d4d4, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@c03cf28]
+2018-05-21 10:06:15,383 INFO org.eclipse.jdt.internal.junit.runner.RemoteTestRunner:47 - Starting RemoteTestRunner on LZGS with PID 3948 (D:\web\sts-bundle\sts-3.9.1.RELEASE\configuration\org.eclipse.osgi\308\0\.cp started by dfjk in D:\learn\Git\Simpleproject\test)
+2018-05-21 10:06:15,442 INFO org.springframework.context.annotation.AnnotationConfigApplicationContext:510 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@2445445a: startup date [Mon May 21 10:06:15 CST 2018]; root of context hierarchy
+2018-05-21 10:06:16,900 INFO org.hibernate.validator.internal.util.Version:27 - HV000001: Hibernate Validator 5.1.3.Final
+2018-05-21 10:06:17,060 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [class org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$7d2580e1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:06:17,165 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$73bdf073] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:06:17,178 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'transactionAttributeSource' of type [class org.springframework.transaction.annotation.AnnotationTransactionAttributeSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:06:17,178 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'transactionInterceptor' of type [class org.springframework.transaction.interceptor.TransactionInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:06:17,194 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'org.springframework.transaction.config.internalTransactionAdvisor' of type [class org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:06:17,209 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'redisConfig' of type [class config.RedisConfig$$EnhancerBySpringCGLIB$$6b105609] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:06:17,209 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'org.springframework.cache.annotation.ProxyCachingConfiguration' of type [class org.springframework.cache.annotation.ProxyCachingConfiguration$$EnhancerBySpringCGLIB$$db1bbad1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:06:17,246 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'cacheOperationSource' of type [class org.springframework.cache.annotation.AnnotationCacheOperationSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:06:17,257 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'cacheInterceptor' of type [class org.springframework.cache.interceptor.CacheInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:06:17,257 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'org.springframework.cache.config.internalCacheAdvisor' of type [class org.springframework.cache.interceptor.BeanFactoryCacheOperationSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:06:17,273 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'shiroConfig' of type [class config.ShiroConfig$$EnhancerBySpringCGLIB$$27b8efff] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:06:17,273 WARN org.springframework.beans.factory.support.DefaultListableBeanFactory:1427 - Bean creation exception on FactoryBean type check: org.springframework.beans.factory.BeanCurrentlyInCreationException: Error creating bean with name 'shirFilter': Requested bean is currently in creation: Is there an unresolvable circular reference?
+2018-05-21 10:06:17,787 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'securityManager' of type [class org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:06:18,153 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:339 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-05-21 10:06:18,174 INFO org.hibernate.jpa.internal.util.LogHelper:46 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-05-21 10:06:18,376 INFO org.hibernate.Version:54 - HHH000412: Hibernate Core {4.3.8.Final}
+2018-05-21 10:06:18,392 INFO org.hibernate.cfg.Environment:239 - HHH000206: hibernate.properties not found
+2018-05-21 10:06:18,392 INFO org.hibernate.cfg.Environment:346 - HHH000021: Bytecode provider name : javassist
+2018-05-21 10:06:18,599 INFO org.hibernate.annotations.common.Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2018-05-21 10:06:19,108 INFO org.hibernate.dialect.Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-05-21 10:06:19,246 INFO org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2018-05-21 10:06:19,553 INFO org.hibernate.tool.hbm2ddl.SchemaUpdate:207 - HHH000228: Running hbm2ddl schema update
+2018-05-21 10:06:19,553 INFO org.hibernate.tool.hbm2ddl.SchemaUpdate:218 - HHH000102: Fetching database metadata
+2018-05-21 10:06:19,553 INFO org.hibernate.tool.hbm2ddl.SchemaUpdate:230 - HHH000396: Updating schema
+2018-05-21 10:06:19,584 INFO org.hibernate.tool.hbm2ddl.TableMetadata:66 - HHH000261: Table found: springboot.s_user
+2018-05-21 10:06:19,584 INFO org.hibernate.tool.hbm2ddl.TableMetadata:67 - HHH000037: Columns: [name, id, age]
+2018-05-21 10:06:19,584 INFO org.hibernate.tool.hbm2ddl.TableMetadata:69 - HHH000108: Foreign keys: []
+2018-05-21 10:06:19,584 INFO org.hibernate.tool.hbm2ddl.TableMetadata:70 - HHH000126: Indexes: [age_index, primary]
+2018-05-21 10:06:19,584 INFO org.hibernate.tool.hbm2ddl.SchemaUpdate:267 - HHH000232: Schema update complete
+2018-05-21 10:06:21,291 INFO org.springframework.context.support.DefaultLifecycleProcessor:341 - Starting beans in phase 2147483647
+2018-05-21 10:06:21,477 INFO org.eclipse.jdt.internal.junit.runner.RemoteTestRunner:56 - Started RemoteTestRunner in 6.436 seconds (JVM running for 7.473)
+2018-05-21 10:07:32,310 INFO org.springframework.test.context.support.DefaultTestContextBootstrapper:256 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-05-21 10:07:32,326 INFO org.springframework.test.context.support.DefaultTestContextBootstrapper:182 - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@3c947bc5, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@609db43b, org.springframework.test.context.support.DirtiesContextTestExecutionListener@55f616cf, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1356d4d4, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@c03cf28]
+2018-05-21 10:07:32,765 INFO org.eclipse.jdt.internal.junit.runner.RemoteTestRunner:47 - Starting RemoteTestRunner on LZGS with PID 10164 (D:\web\sts-bundle\sts-3.9.1.RELEASE\configuration\org.eclipse.osgi\308\0\.cp started by dfjk in D:\learn\Git\Simpleproject\test)
+2018-05-21 10:07:32,827 INFO org.springframework.context.annotation.AnnotationConfigApplicationContext:510 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@2445445a: startup date [Mon May 21 10:07:32 CST 2018]; root of context hierarchy
+2018-05-21 10:07:34,124 INFO org.hibernate.validator.internal.util.Version:27 - HV000001: Hibernate Validator 5.1.3.Final
+2018-05-21 10:07:34,283 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [class org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$7d2580e1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:07:34,411 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$73bdf073] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:07:34,424 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'transactionAttributeSource' of type [class org.springframework.transaction.annotation.AnnotationTransactionAttributeSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:07:34,432 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'transactionInterceptor' of type [class org.springframework.transaction.interceptor.TransactionInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:07:34,432 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'org.springframework.transaction.config.internalTransactionAdvisor' of type [class org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:07:34,448 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'redisConfig' of type [class config.RedisConfig$$EnhancerBySpringCGLIB$$6b105609] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:07:34,477 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'org.springframework.cache.annotation.ProxyCachingConfiguration' of type [class org.springframework.cache.annotation.ProxyCachingConfiguration$$EnhancerBySpringCGLIB$$db1bbad1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:07:34,523 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'cacheOperationSource' of type [class org.springframework.cache.annotation.AnnotationCacheOperationSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:07:34,538 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'cacheInterceptor' of type [class org.springframework.cache.interceptor.CacheInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:07:34,573 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'org.springframework.cache.config.internalCacheAdvisor' of type [class org.springframework.cache.interceptor.BeanFactoryCacheOperationSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:07:34,580 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'shiroConfig' of type [class config.ShiroConfig$$EnhancerBySpringCGLIB$$27b8efff] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:07:34,586 WARN org.springframework.beans.factory.support.DefaultListableBeanFactory:1427 - Bean creation exception on FactoryBean type check: org.springframework.beans.factory.BeanCurrentlyInCreationException: Error creating bean with name 'shirFilter': Requested bean is currently in creation: Is there an unresolvable circular reference?
+2018-05-21 10:07:35,309 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'securityManager' of type [class org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:07:35,640 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:339 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-05-21 10:07:35,671 INFO org.hibernate.jpa.internal.util.LogHelper:46 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-05-21 10:07:35,765 INFO org.hibernate.Version:54 - HHH000412: Hibernate Core {4.3.8.Final}
+2018-05-21 10:07:35,765 INFO org.hibernate.cfg.Environment:239 - HHH000206: hibernate.properties not found
+2018-05-21 10:07:35,780 INFO org.hibernate.cfg.Environment:346 - HHH000021: Bytecode provider name : javassist
+2018-05-21 10:07:35,952 INFO org.hibernate.annotations.common.Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2018-05-21 10:07:36,458 INFO org.hibernate.dialect.Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-05-21 10:07:36,583 INFO org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2018-05-21 10:07:36,864 INFO org.hibernate.tool.hbm2ddl.SchemaUpdate:207 - HHH000228: Running hbm2ddl schema update
+2018-05-21 10:07:36,864 INFO org.hibernate.tool.hbm2ddl.SchemaUpdate:218 - HHH000102: Fetching database metadata
+2018-05-21 10:07:36,880 INFO org.hibernate.tool.hbm2ddl.SchemaUpdate:230 - HHH000396: Updating schema
+2018-05-21 10:07:36,896 INFO org.hibernate.tool.hbm2ddl.TableMetadata:66 - HHH000261: Table found: springboot.s_user
+2018-05-21 10:07:36,896 INFO org.hibernate.tool.hbm2ddl.TableMetadata:67 - HHH000037: Columns: [name, id, age]
+2018-05-21 10:07:36,896 INFO org.hibernate.tool.hbm2ddl.TableMetadata:69 - HHH000108: Foreign keys: []
+2018-05-21 10:07:36,896 INFO org.hibernate.tool.hbm2ddl.TableMetadata:70 - HHH000126: Indexes: [age_index, primary]
+2018-05-21 10:07:36,896 INFO org.hibernate.tool.hbm2ddl.SchemaUpdate:267 - HHH000232: Schema update complete
+2018-05-21 10:07:38,578 INFO org.springframework.context.support.DefaultLifecycleProcessor:341 - Starting beans in phase 2147483647
+2018-05-21 10:07:38,795 INFO org.eclipse.jdt.internal.junit.runner.RemoteTestRunner:56 - Started RemoteTestRunner in 6.344 seconds (JVM running for 7.382)
+2018-05-21 10:08:38,726 INFO org.springframework.test.context.support.DefaultTestContextBootstrapper:256 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-05-21 10:08:38,775 INFO org.springframework.test.context.support.DefaultTestContextBootstrapper:182 - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@3c947bc5, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@609db43b, org.springframework.test.context.support.DirtiesContextTestExecutionListener@55f616cf, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1356d4d4, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@c03cf28]
+2018-05-21 10:08:39,228 INFO org.eclipse.jdt.internal.junit.runner.RemoteTestRunner:47 - Starting RemoteTestRunner on LZGS with PID 16100 (D:\web\sts-bundle\sts-3.9.1.RELEASE\configuration\org.eclipse.osgi\308\0\.cp started by dfjk in D:\learn\Git\Simpleproject\test)
+2018-05-21 10:08:39,303 INFO org.springframework.context.annotation.AnnotationConfigApplicationContext:510 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@2445445a: startup date [Mon May 21 10:08:39 CST 2018]; root of context hierarchy
+2018-05-21 10:08:40,920 INFO org.hibernate.validator.internal.util.Version:27 - HV000001: Hibernate Validator 5.1.3.Final
+2018-05-21 10:08:41,174 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [class org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$8cdf6c17] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:08:41,302 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8377dba9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:08:41,323 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'transactionAttributeSource' of type [class org.springframework.transaction.annotation.AnnotationTransactionAttributeSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:08:41,335 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'transactionInterceptor' of type [class org.springframework.transaction.interceptor.TransactionInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:08:41,343 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'org.springframework.transaction.config.internalTransactionAdvisor' of type [class org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:08:41,371 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'redisConfig' of type [class config.RedisConfig$$EnhancerBySpringCGLIB$$7aca413f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:08:41,376 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'org.springframework.cache.annotation.ProxyCachingConfiguration' of type [class org.springframework.cache.annotation.ProxyCachingConfiguration$$EnhancerBySpringCGLIB$$ead5a607] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:08:41,405 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'cacheOperationSource' of type [class org.springframework.cache.annotation.AnnotationCacheOperationSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:08:41,420 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'cacheInterceptor' of type [class org.springframework.cache.interceptor.CacheInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:08:41,424 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'org.springframework.cache.config.internalCacheAdvisor' of type [class org.springframework.cache.interceptor.BeanFactoryCacheOperationSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:08:41,429 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'shiroConfig' of type [class config.ShiroConfig$$EnhancerBySpringCGLIB$$3772db35] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:08:41,436 WARN org.springframework.beans.factory.support.DefaultListableBeanFactory:1427 - Bean creation exception on FactoryBean type check: org.springframework.beans.factory.BeanCurrentlyInCreationException: Error creating bean with name 'shirFilter': Requested bean is currently in creation: Is there an unresolvable circular reference?
+2018-05-21 10:08:42,058 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'securityManager' of type [class org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:08:42,527 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:339 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-05-21 10:08:42,554 INFO org.hibernate.jpa.internal.util.LogHelper:46 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-05-21 10:08:42,693 INFO org.hibernate.Version:54 - HHH000412: Hibernate Core {4.3.8.Final}
+2018-05-21 10:08:42,699 INFO org.hibernate.cfg.Environment:239 - HHH000206: hibernate.properties not found
+2018-05-21 10:08:42,701 INFO org.hibernate.cfg.Environment:346 - HHH000021: Bytecode provider name : javassist
+2018-05-21 10:08:42,961 INFO org.hibernate.annotations.common.Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2018-05-21 10:08:43,551 INFO org.hibernate.dialect.Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-05-21 10:08:43,718 INFO org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2018-05-21 10:08:44,028 INFO org.hibernate.tool.hbm2ddl.SchemaUpdate:207 - HHH000228: Running hbm2ddl schema update
+2018-05-21 10:08:44,028 INFO org.hibernate.tool.hbm2ddl.SchemaUpdate:218 - HHH000102: Fetching database metadata
+2018-05-21 10:08:44,030 INFO org.hibernate.tool.hbm2ddl.SchemaUpdate:230 - HHH000396: Updating schema
+2018-05-21 10:08:44,051 INFO org.hibernate.tool.hbm2ddl.TableMetadata:66 - HHH000261: Table found: springboot.s_user
+2018-05-21 10:08:44,052 INFO org.hibernate.tool.hbm2ddl.TableMetadata:67 - HHH000037: Columns: [name, id, age]
+2018-05-21 10:08:44,052 INFO org.hibernate.tool.hbm2ddl.TableMetadata:69 - HHH000108: Foreign keys: []
+2018-05-21 10:08:44,052 INFO org.hibernate.tool.hbm2ddl.TableMetadata:70 - HHH000126: Indexes: [age_index, primary]
+2018-05-21 10:08:44,053 INFO org.hibernate.tool.hbm2ddl.SchemaUpdate:267 - HHH000232: Schema update complete
+2018-05-21 10:08:46,919 INFO org.springframework.context.support.DefaultLifecycleProcessor:341 - Starting beans in phase 2147483647
+2018-05-21 10:08:47,178 INFO org.eclipse.jdt.internal.junit.runner.RemoteTestRunner:56 - Started RemoteTestRunner in 8.297 seconds (JVM running for 9.279)
+2018-05-21 10:08:47,192 INFO ThreadTest:77 - task 0执行完毕
+2018-05-21 10:10:09,785 INFO org.springframework.test.context.support.DefaultTestContextBootstrapper:256 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-05-21 10:10:09,817 INFO org.springframework.test.context.support.DefaultTestContextBootstrapper:182 - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@3c947bc5, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@609db43b, org.springframework.test.context.support.DirtiesContextTestExecutionListener@55f616cf, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1356d4d4, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@c03cf28]
+2018-05-21 10:10:10,429 INFO org.eclipse.jdt.internal.junit.runner.RemoteTestRunner:47 - Starting RemoteTestRunner on LZGS with PID 16896 (D:\web\sts-bundle\sts-3.9.1.RELEASE\configuration\org.eclipse.osgi\308\0\.cp started by dfjk in D:\learn\Git\Simpleproject\test)
+2018-05-21 10:10:10,510 INFO org.springframework.context.annotation.AnnotationConfigApplicationContext:510 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@2445445a: startup date [Mon May 21 10:10:10 CST 2018]; root of context hierarchy
+2018-05-21 10:10:12,314 INFO org.hibernate.validator.internal.util.Version:27 - HV000001: Hibernate Validator 5.1.3.Final
+2018-05-21 10:10:12,491 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [class org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$8cdf6c17] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:10:12,616 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8377dba9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:10:12,647 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'transactionAttributeSource' of type [class org.springframework.transaction.annotation.AnnotationTransactionAttributeSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:10:12,659 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'transactionInterceptor' of type [class org.springframework.transaction.interceptor.TransactionInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:10:12,667 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'org.springframework.transaction.config.internalTransactionAdvisor' of type [class org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:10:12,686 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'redisConfig' of type [class config.RedisConfig$$EnhancerBySpringCGLIB$$7aca413f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:10:12,691 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'org.springframework.cache.annotation.ProxyCachingConfiguration' of type [class org.springframework.cache.annotation.ProxyCachingConfiguration$$EnhancerBySpringCGLIB$$ead5a607] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:10:12,718 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'cacheOperationSource' of type [class org.springframework.cache.annotation.AnnotationCacheOperationSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:10:12,747 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'cacheInterceptor' of type [class org.springframework.cache.interceptor.CacheInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:10:12,751 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'org.springframework.cache.config.internalCacheAdvisor' of type [class org.springframework.cache.interceptor.BeanFactoryCacheOperationSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:10:12,755 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'shiroConfig' of type [class config.ShiroConfig$$EnhancerBySpringCGLIB$$3772db35] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:10:12,760 WARN org.springframework.beans.factory.support.DefaultListableBeanFactory:1427 - Bean creation exception on FactoryBean type check: org.springframework.beans.factory.BeanCurrentlyInCreationException: Error creating bean with name 'shirFilter': Requested bean is currently in creation: Is there an unresolvable circular reference?
+2018-05-21 10:10:13,410 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'securityManager' of type [class org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:10:13,849 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:339 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-05-21 10:10:13,878 INFO org.hibernate.jpa.internal.util.LogHelper:46 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-05-21 10:10:13,997 INFO org.hibernate.Version:54 - HHH000412: Hibernate Core {4.3.8.Final}
+2018-05-21 10:10:14,001 INFO org.hibernate.cfg.Environment:239 - HHH000206: hibernate.properties not found
+2018-05-21 10:10:14,004 INFO org.hibernate.cfg.Environment:346 - HHH000021: Bytecode provider name : javassist
+2018-05-21 10:10:14,186 INFO org.hibernate.annotations.common.Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2018-05-21 10:10:14,689 INFO org.hibernate.dialect.Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-05-21 10:10:14,817 INFO org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2018-05-21 10:10:15,128 INFO org.hibernate.tool.hbm2ddl.SchemaUpdate:207 - HHH000228: Running hbm2ddl schema update
+2018-05-21 10:10:15,128 INFO org.hibernate.tool.hbm2ddl.SchemaUpdate:218 - HHH000102: Fetching database metadata
+2018-05-21 10:10:15,130 INFO org.hibernate.tool.hbm2ddl.SchemaUpdate:230 - HHH000396: Updating schema
+2018-05-21 10:10:15,152 INFO org.hibernate.tool.hbm2ddl.TableMetadata:66 - HHH000261: Table found: springboot.s_user
+2018-05-21 10:10:15,153 INFO org.hibernate.tool.hbm2ddl.TableMetadata:67 - HHH000037: Columns: [name, id, age]
+2018-05-21 10:10:15,153 INFO org.hibernate.tool.hbm2ddl.TableMetadata:69 - HHH000108: Foreign keys: []
+2018-05-21 10:10:15,153 INFO org.hibernate.tool.hbm2ddl.TableMetadata:70 - HHH000126: Indexes: [age_index, primary]
+2018-05-21 10:10:15,155 INFO org.hibernate.tool.hbm2ddl.SchemaUpdate:267 - HHH000232: Schema update complete
+2018-05-21 10:10:17,606 INFO org.springframework.context.support.DefaultLifecycleProcessor:341 - Starting beans in phase 2147483647
+2018-05-21 10:10:17,895 INFO org.eclipse.jdt.internal.junit.runner.RemoteTestRunner:56 - Started RemoteTestRunner in 7.945 seconds (JVM running for 9.227)
+2018-05-21 10:10:17,907 INFO test.ThreadPoolTest:39 - 线程池中线程数目：1，队列中等待执行的任务数目：0，已执行完任务数目：0
+2018-05-21 10:10:17,907 INFO test.ThreadPoolTest:39 - 线程池中线程数目：2，队列中等待执行的任务数目：0，已执行完任务数目：0
+2018-05-21 10:10:17,908 INFO test.ThreadPoolTest:39 - 线程池中线程数目：3，队列中等待执行的任务数目：0，已执行完任务数目：0
+2018-05-21 10:10:17,908 INFO test.ThreadPoolTest:39 - 线程池中线程数目：4，队列中等待执行的任务数目：0，已执行完任务数目：0
+2018-05-21 10:10:17,908 INFO test.ThreadPoolTest:39 - 线程池中线程数目：4，队列中等待执行的任务数目：1，已执行完任务数目：0
+2018-05-21 10:10:17,909 INFO test.ThreadPoolTest:39 - 线程池中线程数目：4，队列中等待执行的任务数目：2，已执行完任务数目：0
+2018-05-21 10:10:17,909 INFO test.ThreadPoolTest:39 - 线程池中线程数目：4，队列中等待执行的任务数目：3，已执行完任务数目：0
+2018-05-21 10:10:17,909 INFO test.ThreadPoolTest:39 - 线程池中线程数目：4，队列中等待执行的任务数目：4，已执行完任务数目：0
+2018-05-21 10:10:17,909 INFO test.ThreadPoolTest:39 - 线程池中线程数目：4，队列中等待执行的任务数目：5，已执行完任务数目：0
+2018-05-21 10:10:17,909 INFO test.ThreadPoolTest:39 - 线程池中线程数目：4，队列中等待执行的任务数目：6，已执行完任务数目：0
+2018-05-21 10:10:17,910 INFO test.ThreadPoolTest:39 - 线程池中线程数目：4，队列中等待执行的任务数目：7，已执行完任务数目：0
+2018-05-21 10:10:17,910 INFO test.ThreadPoolTest:39 - 线程池中线程数目：4，队列中等待执行的任务数目：8，已执行完任务数目：0
+2018-05-21 10:10:17,910 INFO test.ThreadPoolTest:39 - 线程池中线程数目：4，队列中等待执行的任务数目：9，已执行完任务数目：0
+2018-05-21 10:10:17,910 INFO test.ThreadPoolTest:39 - 线程池中线程数目：4，队列中等待执行的任务数目：10，已执行完任务数目：0
+2018-05-21 10:10:17,911 INFO test.ThreadPoolTest:39 - 线程池中线程数目：4，队列中等待执行的任务数目：11，已执行完任务数目：0
+2018-05-21 10:10:17,911 INFO test.ThreadPoolTest:39 - 线程池中线程数目：4，队列中等待执行的任务数目：12，已执行完任务数目：0
+2018-05-21 10:10:17,911 INFO test.ThreadPoolTest:39 - 线程池中线程数目：5，队列中等待执行的任务数目：12，已执行完任务数目：0
+2018-05-21 10:10:17,912 INFO test.ThreadPoolTest:39 - 线程池中线程数目：6，队列中等待执行的任务数目：12，已执行完任务数目：0
+2018-05-21 10:10:17,912 INFO test.ThreadPoolTest:39 - 线程池中线程数目：7，队列中等待执行的任务数目：12，已执行完任务数目：0
+2018-05-21 10:10:17,919 INFO ThreadTest:77 - task 2执行完毕
+2018-05-21 10:10:17,918 INFO ThreadTest:77 - task 1执行完毕
+2018-05-21 10:10:17,919 INFO ThreadTest:77 - task 0执行完毕
+2018-05-21 10:10:17,920 INFO ThreadTest:77 - task 4执行完毕
+2018-05-21 10:10:17,921 INFO ThreadTest:77 - task 7执行完毕
+2018-05-21 10:10:17,922 INFO ThreadTest:77 - task 8执行完毕
+2018-05-21 10:10:17,923 INFO ThreadTest:77 - task 9执行完毕
+2018-05-21 10:10:17,924 INFO ThreadTest:77 - task 10执行完毕
+2018-05-21 10:10:17,925 INFO ThreadTest:77 - task 11执行完毕
+2018-05-21 10:10:17,927 INFO ThreadTest:77 - task 12执行完毕
+2018-05-21 10:10:17,928 INFO ThreadTest:77 - task 13执行完毕
+2018-05-21 10:10:17,927 INFO org.springframework.context.annotation.AnnotationConfigApplicationContext:862 - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@2445445a: startup date [Mon May 21 10:10:10 CST 2018]; root of context hierarchy
+2018-05-21 10:10:17,930 INFO ThreadTest:77 - task 14执行完毕
+2018-05-21 10:10:17,932 INFO org.springframework.context.support.DefaultLifecycleProcessor:356 - Stopping beans in phase 2147483647
+2018-05-21 10:10:17,932 INFO ThreadTest:77 - task 5执行完毕
+2018-05-21 10:10:17,933 INFO ThreadTest:77 - task 18执行完毕
+2018-05-21 10:10:17,933 INFO ThreadTest:77 - task 17执行完毕
+2018-05-21 10:10:17,930 INFO ThreadTest:77 - task 3执行完毕
+2018-05-21 10:10:17,933 INFO ThreadTest:77 - task 16执行完毕
+2018-05-21 10:10:17,935 INFO ThreadTest:77 - task 15执行完毕
+2018-05-21 10:10:17,935 INFO ThreadTest:77 - task 6执行完毕
+2018-05-21 10:10:17,939 INFO org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer:733 - Waiting for workers to finish.
+2018-05-21 10:10:18,875 INFO org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer:736 - Successfully waited for workers to finish.
+2018-05-21 10:10:18,877 INFO org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer:733 - Waiting for workers to finish.
+2018-05-21 10:10:18,879 INFO org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer:736 - Successfully waited for workers to finish.
+2018-05-21 10:10:18,881 INFO org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer:733 - Waiting for workers to finish.
+2018-05-21 10:10:18,886 INFO org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer:736 - Successfully waited for workers to finish.
+2018-05-21 10:10:18,888 INFO org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer:733 - Waiting for workers to finish.
+2018-05-21 10:10:18,894 INFO org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer:736 - Successfully waited for workers to finish.
+2018-05-21 10:10:18,916 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:462 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-05-21 10:11:18,093 INFO org.springframework.test.context.support.DefaultTestContextBootstrapper:256 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-05-21 10:11:18,128 INFO org.springframework.test.context.support.DefaultTestContextBootstrapper:182 - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@3c947bc5, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@609db43b, org.springframework.test.context.support.DirtiesContextTestExecutionListener@55f616cf, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1356d4d4, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@c03cf28]
+2018-05-21 10:11:18,642 INFO org.eclipse.jdt.internal.junit.runner.RemoteTestRunner:47 - Starting RemoteTestRunner on LZGS with PID 108 (D:\web\sts-bundle\sts-3.9.1.RELEASE\configuration\org.eclipse.osgi\308\0\.cp started by dfjk in D:\learn\Git\Simpleproject\test)
+2018-05-21 10:11:18,717 INFO org.springframework.context.annotation.AnnotationConfigApplicationContext:510 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@2445445a: startup date [Mon May 21 10:11:18 CST 2018]; root of context hierarchy
+2018-05-21 10:11:20,451 INFO org.hibernate.validator.internal.util.Version:27 - HV000001: Hibernate Validator 5.1.3.Final
+2018-05-21 10:11:20,598 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [class org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$8cdf6c17] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:11:20,738 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8377dba9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:11:20,764 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'transactionAttributeSource' of type [class org.springframework.transaction.annotation.AnnotationTransactionAttributeSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:11:20,778 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'transactionInterceptor' of type [class org.springframework.transaction.interceptor.TransactionInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:11:20,785 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'org.springframework.transaction.config.internalTransactionAdvisor' of type [class org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:11:20,819 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'redisConfig' of type [class config.RedisConfig$$EnhancerBySpringCGLIB$$7aca413f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:11:20,827 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'org.springframework.cache.annotation.ProxyCachingConfiguration' of type [class org.springframework.cache.annotation.ProxyCachingConfiguration$$EnhancerBySpringCGLIB$$ead5a607] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:11:20,861 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'cacheOperationSource' of type [class org.springframework.cache.annotation.AnnotationCacheOperationSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:11:20,880 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'cacheInterceptor' of type [class org.springframework.cache.interceptor.CacheInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:11:20,885 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'org.springframework.cache.config.internalCacheAdvisor' of type [class org.springframework.cache.interceptor.BeanFactoryCacheOperationSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:11:20,897 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'shiroConfig' of type [class config.ShiroConfig$$EnhancerBySpringCGLIB$$3772db35] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:11:20,903 WARN org.springframework.beans.factory.support.DefaultListableBeanFactory:1427 - Bean creation exception on FactoryBean type check: org.springframework.beans.factory.BeanCurrentlyInCreationException: Error creating bean with name 'shirFilter': Requested bean is currently in creation: Is there an unresolvable circular reference?
+2018-05-21 10:11:21,456 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'securityManager' of type [class org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:11:21,877 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:339 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-05-21 10:11:21,904 INFO org.hibernate.jpa.internal.util.LogHelper:46 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-05-21 10:11:22,033 INFO org.hibernate.Version:54 - HHH000412: Hibernate Core {4.3.8.Final}
+2018-05-21 10:11:22,037 INFO org.hibernate.cfg.Environment:239 - HHH000206: hibernate.properties not found
+2018-05-21 10:11:22,040 INFO org.hibernate.cfg.Environment:346 - HHH000021: Bytecode provider name : javassist
+2018-05-21 10:11:22,356 INFO org.hibernate.annotations.common.Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2018-05-21 10:11:22,929 INFO org.hibernate.dialect.Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-05-21 10:11:23,073 INFO org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2018-05-21 10:11:23,384 INFO org.hibernate.tool.hbm2ddl.SchemaUpdate:207 - HHH000228: Running hbm2ddl schema update
+2018-05-21 10:11:23,384 INFO org.hibernate.tool.hbm2ddl.SchemaUpdate:218 - HHH000102: Fetching database metadata
+2018-05-21 10:11:23,386 INFO org.hibernate.tool.hbm2ddl.SchemaUpdate:230 - HHH000396: Updating schema
+2018-05-21 10:11:23,407 INFO org.hibernate.tool.hbm2ddl.TableMetadata:66 - HHH000261: Table found: springboot.s_user
+2018-05-21 10:11:23,407 INFO org.hibernate.tool.hbm2ddl.TableMetadata:67 - HHH000037: Columns: [name, id, age]
+2018-05-21 10:11:23,407 INFO org.hibernate.tool.hbm2ddl.TableMetadata:69 - HHH000108: Foreign keys: []
+2018-05-21 10:11:23,408 INFO org.hibernate.tool.hbm2ddl.TableMetadata:70 - HHH000126: Indexes: [age_index, primary]
+2018-05-21 10:11:23,409 INFO org.hibernate.tool.hbm2ddl.SchemaUpdate:267 - HHH000232: Schema update complete
+2018-05-21 10:11:25,894 INFO org.springframework.context.support.DefaultLifecycleProcessor:341 - Starting beans in phase 2147483647
+2018-05-21 10:11:26,107 INFO org.eclipse.jdt.internal.junit.runner.RemoteTestRunner:56 - Started RemoteTestRunner in 7.847 seconds (JVM running for 9.008)
+2018-05-21 10:11:26,117 INFO test.ThreadPoolTest:39 - 线程池中线程数目：1，队列中等待执行的任务数目：0
+2018-05-21 10:11:26,118 INFO test.ThreadPoolTest:39 - 线程池中线程数目：2，队列中等待执行的任务数目：0
+2018-05-21 10:11:26,118 INFO test.ThreadPoolTest:39 - 线程池中线程数目：3，队列中等待执行的任务数目：0
+2018-05-21 10:11:26,119 INFO test.ThreadPoolTest:39 - 线程池中线程数目：4，队列中等待执行的任务数目：0
+2018-05-21 10:11:26,119 INFO test.ThreadPoolTest:39 - 线程池中线程数目：4，队列中等待执行的任务数目：1
+2018-05-21 10:11:26,119 INFO test.ThreadPoolTest:39 - 线程池中线程数目：4，队列中等待执行的任务数目：2
+2018-05-21 10:11:26,119 INFO test.ThreadPoolTest:39 - 线程池中线程数目：4，队列中等待执行的任务数目：3
+2018-05-21 10:11:26,120 INFO test.ThreadPoolTest:39 - 线程池中线程数目：4，队列中等待执行的任务数目：4
+2018-05-21 10:11:26,120 INFO test.ThreadPoolTest:39 - 线程池中线程数目：4，队列中等待执行的任务数目：5
+2018-05-21 10:11:26,120 INFO test.ThreadPoolTest:39 - 线程池中线程数目：4，队列中等待执行的任务数目：6
+2018-05-21 10:11:26,120 INFO ThreadTest:76 - task 2执行完毕
+2018-05-21 10:11:26,120 INFO test.ThreadPoolTest:39 - 线程池中线程数目：4，队列中等待执行的任务数目：7
+2018-05-21 10:11:26,121 INFO test.ThreadPoolTest:39 - 线程池中线程数目：4，队列中等待执行的任务数目：7
+2018-05-21 10:11:26,121 INFO test.ThreadPoolTest:39 - 线程池中线程数目：4，队列中等待执行的任务数目：8
+2018-05-21 10:11:26,121 INFO test.ThreadPoolTest:39 - 线程池中线程数目：4，队列中等待执行的任务数目：9
+2018-05-21 10:11:26,122 INFO test.ThreadPoolTest:39 - 线程池中线程数目：4，队列中等待执行的任务数目：10
+2018-05-21 10:11:26,122 INFO ThreadTest:76 - task 4执行完毕
+2018-05-21 10:11:26,122 INFO test.ThreadPoolTest:39 - 线程池中线程数目：4，队列中等待执行的任务数目：11
+2018-05-21 10:11:26,122 INFO test.ThreadPoolTest:39 - 线程池中线程数目：4，队列中等待执行的任务数目：11
+2018-05-21 10:11:26,122 INFO test.ThreadPoolTest:39 - 线程池中线程数目：4，队列中等待执行的任务数目：12
+2018-05-21 10:11:26,123 INFO ThreadTest:76 - task 5执行完毕
+2018-05-21 10:11:26,123 INFO test.ThreadPoolTest:39 - 线程池中线程数目：5，队列中等待执行的任务数目：12
+2018-05-21 10:11:26,124 INFO ThreadTest:76 - task 6执行完毕
+2018-05-21 10:11:26,124 INFO ThreadTest:76 - task 1执行完毕
+2018-05-21 10:11:26,124 INFO ThreadTest:76 - task 3执行完毕
+2018-05-21 10:11:26,123 INFO ThreadTest:76 - task 0执行完毕
+2018-05-21 10:11:26,125 INFO ThreadTest:76 - task 7执行完毕
+2018-05-21 10:11:26,126 INFO ThreadTest:76 - task 8执行完毕
+2018-05-21 10:11:26,127 INFO ThreadTest:76 - task 9执行完毕
+2018-05-21 10:11:26,127 INFO ThreadTest:76 - task 11执行完毕
+2018-05-21 10:11:26,128 INFO ThreadTest:76 - task 12执行完毕
+2018-05-21 10:11:26,128 INFO ThreadTest:76 - task 13执行完毕
+2018-05-21 10:11:26,128 INFO ThreadTest:76 - task 14执行完毕
+2018-05-21 10:11:26,128 INFO ThreadTest:76 - task 10执行完毕
+2018-05-21 10:11:26,128 INFO ThreadTest:76 - task 18执行完毕
+2018-05-21 10:11:26,130 INFO ThreadTest:76 - task 17执行完毕
+2018-05-21 10:11:26,131 INFO ThreadTest:76 - task 16执行完毕
+2018-05-21 10:11:26,131 INFO ThreadTest:76 - task 15执行完毕
+2018-05-21 10:11:26,131 INFO org.springframework.context.annotation.AnnotationConfigApplicationContext:862 - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@2445445a: startup date [Mon May 21 10:11:18 CST 2018]; root of context hierarchy
+2018-05-21 10:11:26,135 INFO org.springframework.context.support.DefaultLifecycleProcessor:356 - Stopping beans in phase 2147483647
+2018-05-21 10:11:26,140 INFO org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer:733 - Waiting for workers to finish.
+2018-05-21 10:11:27,089 INFO org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer:736 - Successfully waited for workers to finish.
+2018-05-21 10:11:27,090 INFO org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer:733 - Waiting for workers to finish.
+2018-05-21 10:11:27,097 INFO org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer:736 - Successfully waited for workers to finish.
+2018-05-21 10:11:27,098 INFO org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer:733 - Waiting for workers to finish.
+2018-05-21 10:11:27,103 INFO org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer:736 - Successfully waited for workers to finish.
+2018-05-21 10:11:27,104 INFO org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer:733 - Waiting for workers to finish.
+2018-05-21 10:11:27,106 INFO org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer:736 - Successfully waited for workers to finish.
+2018-05-21 10:11:27,116 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:462 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-05-21 10:13:22,319 INFO org.springframework.test.context.support.DefaultTestContextBootstrapper:256 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-05-21 10:13:22,361 INFO org.springframework.test.context.support.DefaultTestContextBootstrapper:182 - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@3c947bc5, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@609db43b, org.springframework.test.context.support.DirtiesContextTestExecutionListener@55f616cf, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1356d4d4, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@c03cf28]
+2018-05-21 10:13:22,945 INFO org.eclipse.jdt.internal.junit.runner.RemoteTestRunner:47 - Starting RemoteTestRunner on LZGS with PID 14024 (D:\web\sts-bundle\sts-3.9.1.RELEASE\configuration\org.eclipse.osgi\308\0\.cp started by dfjk in D:\learn\Git\Simpleproject\test)
+2018-05-21 10:13:23,043 INFO org.springframework.context.annotation.AnnotationConfigApplicationContext:510 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@2445445a: startup date [Mon May 21 10:13:23 CST 2018]; root of context hierarchy
+2018-05-21 10:13:25,240 INFO org.hibernate.validator.internal.util.Version:27 - HV000001: Hibernate Validator 5.1.3.Final
+2018-05-21 10:13:25,491 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [class org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$8cdf6c17] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:13:25,699 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8377dba9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:13:25,745 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'transactionAttributeSource' of type [class org.springframework.transaction.annotation.AnnotationTransactionAttributeSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:13:25,759 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'transactionInterceptor' of type [class org.springframework.transaction.interceptor.TransactionInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:13:25,781 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'org.springframework.transaction.config.internalTransactionAdvisor' of type [class org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:13:25,809 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'redisConfig' of type [class config.RedisConfig$$EnhancerBySpringCGLIB$$7aca413f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:13:25,816 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'org.springframework.cache.annotation.ProxyCachingConfiguration' of type [class org.springframework.cache.annotation.ProxyCachingConfiguration$$EnhancerBySpringCGLIB$$ead5a607] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:13:25,854 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'cacheOperationSource' of type [class org.springframework.cache.annotation.AnnotationCacheOperationSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:13:25,867 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'cacheInterceptor' of type [class org.springframework.cache.interceptor.CacheInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:13:25,871 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'org.springframework.cache.config.internalCacheAdvisor' of type [class org.springframework.cache.interceptor.BeanFactoryCacheOperationSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:13:25,883 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'shiroConfig' of type [class config.ShiroConfig$$EnhancerBySpringCGLIB$$3772db35] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:13:25,892 WARN org.springframework.beans.factory.support.DefaultListableBeanFactory:1427 - Bean creation exception on FactoryBean type check: org.springframework.beans.factory.BeanCurrentlyInCreationException: Error creating bean with name 'shirFilter': Requested bean is currently in creation: Is there an unresolvable circular reference?
+2018-05-21 10:13:26,784 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'securityManager' of type [class org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:13:27,238 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:339 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-05-21 10:13:27,286 INFO org.hibernate.jpa.internal.util.LogHelper:46 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-05-21 10:13:27,445 INFO org.hibernate.Version:54 - HHH000412: Hibernate Core {4.3.8.Final}
+2018-05-21 10:13:27,448 INFO org.hibernate.cfg.Environment:239 - HHH000206: hibernate.properties not found
+2018-05-21 10:13:27,450 INFO org.hibernate.cfg.Environment:346 - HHH000021: Bytecode provider name : javassist
+2018-05-21 10:13:27,774 INFO org.hibernate.annotations.common.Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2018-05-21 10:13:28,354 INFO org.hibernate.dialect.Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-05-21 10:13:28,496 INFO org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2018-05-21 10:13:28,796 INFO org.hibernate.tool.hbm2ddl.SchemaUpdate:207 - HHH000228: Running hbm2ddl schema update
+2018-05-21 10:13:28,797 INFO org.hibernate.tool.hbm2ddl.SchemaUpdate:218 - HHH000102: Fetching database metadata
+2018-05-21 10:13:28,799 INFO org.hibernate.tool.hbm2ddl.SchemaUpdate:230 - HHH000396: Updating schema
+2018-05-21 10:13:28,825 INFO org.hibernate.tool.hbm2ddl.TableMetadata:66 - HHH000261: Table found: springboot.s_user
+2018-05-21 10:13:28,825 INFO org.hibernate.tool.hbm2ddl.TableMetadata:67 - HHH000037: Columns: [name, id, age]
+2018-05-21 10:13:28,826 INFO org.hibernate.tool.hbm2ddl.TableMetadata:69 - HHH000108: Foreign keys: []
+2018-05-21 10:13:28,826 INFO org.hibernate.tool.hbm2ddl.TableMetadata:70 - HHH000126: Indexes: [age_index, primary]
+2018-05-21 10:13:28,827 INFO org.hibernate.tool.hbm2ddl.SchemaUpdate:267 - HHH000232: Schema update complete
+2018-05-21 10:13:31,017 INFO org.springframework.context.support.DefaultLifecycleProcessor:341 - Starting beans in phase 2147483647
+2018-05-21 10:13:31,205 INFO org.eclipse.jdt.internal.junit.runner.RemoteTestRunner:56 - Started RemoteTestRunner in 8.704 seconds (JVM running for 10.08)
+2018-05-21 10:15:22,713 INFO org.springframework.test.context.support.DefaultTestContextBootstrapper:256 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-05-21 10:15:22,742 INFO org.springframework.test.context.support.DefaultTestContextBootstrapper:182 - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@3c947bc5, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@609db43b, org.springframework.test.context.support.DirtiesContextTestExecutionListener@55f616cf, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1356d4d4, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@c03cf28]
+2018-05-21 10:15:23,298 INFO org.eclipse.jdt.internal.junit.runner.RemoteTestRunner:47 - Starting RemoteTestRunner on LZGS with PID 10648 (D:\web\sts-bundle\sts-3.9.1.RELEASE\configuration\org.eclipse.osgi\308\0\.cp started by dfjk in D:\learn\Git\Simpleproject\test)
+2018-05-21 10:15:23,407 INFO org.springframework.context.annotation.AnnotationConfigApplicationContext:510 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@2445445a: startup date [Mon May 21 10:15:23 CST 2018]; root of context hierarchy
+2018-05-21 10:15:25,224 INFO org.hibernate.validator.internal.util.Version:27 - HV000001: Hibernate Validator 5.1.3.Final
+2018-05-21 10:15:25,404 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [class org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$8cdf6c17] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:15:25,514 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8377dba9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:15:25,528 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'transactionAttributeSource' of type [class org.springframework.transaction.annotation.AnnotationTransactionAttributeSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:15:25,543 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'transactionInterceptor' of type [class org.springframework.transaction.interceptor.TransactionInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:15:25,552 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'org.springframework.transaction.config.internalTransactionAdvisor' of type [class org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:15:25,570 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'redisConfig' of type [class config.RedisConfig$$EnhancerBySpringCGLIB$$7aca413f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:15:25,575 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'org.springframework.cache.annotation.ProxyCachingConfiguration' of type [class org.springframework.cache.annotation.ProxyCachingConfiguration$$EnhancerBySpringCGLIB$$ead5a607] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:15:25,633 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'cacheOperationSource' of type [class org.springframework.cache.annotation.AnnotationCacheOperationSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:15:25,662 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'cacheInterceptor' of type [class org.springframework.cache.interceptor.CacheInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:15:25,724 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'org.springframework.cache.config.internalCacheAdvisor' of type [class org.springframework.cache.interceptor.BeanFactoryCacheOperationSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:15:25,732 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'shiroConfig' of type [class config.ShiroConfig$$EnhancerBySpringCGLIB$$3772db35] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:15:25,800 WARN org.springframework.beans.factory.support.DefaultListableBeanFactory:1427 - Bean creation exception on FactoryBean type check: org.springframework.beans.factory.BeanCurrentlyInCreationException: Error creating bean with name 'shirFilter': Requested bean is currently in creation: Is there an unresolvable circular reference?
+2018-05-21 10:15:27,092 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'securityManager' of type [class org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:15:27,663 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:339 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-05-21 10:15:27,688 INFO org.hibernate.jpa.internal.util.LogHelper:46 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-05-21 10:15:27,773 INFO org.hibernate.Version:54 - HHH000412: Hibernate Core {4.3.8.Final}
+2018-05-21 10:15:27,775 INFO org.hibernate.cfg.Environment:239 - HHH000206: hibernate.properties not found
+2018-05-21 10:15:27,777 INFO org.hibernate.cfg.Environment:346 - HHH000021: Bytecode provider name : javassist
+2018-05-21 10:15:28,015 INFO org.hibernate.annotations.common.Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2018-05-21 10:15:28,994 INFO org.hibernate.dialect.Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-05-21 10:15:29,747 INFO org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2018-05-21 10:15:30,460 INFO org.hibernate.tool.hbm2ddl.SchemaUpdate:207 - HHH000228: Running hbm2ddl schema update
+2018-05-21 10:15:30,461 INFO org.hibernate.tool.hbm2ddl.SchemaUpdate:218 - HHH000102: Fetching database metadata
+2018-05-21 10:15:30,463 INFO org.hibernate.tool.hbm2ddl.SchemaUpdate:230 - HHH000396: Updating schema
+2018-05-21 10:15:30,483 INFO org.hibernate.tool.hbm2ddl.TableMetadata:66 - HHH000261: Table found: springboot.s_user
+2018-05-21 10:15:30,483 INFO org.hibernate.tool.hbm2ddl.TableMetadata:67 - HHH000037: Columns: [name, id, age]
+2018-05-21 10:15:30,483 INFO org.hibernate.tool.hbm2ddl.TableMetadata:69 - HHH000108: Foreign keys: []
+2018-05-21 10:15:30,484 INFO org.hibernate.tool.hbm2ddl.TableMetadata:70 - HHH000126: Indexes: [age_index, primary]
+2018-05-21 10:15:30,485 INFO org.hibernate.tool.hbm2ddl.SchemaUpdate:267 - HHH000232: Schema update complete
+2018-05-21 10:15:33,383 INFO org.springframework.context.support.DefaultLifecycleProcessor:341 - Starting beans in phase 2147483647
+2018-05-21 10:15:34,108 INFO org.eclipse.jdt.internal.junit.runner.RemoteTestRunner:56 - Started RemoteTestRunner in 11.215 seconds (JVM running for 12.419)
+2018-05-21 10:15:34,120 INFO test.ThreadPoolTest:38 - 线程池中线程数目：1，队列中等待执行的任务数目：0
+2018-05-21 10:15:34,120 INFO test.ThreadPoolTest:38 - 线程池中线程数目：2，队列中等待执行的任务数目：0
+2018-05-21 10:15:34,121 INFO test.ThreadPoolTest:38 - 线程池中线程数目：3，队列中等待执行的任务数目：0
+2018-05-21 10:15:34,121 INFO test.ThreadPoolTest:38 - 线程池中线程数目：4，队列中等待执行的任务数目：0
+2018-05-21 10:15:34,121 INFO test.ThreadPoolTest:38 - 线程池中线程数目：4，队列中等待执行的任务数目：1
+2018-05-21 10:15:34,121 INFO test.ThreadPoolTest:38 - 线程池中线程数目：4，队列中等待执行的任务数目：2
+2018-05-21 10:15:34,121 INFO test.ThreadPoolTest:38 - 线程池中线程数目：4，队列中等待执行的任务数目：3
+2018-05-21 10:15:34,122 INFO test.ThreadPoolTest:38 - 线程池中线程数目：4，队列中等待执行的任务数目：4
+2018-05-21 10:15:34,122 INFO test.ThreadPoolTest:38 - 线程池中线程数目：4，队列中等待执行的任务数目：5
+2018-05-21 10:15:34,122 INFO test.ThreadPoolTest:38 - 线程池中线程数目：4，队列中等待执行的任务数目：6
+2018-05-21 10:15:34,122 INFO test.ThreadPoolTest:38 - 线程池中线程数目：4，队列中等待执行的任务数目：7
+2018-05-21 10:15:34,122 INFO test.ThreadPoolTest:38 - 线程池中线程数目：4，队列中等待执行的任务数目：8
+2018-05-21 10:15:34,122 INFO test.ThreadPoolTest:38 - 线程池中线程数目：4，队列中等待执行的任务数目：9
+2018-05-21 10:15:34,122 INFO test.ThreadPoolTest:38 - 线程池中线程数目：4，队列中等待执行的任务数目：10
+2018-05-21 10:15:34,123 INFO test.ThreadPoolTest:38 - 线程池中线程数目：4，队列中等待执行的任务数目：11
+2018-05-21 10:15:34,123 INFO test.ThreadPoolTest:38 - 线程池中线程数目：4，队列中等待执行的任务数目：12
+2018-05-21 10:15:34,123 INFO test.ThreadPoolTest:38 - 线程池中线程数目：5，队列中等待执行的任务数目：12
+2018-05-21 10:15:34,123 INFO test.ThreadPoolTest:38 - 线程池中线程数目：6，队列中等待执行的任务数目：12
+2018-05-21 10:15:34,123 INFO test.ThreadPoolTest:38 - 线程池中线程数目：7，队列中等待执行的任务数目：12
+2018-05-21 10:15:34,151 INFO ThreadTest:75 - task 0执行完毕
+2018-05-21 10:15:34,152 INFO ThreadTest:75 - task 4执行完毕
+2018-05-21 10:15:34,152 INFO ThreadTest:75 - task 5执行完毕
+2018-05-21 10:15:34,153 INFO ThreadTest:75 - task 6执行完毕
+2018-05-21 10:15:34,153 INFO ThreadTest:75 - task 7执行完毕
+2018-05-21 10:15:34,153 INFO ThreadTest:75 - task 8执行完毕
+2018-05-21 10:15:34,153 INFO ThreadTest:75 - task 9执行完毕
+2018-05-21 10:15:34,153 INFO ThreadTest:75 - task 10执行完毕
+2018-05-21 10:15:34,153 INFO ThreadTest:75 - task 11执行完毕
+2018-05-21 10:15:34,154 INFO ThreadTest:75 - task 12执行完毕
+2018-05-21 10:15:34,154 INFO ThreadTest:75 - task 13执行完毕
+2018-05-21 10:15:34,154 INFO ThreadTest:75 - task 14执行完毕
+2018-05-21 10:15:34,154 INFO ThreadTest:75 - task 15执行完毕
+2018-05-21 10:15:34,154 INFO ThreadTest:75 - task 1执行完毕
+2018-05-21 10:15:34,156 INFO org.springframework.context.annotation.AnnotationConfigApplicationContext:862 - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@2445445a: startup date [Mon May 21 10:15:23 CST 2018]; root of context hierarchy
+2018-05-21 10:15:34,156 INFO ThreadTest:75 - task 16执行完毕
+2018-05-21 10:15:34,156 INFO ThreadTest:75 - task 17执行完毕
+2018-05-21 10:15:34,156 INFO ThreadTest:75 - task 18执行完毕
+2018-05-21 10:15:34,156 INFO ThreadTest:75 - task 3执行完毕
+2018-05-21 10:15:34,156 INFO ThreadTest:75 - task 2执行完毕
+2018-05-21 10:15:34,160 INFO org.springframework.context.support.DefaultLifecycleProcessor:356 - Stopping beans in phase 2147483647
+2018-05-21 10:15:34,190 INFO org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer:733 - Waiting for workers to finish.
+2018-05-21 10:15:35,022 INFO org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer:736 - Successfully waited for workers to finish.
+2018-05-21 10:15:35,028 INFO org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer:733 - Waiting for workers to finish.
+2018-05-21 10:15:35,046 INFO org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer:736 - Successfully waited for workers to finish.
+2018-05-21 10:15:35,046 INFO org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer:733 - Waiting for workers to finish.
+2018-05-21 10:15:35,089 INFO org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer:736 - Successfully waited for workers to finish.
+2018-05-21 10:15:35,090 INFO org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer:733 - Waiting for workers to finish.
+2018-05-21 10:15:35,114 INFO org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer:736 - Successfully waited for workers to finish.
+2018-05-21 10:15:35,129 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:462 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-05-21 10:16:45,674 INFO org.springframework.test.context.support.DefaultTestContextBootstrapper:256 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-05-21 10:16:45,690 INFO org.springframework.test.context.support.DefaultTestContextBootstrapper:182 - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@3c947bc5, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@609db43b, org.springframework.test.context.support.DirtiesContextTestExecutionListener@55f616cf, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1356d4d4, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@c03cf28]
+2018-05-21 10:16:46,128 INFO org.eclipse.jdt.internal.junit.runner.RemoteTestRunner:47 - Starting RemoteTestRunner on LZGS with PID 5140 (D:\web\sts-bundle\sts-3.9.1.RELEASE\configuration\org.eclipse.osgi\308\0\.cp started by dfjk in D:\learn\Git\Simpleproject\test)
+2018-05-21 10:16:46,175 INFO org.springframework.context.annotation.AnnotationConfigApplicationContext:510 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@2445445a: startup date [Mon May 21 10:16:46 CST 2018]; root of context hierarchy
+2018-05-21 10:16:47,383 INFO org.hibernate.validator.internal.util.Version:27 - HV000001: Hibernate Validator 5.1.3.Final
+2018-05-21 10:16:47,521 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [class org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$8cdf6c17] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:16:47,609 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8377dba9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:16:47,609 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'transactionAttributeSource' of type [class org.springframework.transaction.annotation.AnnotationTransactionAttributeSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:16:47,624 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'transactionInterceptor' of type [class org.springframework.transaction.interceptor.TransactionInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:16:47,624 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'org.springframework.transaction.config.internalTransactionAdvisor' of type [class org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:16:47,656 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'redisConfig' of type [class config.RedisConfig$$EnhancerBySpringCGLIB$$7aca413f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:16:47,656 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'org.springframework.cache.annotation.ProxyCachingConfiguration' of type [class org.springframework.cache.annotation.ProxyCachingConfiguration$$EnhancerBySpringCGLIB$$ead5a607] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:16:47,671 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'cacheOperationSource' of type [class org.springframework.cache.annotation.AnnotationCacheOperationSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:16:47,687 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'cacheInterceptor' of type [class org.springframework.cache.interceptor.CacheInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:16:47,687 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'org.springframework.cache.config.internalCacheAdvisor' of type [class org.springframework.cache.interceptor.BeanFactoryCacheOperationSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:16:47,703 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'shiroConfig' of type [class config.ShiroConfig$$EnhancerBySpringCGLIB$$3772db35] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:16:47,703 WARN org.springframework.beans.factory.support.DefaultListableBeanFactory:1427 - Bean creation exception on FactoryBean type check: org.springframework.beans.factory.BeanCurrentlyInCreationException: Error creating bean with name 'shirFilter': Requested bean is currently in creation: Is there an unresolvable circular reference?
+2018-05-21 10:16:48,218 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'securityManager' of type [class org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:16:48,758 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:339 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-05-21 10:16:48,785 INFO org.hibernate.jpa.internal.util.LogHelper:46 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-05-21 10:16:48,879 INFO org.hibernate.Version:54 - HHH000412: Hibernate Core {4.3.8.Final}
+2018-05-21 10:16:48,879 INFO org.hibernate.cfg.Environment:239 - HHH000206: hibernate.properties not found
+2018-05-21 10:16:48,894 INFO org.hibernate.cfg.Environment:346 - HHH000021: Bytecode provider name : javassist
+2018-05-21 10:16:49,082 INFO org.hibernate.annotations.common.Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2018-05-21 10:16:49,652 INFO org.hibernate.dialect.Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-05-21 10:16:49,777 INFO org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2018-05-21 10:16:50,106 INFO org.hibernate.tool.hbm2ddl.SchemaUpdate:207 - HHH000228: Running hbm2ddl schema update
+2018-05-21 10:16:50,106 INFO org.hibernate.tool.hbm2ddl.SchemaUpdate:218 - HHH000102: Fetching database metadata
+2018-05-21 10:16:50,106 INFO org.hibernate.tool.hbm2ddl.SchemaUpdate:230 - HHH000396: Updating schema
+2018-05-21 10:16:50,137 INFO org.hibernate.tool.hbm2ddl.TableMetadata:66 - HHH000261: Table found: springboot.s_user
+2018-05-21 10:16:50,137 INFO org.hibernate.tool.hbm2ddl.TableMetadata:67 - HHH000037: Columns: [name, id, age]
+2018-05-21 10:16:50,137 INFO org.hibernate.tool.hbm2ddl.TableMetadata:69 - HHH000108: Foreign keys: []
+2018-05-21 10:16:50,137 INFO org.hibernate.tool.hbm2ddl.TableMetadata:70 - HHH000126: Indexes: [age_index, primary]
+2018-05-21 10:16:50,137 INFO org.hibernate.tool.hbm2ddl.SchemaUpdate:267 - HHH000232: Schema update complete
+2018-05-21 10:16:51,937 INFO org.springframework.context.support.DefaultLifecycleProcessor:341 - Starting beans in phase 2147483647
+2018-05-21 10:16:52,105 INFO org.eclipse.jdt.internal.junit.runner.RemoteTestRunner:56 - Started RemoteTestRunner in 6.306 seconds (JVM running for 7.238)
+2018-05-21 10:16:52,120 INFO ThreadTest:79 - task 0执行完毕
+2018-05-21 10:17:43,348 INFO org.springframework.test.context.support.DefaultTestContextBootstrapper:256 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-05-21 10:17:43,364 INFO org.springframework.test.context.support.DefaultTestContextBootstrapper:182 - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@3c947bc5, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@609db43b, org.springframework.test.context.support.DirtiesContextTestExecutionListener@55f616cf, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1356d4d4, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@c03cf28]
+2018-05-21 10:17:43,828 INFO org.eclipse.jdt.internal.junit.runner.RemoteTestRunner:47 - Starting RemoteTestRunner on LZGS with PID 15736 (D:\web\sts-bundle\sts-3.9.1.RELEASE\configuration\org.eclipse.osgi\308\0\.cp started by dfjk in D:\learn\Git\Simpleproject\test)
+2018-05-21 10:17:43,906 INFO org.springframework.context.annotation.AnnotationConfigApplicationContext:510 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@324a0017: startup date [Mon May 21 10:17:43 CST 2018]; root of context hierarchy
+2018-05-21 10:17:45,414 INFO org.hibernate.validator.internal.util.Version:27 - HV000001: Hibernate Validator 5.1.3.Final
+2018-05-21 10:17:45,552 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [class org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$adb8e5b1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:17:45,630 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a4515543] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:17:45,646 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'transactionAttributeSource' of type [class org.springframework.transaction.annotation.AnnotationTransactionAttributeSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:17:45,662 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'transactionInterceptor' of type [class org.springframework.transaction.interceptor.TransactionInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:17:45,662 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'org.springframework.transaction.config.internalTransactionAdvisor' of type [class org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:17:45,677 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'redisConfig' of type [class config.RedisConfig$$EnhancerBySpringCGLIB$$9ba3bad9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:17:45,693 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'org.springframework.cache.annotation.ProxyCachingConfiguration' of type [class org.springframework.cache.annotation.ProxyCachingConfiguration$$EnhancerBySpringCGLIB$$baf1fa1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:17:45,709 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'cacheOperationSource' of type [class org.springframework.cache.annotation.AnnotationCacheOperationSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:17:45,724 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'cacheInterceptor' of type [class org.springframework.cache.interceptor.CacheInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:17:45,724 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'org.springframework.cache.config.internalCacheAdvisor' of type [class org.springframework.cache.interceptor.BeanFactoryCacheOperationSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:17:45,724 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'shiroConfig' of type [class config.ShiroConfig$$EnhancerBySpringCGLIB$$584c54cf] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:17:45,740 WARN org.springframework.beans.factory.support.DefaultListableBeanFactory:1427 - Bean creation exception on FactoryBean type check: org.springframework.beans.factory.BeanCurrentlyInCreationException: Error creating bean with name 'shirFilter': Requested bean is currently in creation: Is there an unresolvable circular reference?
+2018-05-21 10:17:46,248 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean 'securityManager' of type [class org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-21 10:17:46,597 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:339 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-05-21 10:17:46,629 INFO org.hibernate.jpa.internal.util.LogHelper:46 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-05-21 10:17:46,723 INFO org.hibernate.Version:54 - HHH000412: Hibernate Core {4.3.8.Final}
+2018-05-21 10:17:46,739 INFO org.hibernate.cfg.Environment:239 - HHH000206: hibernate.properties not found
+2018-05-21 10:17:46,739 INFO org.hibernate.cfg.Environment:346 - HHH000021: Bytecode provider name : javassist
+2018-05-21 10:17:46,895 INFO org.hibernate.annotations.common.Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2018-05-21 10:17:47,315 INFO org.hibernate.dialect.Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-05-21 10:17:47,424 INFO org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2018-05-21 10:17:47,688 INFO org.hibernate.tool.hbm2ddl.SchemaUpdate:207 - HHH000228: Running hbm2ddl schema update
+2018-05-21 10:17:47,688 INFO org.hibernate.tool.hbm2ddl.SchemaUpdate:218 - HHH000102: Fetching database metadata
+2018-05-21 10:17:47,705 INFO org.hibernate.tool.hbm2ddl.SchemaUpdate:230 - HHH000396: Updating schema
+2018-05-21 10:17:47,720 INFO org.hibernate.tool.hbm2ddl.TableMetadata:66 - HHH000261: Table found: springboot.s_user
+2018-05-21 10:17:47,720 INFO org.hibernate.tool.hbm2ddl.TableMetadata:67 - HHH000037: Columns: [name, id, age]
+2018-05-21 10:17:47,720 INFO org.hibernate.tool.hbm2ddl.TableMetadata:69 - HHH000108: Foreign keys: []
+2018-05-21 10:17:47,720 INFO org.hibernate.tool.hbm2ddl.TableMetadata:70 - HHH000126: Indexes: [age_index, primary]
+2018-05-21 10:17:47,720 INFO org.hibernate.tool.hbm2ddl.SchemaUpdate:267 - HHH000232: Schema update complete
+2018-05-21 10:17:49,321 INFO org.springframework.context.support.DefaultLifecycleProcessor:341 - Starting beans in phase 2147483647
+2018-05-21 10:17:49,582 INFO org.eclipse.jdt.internal.junit.runner.RemoteTestRunner:56 - Started RemoteTestRunner in 6.093 seconds (JVM running for 7.109)
+2018-05-21 10:17:49,597 INFO test.ThreadPoolTest:35 - 线程池中线程数目：1，队列中等待执行的任务数目：0
+2018-05-21 10:17:49,597 INFO test.ThreadPoolTest:35 - 线程池中线程数目：2，队列中等待执行的任务数目：0
+2018-05-21 10:17:49,597 INFO test.ThreadPoolTest:35 - 线程池中线程数目：3，队列中等待执行的任务数目：0
+2018-05-21 10:17:49,597 INFO test.ThreadPoolTest:35 - 线程池中线程数目：4，队列中等待执行的任务数目：0
+2018-05-21 10:17:49,597 INFO test.ThreadPoolTest:35 - 线程池中线程数目：4，队列中等待执行的任务数目：1
+2018-05-21 10:17:49,597 INFO test.ThreadPoolTest:35 - 线程池中线程数目：4，队列中等待执行的任务数目：2
+2018-05-21 10:17:49,597 INFO test.ThreadPoolTest:35 - 线程池中线程数目：4，队列中等待执行的任务数目：3
+2018-05-21 10:17:49,597 INFO test.ThreadPoolTest:35 - 线程池中线程数目：4，队列中等待执行的任务数目：4
+2018-05-21 10:17:49,597 INFO test.ThreadPoolTest:35 - 线程池中线程数目：4，队列中等待执行的任务数目：5
+2018-05-21 10:17:49,597 INFO test.ThreadPoolTest:35 - 线程池中线程数目：4，队列中等待执行的任务数目：6
+2018-05-21 10:17:49,597 INFO test.ThreadPoolTest:35 - 线程池中线程数目：4，队列中等待执行的任务数目：7
+2018-05-21 10:17:49,597 INFO test.ThreadPoolTest:35 - 线程池中线程数目：4，队列中等待执行的任务数目：8
+2018-05-21 10:17:49,597 INFO test.ThreadPoolTest:35 - 线程池中线程数目：4，队列中等待执行的任务数目：9
+2018-05-21 10:17:49,597 INFO test.ThreadPoolTest:35 - 线程池中线程数目：4，队列中等待执行的任务数目：10
+2018-05-21 10:17:49,597 INFO test.ThreadPoolTest:35 - 线程池中线程数目：4，队列中等待执行的任务数目：11
+2018-05-21 10:17:49,597 INFO test.ThreadPoolTest:35 - 线程池中线程数目：4，队列中等待执行的任务数目：12
+2018-05-21 10:17:49,597 INFO test.ThreadPoolTest:35 - 线程池中线程数目：5，队列中等待执行的任务数目：12
+2018-05-21 10:17:49,597 INFO test.ThreadPoolTest:35 - 线程池中线程数目：6，队列中等待执行的任务数目：12
+2018-05-21 10:17:49,597 INFO test.ThreadPoolTest:35 - 线程池中线程数目：7，队列中等待执行的任务数目：12
+2018-05-21 10:17:49,629 INFO ThreadTest:72 - task 0执行完毕
+2018-05-21 10:17:49,629 INFO ThreadTest:72 - task 4执行完毕
+2018-05-21 10:17:49,629 INFO ThreadTest:72 - task 5执行完毕
+2018-05-21 10:17:49,629 INFO ThreadTest:72 - task 6执行完毕
+2018-05-21 10:17:49,629 INFO ThreadTest:72 - task 7执行完毕
+2018-05-21 10:17:49,629 INFO ThreadTest:72 - task 8执行完毕
+2018-05-21 10:17:49,629 INFO ThreadTest:72 - task 9执行完毕
+2018-05-21 10:17:49,629 INFO ThreadTest:72 - task 10执行完毕
+2018-05-21 10:17:49,629 INFO ThreadTest:72 - task 11执行完毕
+2018-05-21 10:17:49,629 INFO ThreadTest:72 - task 12执行完毕
+2018-05-21 10:17:49,629 INFO ThreadTest:72 - task 13执行完毕
+2018-05-21 10:17:49,629 INFO ThreadTest:72 - task 14执行完毕
+2018-05-21 10:17:49,629 INFO ThreadTest:72 - task 15执行完毕
+2018-05-21 10:17:49,629 INFO org.springframework.context.annotation.AnnotationConfigApplicationContext:862 - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@324a0017: startup date [Mon May 21 10:17:43 CST 2018]; root of context hierarchy
+2018-05-21 10:17:49,629 INFO org.springframework.context.support.DefaultLifecycleProcessor:356 - Stopping beans in phase 2147483647
+2018-05-21 10:17:49,629 INFO ThreadTest:72 - task 18执行完毕
+2018-05-21 10:17:49,644 INFO org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer:733 - Waiting for workers to finish.
+2018-05-21 10:17:49,644 INFO ThreadTest:72 - task 17执行完毕
+2018-05-21 10:17:49,644 INFO ThreadTest:72 - task 2执行完毕
+2018-05-21 10:17:49,644 INFO ThreadTest:72 - task 1执行完毕
+2018-05-21 10:17:49,644 INFO ThreadTest:72 - task 16执行完毕
+2018-05-21 10:17:49,644 INFO ThreadTest:72 - task 3执行完毕
+2018-05-21 10:17:50,509 INFO org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer:736 - Successfully waited for workers to finish.
+2018-05-21 10:17:50,522 INFO org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer:733 - Waiting for workers to finish.
+2018-05-21 10:17:50,523 INFO org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer:736 - Successfully waited for workers to finish.
+2018-05-21 10:17:50,523 INFO org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer:733 - Waiting for workers to finish.
+2018-05-21 10:17:50,570 INFO org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer:736 - Successfully waited for workers to finish.
+2018-05-21 10:17:50,570 INFO org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer:733 - Waiting for workers to finish.
+2018-05-21 10:17:50,601 INFO org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer:736 - Successfully waited for workers to finish.
+2018-05-21 10:17:50,616 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:462 - Closing JPA EntityManagerFactory for persistence unit 'default'
