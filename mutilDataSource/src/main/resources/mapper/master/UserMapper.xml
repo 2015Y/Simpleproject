@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="mutilDataSource.dao.master.UserDao">
+
+	<select id="findAll" resultType="map">
+		select id,name,age
+		from s_user
+		order by id desc
+	</select>
+
+	<insert id="addOne">
+		insert s_user (id,name,age) values ('10','你猜','18')
+	</insert>
+
+</mapper>

@@ -32,6 +32,12 @@ public class LoginController<ShiroToken> extends BaseController {
 	@Autowired
 	LoginService loginService;
 
+	@RequestMapping("/Error")
+	String Error( ) {
+		System.out.println("------------------------------------------------------------------500------------------------------------------------------------------");
+		return "Error";
+	}
+	
 	@RequestMapping("/")
 	String home(ModelMap model) {
 		model.addAttribute("name", "GS");

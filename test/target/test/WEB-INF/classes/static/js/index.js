@@ -80,6 +80,7 @@ $(function() {
 	});
 	// 动态的加载table的列
 	getDynamicColumns();
+
 });
 // 动态获取列
 function getDynamicColumns() {

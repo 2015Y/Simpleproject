@@ -1,0 +1,285 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "mutilDataSource.config.MasterDataSourceConfig",
+      "name": "spring.jta.atomikos.datasource.oneData",
+      "sourceMethod": "public javax.sql.DataSource masterDataSource() ",
+      "type": "javax.sql.DataSource"
+    },
+    {
+      "sourceType": "mutilDataSource.config.ThreeDataSourceConfig",
+      "name": "spring.jta.atomikos.datasource.threeData",
+      "sourceMethod": "public javax.sql.DataSource threeDataSource() ",
+      "type": "javax.sql.DataSource"
+    },
+    {
+      "sourceType": "mutilDataSource.config.ClusterDataSourceConfig",
+      "name": "spring.jta.atomikos.datasource.twoData",
+      "sourceMethod": "public javax.sql.DataSource clusterDataSource() ",
+      "type": "javax.sql.DataSource"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "org.springframework.boot.jta.atomikos.AtomikosDataSourceBean",
+      "name": "spring.jta.atomikos.datasource.oneData.borrow-connection-timeout",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.boot.jta.atomikos.AtomikosDataSourceBean",
+      "name": "spring.jta.atomikos.datasource.oneData.borrow-connection-timeout",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.boot.jta.atomikos.AtomikosDataSourceBean",
+      "name": "spring.jta.atomikos.datasource.oneData.borrow-connection-timeout",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.boot.jta.atomikos.AtomikosDataSourceBean",
+      "name": "spring.jta.atomikos.datasource.oneData.borrow-connection-timeout",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.boot.jta.atomikos.AtomikosDataSourceBean",
+      "name": "spring.jta.atomikos.datasource.oneData.default-isolation-level",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.boot.jta.atomikos.AtomikosDataSourceBean",
+      "name": "spring.jta.atomikos.datasource.oneData.default-isolation-level",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.boot.jta.atomikos.AtomikosDataSourceBean",
+      "name": "spring.jta.atomikos.datasource.oneData.default-isolation-level",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.boot.jta.atomikos.AtomikosDataSourceBean",
+      "name": "spring.jta.atomikos.datasource.oneData.default-isolation-level",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.boot.jta.atomikos.AtomikosDataSourceBean",
+      "name": "spring.jta.atomikos.datasource.oneData.login-timeout",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.boot.jta.atomikos.AtomikosDataSourceBean",
+      "name": "spring.jta.atomikos.datasource.oneData.login-timeout",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.boot.jta.atomikos.AtomikosDataSourceBean",
+      "name": "spring.jta.atomikos.datasource.oneData.login-timeout",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.boot.jta.atomikos.AtomikosDataSourceBean",
+      "name": "spring.jta.atomikos.datasource.oneData.login-timeout",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.boot.jta.atomikos.AtomikosDataSourceBean",
+      "name": "spring.jta.atomikos.datasource.oneData.maintenance-interval",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.boot.jta.atomikos.AtomikosDataSourceBean",
+      "name": "spring.jta.atomikos.datasource.oneData.maintenance-interval",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.boot.jta.atomikos.AtomikosDataSourceBean",
+      "name": "spring.jta.atomikos.datasource.oneData.maintenance-interval",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.boot.jta.atomikos.AtomikosDataSourceBean",
+      "name": "spring.jta.atomikos.datasource.oneData.maintenance-interval",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.boot.jta.atomikos.AtomikosDataSourceBean",
+      "name": "spring.jta.atomikos.datasource.oneData.max-idle-time",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.boot.jta.atomikos.AtomikosDataSourceBean",
+      "name": "spring.jta.atomikos.datasource.oneData.max-idle-time",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.boot.jta.atomikos.AtomikosDataSourceBean",
+      "name": "spring.jta.atomikos.datasource.oneData.max-idle-time",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.boot.jta.atomikos.AtomikosDataSourceBean",
+      "name": "spring.jta.atomikos.datasource.oneData.max-idle-time",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.boot.jta.atomikos.AtomikosDataSourceBean",
+      "name": "spring.jta.atomikos.datasource.oneData.max-lifetime",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.boot.jta.atomikos.AtomikosDataSourceBean",
+      "name": "spring.jta.atomikos.datasource.oneData.max-lifetime",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.boot.jta.atomikos.AtomikosDataSourceBean",
+      "name": "spring.jta.atomikos.datasource.oneData.max-lifetime",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.boot.jta.atomikos.AtomikosDataSourceBean",
+      "name": "spring.jta.atomikos.datasource.oneData.max-lifetime",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.boot.jta.atomikos.AtomikosDataSourceBean",
+      "name": "spring.jta.atomikos.datasource.oneData.max-pool-size",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.boot.jta.atomikos.AtomikosDataSourceBean",
+      "name": "spring.jta.atomikos.datasource.oneData.max-pool-size",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.boot.jta.atomikos.AtomikosDataSourceBean",
+      "name": "spring.jta.atomikos.datasource.oneData.max-pool-size",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.boot.jta.atomikos.AtomikosDataSourceBean",
+      "name": "spring.jta.atomikos.datasource.oneData.max-pool-size",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.boot.jta.atomikos.AtomikosDataSourceBean",
+      "name": "spring.jta.atomikos.datasource.oneData.min-pool-size",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.boot.jta.atomikos.AtomikosDataSourceBean",
+      "name": "spring.jta.atomikos.datasource.oneData.min-pool-size",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.boot.jta.atomikos.AtomikosDataSourceBean",
+      "name": "spring.jta.atomikos.datasource.oneData.min-pool-size",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.boot.jta.atomikos.AtomikosDataSourceBean",
+      "name": "spring.jta.atomikos.datasource.oneData.min-pool-size",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.boot.jta.atomikos.AtomikosDataSourceBean",
+      "name": "spring.jta.atomikos.datasource.oneData.reap-timeout",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.boot.jta.atomikos.AtomikosDataSourceBean",
+      "name": "spring.jta.atomikos.datasource.oneData.reap-timeout",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.boot.jta.atomikos.AtomikosDataSourceBean",
+      "name": "spring.jta.atomikos.datasource.oneData.reap-timeout",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.boot.jta.atomikos.AtomikosDataSourceBean",
+      "name": "spring.jta.atomikos.datasource.oneData.reap-timeout",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.boot.jta.atomikos.AtomikosDataSourceBean",
+      "name": "spring.jta.atomikos.datasource.oneData.test-query",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.jta.atomikos.AtomikosDataSourceBean",
+      "name": "spring.jta.atomikos.datasource.oneData.test-query",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.jta.atomikos.AtomikosDataSourceBean",
+      "name": "spring.jta.atomikos.datasource.oneData.test-query",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.jta.atomikos.AtomikosDataSourceBean",
+      "name": "spring.jta.atomikos.datasource.oneData.test-query",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.jta.atomikos.AtomikosDataSourceBean",
+      "name": "spring.jta.atomikos.datasource.oneData.unique-resource-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.jta.atomikos.AtomikosDataSourceBean",
+      "name": "spring.jta.atomikos.datasource.oneData.unique-resource-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.jta.atomikos.AtomikosDataSourceBean",
+      "name": "spring.jta.atomikos.datasource.oneData.unique-resource-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.jta.atomikos.AtomikosDataSourceBean",
+      "name": "spring.jta.atomikos.datasource.oneData.unique-resource-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.jta.atomikos.AtomikosDataSourceBean",
+      "name": "spring.jta.atomikos.datasource.oneData.xa-data-source-class-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.jta.atomikos.AtomikosDataSourceBean",
+      "name": "spring.jta.atomikos.datasource.oneData.xa-data-source-class-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.jta.atomikos.AtomikosDataSourceBean",
+      "name": "spring.jta.atomikos.datasource.oneData.xa-data-source-class-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.jta.atomikos.AtomikosDataSourceBean",
+      "name": "spring.jta.atomikos.datasource.oneData.xa-data-source-class-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.jta.atomikos.AtomikosDataSourceBean",
+      "name": "spring.jta.atomikos.datasource.oneData.xa-properties",
+      "type": "java.util.Properties"
+    },
+    {
+      "sourceType": "org.springframework.boot.jta.atomikos.AtomikosDataSourceBean",
+      "name": "spring.jta.atomikos.datasource.oneData.xa-properties",
+      "type": "java.util.Properties"
+    },
+    {
+      "sourceType": "org.springframework.boot.jta.atomikos.AtomikosDataSourceBean",
+      "name": "spring.jta.atomikos.datasource.oneData.xa-properties",
+      "type": "java.util.Properties"
+    },
+    {
+      "sourceType": "org.springframework.boot.jta.atomikos.AtomikosDataSourceBean",
+      "name": "spring.jta.atomikos.datasource.oneData.xa-properties",
+      "type": "java.util.Properties"
+    }
+  ]
+}

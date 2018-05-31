@@ -973,5 +973,7 @@ public class CreateMysqlEntityUtil {
         }
         System.out.println("CREATE SUCCESS!!");
     }
+    
+    
 }
 
