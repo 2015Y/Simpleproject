@@ -35,7 +35,10 @@ public class ShiroConfig {
 		filterChainDefinitionMap.put("/js/**", "anon");
 		filterChainDefinitionMap.put("/doLogin/**", "anon");
 		filterChainDefinitionMap.put("/ifLog/**", "anon");
-		filterChainDefinitionMap.put("/**", "authc");
+		// 其他的也放行
+		filterChainDefinitionMap.put("/**", "anon");
+		// 其他的都需要验证登录
+		// filterChainDefinitionMap.put("/**", "authc");
 		shiroFilterFactoryBean.setLoginUrl("/login");
 		shiroFilterFactoryBean.setFilterChainDefinitionMap(filterChainDefinitionMap);
 		return shiroFilterFactoryBean;

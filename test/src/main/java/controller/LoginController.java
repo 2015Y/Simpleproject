@@ -33,11 +33,12 @@ public class LoginController<ShiroToken> extends BaseController {
 	LoginService loginService;
 
 	@RequestMapping("/Error")
-	String Error( ) {
-		System.out.println("------------------------------------------------------------------500------------------------------------------------------------------");
+	String Error() {
+		System.out.println(
+				"------------------------------------------------------------------500------------------------------------------------------------------");
 		return "Error";
 	}
-	
+
 	@RequestMapping("/")
 	String home(ModelMap model) {
 		model.addAttribute("name", "GS");
@@ -107,7 +108,10 @@ public class LoginController<ShiroToken> extends BaseController {
 	@ResponseBody
 	@RequestMapping("/getUsers")
 	Map<String, Object> getUsers(Integer page, Integer rows) {
-		log.info("登陆的用户名:	" + ShiroUtil.getUserName());
+		try {
+			log.info("登陆的用户名:	" + ShiroUtil.getUserName());
+		} catch (Exception e) {
+		}
 		return loginService.getUsers(page, rows);
 	}
 
