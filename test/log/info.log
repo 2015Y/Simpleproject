@@ -625,3 +625,5 @@
 [THYMELEAF]     * Prefix: "layout"
 [THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
 2018-06-05 13:20:14,146 INFO org.thymeleaf.TemplateEngine:838 - [THYMELEAF] TEMPLATE ENGINE INITIALIZED
+2018-06-05 16:08:08,502 INFO controller.LoginController:50 - 请求登陆的首页.
+2018-06-05 16:11:05,323 INFO controller.LoginController:50 - 请求登陆的首页.
