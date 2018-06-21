@@ -35,19 +35,19 @@
 			<onMatch>ACCEPT</onMatch>
 			<onMismatch>DENY</onMismatch>
 		</filter>
-	</appender>  
+	</appender>
 
-	<logger name="test" level="trace" />
-	<logger name="jdbc.sqltiming" level="info" />
-	<logger name="jdbc.sqlonly" level="info" />
-	<logger name="jdbc.resultset" level="info" />
-	<logger name="jdbc.audit" level="info" />
-	<logger name="jdbc.resultsettable" level="info" />
-	
+	<logger name="jdbc.sqlonly" level="WARN" />
+	<logger name="jdbc.sqltiming" level="INFO" />
+	<logger name="jdbc.resultsettable" level="WARN" />
+	<logger name="jdbc.resultset" level="WARN" />
+	<logger name="jdbc.connection" level="WARN" />
+	<logger name="jdbc.audit" level="WARN" />
+
 	<root level="info">
 		<appender-ref ref="console" />
 		<appender-ref ref="rollingFile" />
-		<appender-ref ref="errorAppender" />  
+		<appender-ref ref="errorAppender" />
 	</root>
-	
+
 </configuration>
