@@ -7,6 +7,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStreamWriter;
+import java.util.concurrent.CountDownLatch;
 
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
@@ -26,9 +27,13 @@ public class ReadExcelByThreads {
 	// 设定运行中的最大的线程数
 	private static final int maxNum = 4;
 	// 设置每个线程处理数据的数量
-	private static final int threadDealNum = 1500000;
+	private static final int threadDealNum = 5000;
 	// 测试的路径
 	private static String testFilePath = "D:/temp/";
+	// 是否输出到txt中
+	private static boolean flag = false;
+	// 计数主线程
+	private static CountDownLatch countDownLatch = new CountDownLatch(1);
 
 	public static void main(String[] args) {
 		File file = new File("D:/temp/test.xls");
@@ -40,6 +45,7 @@ public class ReadExcelByThreads {
 	}
 
 	public static synchronized void readExcel(InputStream file, int index) throws Exception {
+		long startTime = System.currentTimeMillis();
 		Workbook wb = WorkbookFactory.create(file);
 		Sheet sheet = wb.getSheetAt(index);
 		// 获取有效的行数
@@ -47,7 +53,6 @@ public class ReadExcelByThreads {
 		// 根据行数确定启动线程数量 但是不能超过设定的最大线程数 maxNum
 		if (rowsNum <= threadDealNum) {
 			// 少于threadDealNum条数据一个线程处理
-			long startTime = System.currentTimeMillis();
 			for (int i = 0; i < rowsNum; i++) {
 				Row row = sheet.getRow(i);
 				StringBuilder sb = new StringBuilder();
@@ -56,11 +61,10 @@ public class ReadExcelByThreads {
 				}
 				appendTxt(testFilePath + Thread.currentThread().getName() + ".txt", sb.toString());
 			}
-			System.out.println("单线程处理" + rowsNum + "条excel数据用时:" + (startTime - System.currentTimeMillis()));
+			System.out.println("单线程处理" + rowsNum + "条excel数据用时:" + (System.currentTimeMillis() - startTime) + "ms");
 		}
-
 		if (rowsNum > threadDealNum) {
-			long startTime = System.currentTimeMillis();
+			CountDownLatch cdLatch = new CountDownLatch((rowsNum / threadDealNum) + 1);
 			// 启动线程总数值为零
 			countNumValueZero();
 			// 根据数据数量启动线程
@@ -70,6 +74,7 @@ public class ReadExcelByThreads {
 				new Thread(new Runnable() {
 					@Override
 					public void run() {
+						cdLatch.countDown();
 						countNumAdd();
 						countAdd();
 						int maxIndex = ((countNum * threadDealNum) > rowsNum ? rowsNum : (countNum * threadDealNum));
@@ -82,36 +87,40 @@ public class ReadExcelByThreads {
 							appendTxt(testFilePath + Thread.currentThread().getName() + ".txt", sb.toString());
 						}
 						countReduce();
-						System.out.println("多线程处理excel用时:" + (startTime - System.currentTimeMillis()));
 					}
 				}).start();
 			}
+			cdLatch.await();
+			System.out.println("用" + ((rowsNum / threadDealNum) + 1) + "个线程处理excel用时:"
+					+ (System.currentTimeMillis() - startTime) + "ms");
 		}
 	}
 
 	public static void appendTxt(String filePath, String conent) {
-		try {
-			File file = new File(filePath);
-			if (file.createNewFile()) {
-				System.out.println("Create file successed");
-			}
-		} catch (Exception e) {
-			System.err.println(e);
-		}
-		BufferedWriter out = null;
-		try {
-			out = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(filePath, true)));
-			out.write(conent);
-			out.newLine();
-		} catch (Exception e) {
-			e.printStackTrace();
-		} finally {
+		if (flag) {
 			try {
-				if (out != null) {
-					out.close();
+				File file = new File(filePath);
+				if (file.createNewFile()) {
+					System.out.println("Create file successed");
 				}
-			} catch (IOException e) {
+			} catch (Exception e) {
+				System.err.println(e);
+			}
+			BufferedWriter out = null;
+			try {
+				out = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(filePath, true)));
+				out.write(conent);
+				out.newLine();
+			} catch (Exception e) {
 				e.printStackTrace();
+			} finally {
+				try {
+					if (out != null) {
+						out.close();
+					}
+				} catch (IOException e) {
+					e.printStackTrace();
+				}
 			}
 		}
 	}
@@ -131,7 +140,7 @@ public class ReadExcelByThreads {
 		countNum--;
 	}
 
-	// 启动的总线程数++
+	// 启动中的总线程数++
 	public synchronized static void countAdd() {
 		count++;
 	}
