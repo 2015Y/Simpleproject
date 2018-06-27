@@ -54,7 +54,7 @@ public class CustomerController {
 
 	@RequestMapping("/registered")
 	public String getRegistered() {
-		List<ServiceInstance> list = discoveryClient.getInstances("eureka_client_customer1");
+		List<ServiceInstance> list = discoveryClient.getInstances("EUREKA1");
 		System.out.println(discoveryClient.getLocalServiceInstance());
 		System.out.println("discoveryClient.getServices().size() = " + discoveryClient.getServices().size());
 
