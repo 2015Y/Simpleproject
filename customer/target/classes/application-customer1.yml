@@ -1,0 +1,15 @@
+server:
+  port: 8763
+spring:
+  application:
+    name: eureka_client_customer
+eureka:
+  instance:
+    prefer-ip-address: true
+    metadata-map:
+      my-metadata: This is customer
+  client:
+    registerWithEureka: true
+    fetchRegistry: false
+    service-url:
+      defaultZone: http://localhost:8761/eureka/

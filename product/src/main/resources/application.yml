@@ -1,13 +1,3 @@
-server:
-  port: 8764
 spring:
-  application:
-    name: eureka_client_product
-eureka:
-  instance:
-    prefer-ip-address: true
-  client:
-    registerWithEureka: true
-    fetchRegistry: false
-    service-url:
-      defaultZone: http://localhost:8761/eureka/
+  profiles:
+    active: product1

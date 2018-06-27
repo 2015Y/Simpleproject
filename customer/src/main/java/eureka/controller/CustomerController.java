@@ -1,5 +1,7 @@
 package eureka.controller;
 
+import java.util.List;
+
 import org.apache.commons.logging.LogFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.ServiceInstance;
@@ -23,29 +25,31 @@ public class CustomerController {
 
 	// 产品系统的地址
 	final String ADDRESS = "http://localhost:8764/";
+	// final String ADDRESS = "http://eureka_client_product/";
 	// 获取产品的方法
 	final String GETPRODUCT = "getProduct";
 
 	@RequestMapping("/getCustomer")
 	public String getCustomer() {
 		Log.info("获取用户");
-		return ShowInCenter.showInCenter(GetTime.getTimeNow()) + ShowInCenter.showInCenter("用户一");
+		return ShowInCenter.showInCenter(GetTime.getTimeNow(), "用户一");
 	}
 
 	// 通过产品系统用户去获取产品
 	@RequestMapping("/getProduct")
 	public String getProduct() {
 		Log.info("通过产品系统获取产品");
-		return ShowInCenter.showInCenter(restTemplate.getForObject(ADDRESS + GETPRODUCT, String.class));
+		List<String> services = discoveryClient.getServices();
+		return ShowInCenter.showInCenter("获取到的服务信息:" + services == null ? "" : services.toString())
+				+ restTemplate.getForObject(ADDRESS + GETPRODUCT, String.class);
 	}
 
 	@RequestMapping(value = "/getinstanceInfo")
 	public String add() {
 		ServiceInstance instance = discoveryClient.getLocalServiceInstance();
 		Log.info("获取本地实例的信息");
-		return ShowInCenter.showInCenter(GetTime.getTimeNow()) + ShowInCenter.showInCenter("host:" + instance.getHost())
-				+ ShowInCenter.showInCenter("serviceId:" + instance.getServiceId())
-				+ ShowInCenter.showInCenter("metadata:" + instance.getMetadata());
+		return ShowInCenter.showInCenter(GetTime.getTimeNow(), "host:" + instance.getHost(),
+				"serviceId:" + instance.getServiceId(), "metadata:" + instance.getMetadata());
 	}
 
 }
