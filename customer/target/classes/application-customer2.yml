@@ -2,7 +2,7 @@ server:
   port: 8765
 spring:
   application:
-    name: eureka_client_customer
+    name: eureka_client_customer2
 eureka:
   instance:
     prefer-ip-address: true

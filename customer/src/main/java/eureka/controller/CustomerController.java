@@ -24,10 +24,10 @@ public class CustomerController {
 	private DiscoveryClient discoveryClient;
 
 	// 产品系统的地址
-	final String ADDRESS = "http://localhost:8764/";
-	// final String ADDRESS = "http://eureka_client_product/";
+	private String ADDRESS = "http://localhost:8764/";
+	// private String ADDRESS = "http://eureka_client_product/";
 	// 获取产品的方法
-	final String GETPRODUCT = "getProduct";
+	private String GETPRODUCT = "getProduct";
 
 	@RequestMapping("/getCustomer")
 	public String getCustomer() {
@@ -50,6 +50,32 @@ public class CustomerController {
 		Log.info("获取本地实例的信息");
 		return ShowInCenter.showInCenter(GetTime.getTimeNow(), "host:" + instance.getHost(),
 				"serviceId:" + instance.getServiceId(), "metadata:" + instance.getMetadata());
+	}
+
+	@RequestMapping("/registered")
+	public String getRegistered() {
+		List<ServiceInstance> list = discoveryClient.getInstances("eureka_client_customer1");
+		System.out.println(discoveryClient.getLocalServiceInstance());
+		System.out.println("discoveryClient.getServices().size() = " + discoveryClient.getServices().size());
+
+		for (String s : discoveryClient.getServices()) {
+			System.out.println("services " + s);
+			List<ServiceInstance> serviceInstances = discoveryClient.getInstances(s);
+			for (ServiceInstance si : serviceInstances) {
+				System.out.println("    services:" + s + ":getHost()=" + si.getHost());
+				System.out.println("    services:" + s + ":getPort()=" + si.getPort());
+				System.out.println("    services:" + s + ":getServiceId()=" + si.getServiceId());
+				System.out.println("    services:" + s + ":getUri()=" + si.getUri());
+				System.out.println("    services:" + s + ":getMetadata()=" + si.getMetadata());
+			}
+
+		}
+
+		System.out.println(list.size());
+		if (list != null && list.size() > 0) {
+			System.out.println(list.get(0).getUri());
+		}
+		return ShowInCenter.showInCenter("OK");
 	}
 
 }
