@@ -2,10 +2,22 @@ server:
   port: 8766
 spring:
   application:
-    name: eureka_client_product1
+    name: product
+  datasource:
+    url: jdbc:log4jdbc:mysql://127.0.0.1:3306/springcloud?characterEncoding=utf8&useSSL=true
+    username: root
+    password: gsgogo123
+    driverClassName: net.sf.log4jdbc.DriverSpy
+  jpa:
+    database: MYSQL
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+      naming-strategy: org.hibernate.cfg.ImprovedNamingStrategy
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5Dialect
 eureka:
-  instance:
-    prefer-ip-address: true
   client:
     registerWithEureka: true
     fetchRegistry: true
