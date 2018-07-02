@@ -3,7 +3,9 @@ package eureka.run;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.discovery.DiscoveryClient;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import eureka.utils.GetTime;
@@ -40,8 +42,8 @@ public class ProductController {
 		return ShowInCenter.showInCenter(findOne == null ? "没有Id为【" + newId + "】的商品" : findOne.toString());
 	}
 
-	@RequestMapping("/getOneProductByPojo")
-	public String getOneProductByPojo(Product p) {
+	@RequestMapping(value = "/getOneProductByPojo", method = RequestMethod.POST)
+	public String getOneProductByPojo(@RequestBody Product p) {
 		Product findOne = productRepository.findOne(p.getId());
 		return ShowInCenter.showInCenter(findOne == null ? "没有Id为【" + p.getId() + "】的商品" : findOne.toString());
 	}

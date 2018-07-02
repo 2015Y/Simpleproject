@@ -12,6 +12,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
+
 import eureka.utils.GetTime;
 import eureka.utils.ShowInCenter;
 
@@ -97,9 +99,19 @@ public class CustomerController {
 		return ShowInCenter.showInCenter(productFeignClient.getOneProduct(id));
 	}
 
+	@HystrixCommand(fallbackMethod = "getOneDefaultProduct")
 	@RequestMapping("/getOneProductByPojo")
 	public String getOneProductByPojo(String id) {
-		return ShowInCenter.showInCenter(productFeignClient.getOneProduct(Integer.parseInt(id)));
+		Product product = new Product();
+		product.setId(Integer.parseInt(id));
+		return ShowInCenter.showInCenter(productFeignClient.getOneProduct(product));
+	}
+
+	public String getOneDefaultProduct(String id) {
+		Product product = new Product();
+		product.setId(0);
+		product.setProductName("DefaultProduct");
+		return ShowInCenter.showInCenter(product.toString());
 	}
 
 }
