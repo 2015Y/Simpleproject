@@ -4,8 +4,8 @@
 	<groupId>comt.test</groupId>
 	<artifactId>zuul1</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>zuul1</name>
-	<description>zuul1</description>
+	<name>zuul</name>
+	<description>zuul</description>
 	<properties>
 		<!--设置字符编码及java版本 -->
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
