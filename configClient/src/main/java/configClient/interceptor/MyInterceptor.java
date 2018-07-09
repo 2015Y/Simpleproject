@@ -17,6 +17,7 @@ public class MyInterceptor implements HandlerInterceptor {
 	public boolean preHandle(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse, Object o)
 			throws Exception {
 		log.info("preHandle被调用");
+		log.info("请求的路径{}", httpServletRequest.getRequestURI());
 		return true; // 如果false，停止流程，api被拦截
 	}
 
