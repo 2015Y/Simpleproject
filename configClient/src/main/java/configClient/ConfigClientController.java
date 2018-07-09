@@ -1,5 +1,7 @@
 package configClient;
 
+import javax.servlet.http.HttpSession;
+
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.PropertySource;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -13,7 +15,8 @@ public class ConfigClientController {
 	private String profile;
 
 	@RequestMapping("get")
-	public String hello() {
-		return this.profile;
+	public String hello(HttpSession session) {
+		return this.profile + "-" + session.getId() + "-" + session.getMaxInactiveInterval();
 	}
+
 }
