@@ -19,4 +19,9 @@ public class ConfigClientController {
 		return this.profile + "-" + session.getId() + "-" + session.getMaxInactiveInterval();
 	}
 
+	@RequestMapping("get1")
+	public String get1(HttpSession session) {
+		return this.profile + "-" + session.getId() + "-" + session.getMaxInactiveInterval();
+	}
+
 }

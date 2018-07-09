@@ -21,7 +21,8 @@ public class ConfigClientAppliaction {
 		// 增加拦截器
 		public void addInterceptors(InterceptorRegistry registry) {
 			registry.addInterceptor(new MyInterceptor()) // 指定拦截器类
-					.addPathPatterns("/get"); // 指定该类拦截的url
+					// 指定该类拦截的URL 指定放行的URL
+					.addPathPatterns("/get").excludePathPatterns("/get1");
 		}
 	}
 
